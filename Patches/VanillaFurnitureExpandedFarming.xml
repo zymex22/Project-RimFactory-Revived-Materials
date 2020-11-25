@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Farming Module -->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Furniture Expanded - Farming</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_Ecosystem"]/costList</xpath>
+			<value>
+				<costList>
+				  <Steel>80</Steel>
+				  <PRF_StainlessSteel>30</PRF_StainlessSteel>
+				  <Plasteel>20</Plasteel>
+				  <ComponentSpacer>3</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_Ecosystem_Tilable"]/costList</xpath>
+			<value>
+				<costList>
+				  <Steel>12</Steel>
+				  <PRF_StainlessSteel>13</PRF_StainlessSteel>
+				  <Plasteel>5</Plasteel>
+				  <ComponentSpacer>1</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<!-- Production Module -->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_DrugCabinet"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>60</Steel>
+					<PRF_StainlessSteel>40</PRF_StainlessSteel>
+					<Plasteel>25</Plasteel>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_SmithyCabinet"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>100</Steel>
+					<PRF_Iron>50</PRF_Iron>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_TailorCabinet"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>70</Steel>
+					<PRF_Iron>30</PRF_Iron>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "HologramBase"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>10</Steel>
+					<PRF_StainlessSteel>10</PRF_StainlessSteel>
+					<ComponentSpacer>1</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_TableDrugLabElectric"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>90</Steel>
+					<PRF_StainlessSteel>30</PRF_StainlessSteel>
+					<ComponentIndustrial>12</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_FueledSmelter"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>50</Steel>
+					<PRF_Iron>120</PRF_Iron>
+				</costList>
+			</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

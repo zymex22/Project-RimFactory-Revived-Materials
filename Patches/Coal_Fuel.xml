@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--Checks if a thing def has refuelable comps, then adds Coal to the list-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef/comps/li[@Class = "CompProperties_Refuelable" and fuelFilter/thingDefs/li[text() = "WoodLog"]]/fuelFilter/thingDefs</xpath>
+				<value>
+					<li>PRF_Coke</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	
+</Patch>

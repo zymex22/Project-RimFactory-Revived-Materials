@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Vanilla Furniture Expanded -->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Furniture Expanded</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef [defName = "Radio_Industrial"]/costList</xpath>
+				<value>
+					<costList>
+					  <Steel>25</Steel>
+					  <PRF_Copper>75</PRF_Copper>
+					  <ComponentIndustrial>4</ComponentIndustrial>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<!-- Medical Module -->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Furniture Expanded - Medical Module</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Bed_OperatingTable"]/costList</xpath>
+				<value>
+					<costList>
+					  <PRF_Iron>40</PRF_Iron>
+					  <ComponentIndustrial>2</ComponentIndustrial>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Bed_CryptoBed"]/costList</xpath>
+				<value>
+					<costList>
+					  <Steel>20</Steel>
+					  <PRF_StainlessSteel>60</PRF_StainlessSteel>
+					  <ComponentIndustrial>2</ComponentIndustrial>
+					  <ComponentSpacer>1</ComponentSpacer>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Facility_VitalsCentre"]/costList</xpath>
+				<value>
+					<costList>
+					  <Steel>20</Steel>
+					  <PRF_StainlessSteel>70</PRF_StainlessSteel>
+					  <Plasteel>10</Plasteel>
+					  <ComponentSpacer>1</ComponentSpacer>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Facility_IVDrip"]/costList</xpath>
+				<value>
+					<costList>
+					  <Steel>10</Steel>
+					  <PRF_StainlessSteel>40</PRF_StainlessSteel>
+					  <MedicineIndustrial>4</MedicineIndustrial>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<!-- Spacer Module -->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Furniture Expanded - Spacer Module</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Bed_AdvBed"]/costList</xpath>
+				<value>
+					<costList>
+					  <PRF_StainlessSteel>5</PRF_StainlessSteel>
+					  <ComponentSpacer>1</ComponentSpacer>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Bed_AdvDoubleBed"]/costList</xpath>
+			<value>
+				<costList>
+				  <PRF_StainlessSteel>10</PRF_StainlessSteel>
+				  <ComponentSpacer>2</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Table_IlluminatedEndTable"]/costList</xpath>
+			<value>
+				<costList>
+				  <PRF_StainlessSteel>20</PRF_StainlessSteel>
+				  <Steel>10</Steel>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Table_IlluminatedDresser"]/costList</xpath>
+			<value>
+				<costList>
+				  <PRF_StainlessSteel>20</PRF_StainlessSteel>
+				  <Steel>10</Steel>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "UltrascreenTV"]/costList</xpath>
+			<value>
+				<costList>
+				  <Steel>35</Steel>
+				  <PRF_StainlessSteel>45</PRF_StainlessSteel>
+				  <ComponentIndustrial>4</ComponentIndustrial>
+				  <ComponentSpacer>6</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Spacer_SunLamp"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>20</Steel>
+					<PRF_StainlessSteel>40</PRF_StainlessSteel>
+					<Plasteel>20</Plasteel>
+					<ComponentSpacer>1</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Light_SpacerLamp"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>10</Steel>
+					<PRF_StainlessSteel>30</PRF_StainlessSteel>
+					<ComponentIndustrial>1</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Shelf_RepairRack"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>25</Steel>
+					<PRF_StainlessSteel>50</PRF_StainlessSteel>
+					<ComponentSpacer>8</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Spacer_OutdoorLamp"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>10</Steel>
+					<PRF_StainlessSteel>30</PRF_StainlessSteel>
+					<ComponentIndustrial>1</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Seat_AdvChair"]/costList</xpath>
+			<value>
+				<costList>
+				  <Plasteel>20</Plasteel>
+				  <PRF_StainlessSteel>40</PRF_StainlessSteel>
+				  <ComponentIndustrial>3</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Table_interactive_1x1c"]/costList</xpath>
+			<value>
+				<costList>
+				  <Steel>10</Steel>
+				  <PRF_StainlessSteel>10</PRF_StainlessSteel>
+				  <ComponentIndustrial>4</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "Table_interactive_2x2c"]/costList</xpath>
+			<value>
+				<costList>
+				  <Steel>15</Steel>
+				  <PRF_StainlessSteel>15</PRF_StainlessSteel>
+				  <ComponentIndustrial>8</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<!-- Other Mods -->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Factions Expanded - Settlers</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef [defName = "ChemBoiler"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>40</Steel>
+						<PRF_Iron>35</PRF_Iron>
+						<Chemfuel>75</Chemfuel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef [defName = "Building_ChemshineBarrel"]/costList</xpath>
+				<value>
+					<costList>
+					  <PRF_Iron>10</PRF_Iron>
+					  <WoodLog>30</WoodLog>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<!-- Barbar Table -->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Hair Expanded</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef [defName = "VHE_TableBarber"]/costList</xpath>
+				<value>
+					<costList>
+						<PRF_Iron>20</PRF_Iron>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

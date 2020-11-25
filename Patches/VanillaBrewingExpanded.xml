@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Brewing Expanded</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef [defName = "VBE_WhiskeyCask"]/costList</xpath>
+				<value>
+					<costList>
+						<WoodLog>200</WoodLog>
+						<Steel>20</Steel>
+						<PRF_Iron>80</PRF_Iron>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef [defName = "VBE_TequilaBarrel"]/costList</xpath>
+				<value>
+					<costList>
+						<WoodLog>30</WoodLog>
+						<PRF_Iron>10</PRF_Iron>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef [defName = "VBE_GinStill"]/costList</xpath>
+				<value>
+					<costList>
+						<PRF_Iron>40</PRF_Iron>
+						<ComponentIndustrial>1</ComponentIndustrial>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

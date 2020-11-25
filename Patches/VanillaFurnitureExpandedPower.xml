@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Furniture Expanded - Power</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_AdvancedWindTurbine"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>50</Steel>
+					<PRF_StainlessSteel>20</PRF_StainlessSteel>
+					<Plasteel>20</Plasteel>
+					<ComponentSpacer>3</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_AdvancedSolarGenerator"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>50</Steel>
+					<PRF_StainlessSteel>20</PRF_StainlessSteel>
+					<Plasteel>20</Plasteel>
+					<ComponentSpacer>3</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_AdvancedWatermillGenerator"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>100</Steel>
+					<PRF_StainlessSteel>150</PRF_StainlessSteel>
+					<ComponentSpacer>3</ComponentSpacer>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VPE_NuclearGenerator"]/costList</xpath>
+			<value>
+				<costList>
+					<PRF_Concrete>140</PRF_Concrete>
+					<Steel>150</Steel>
+					<PRF_StainlessSteel>50</PRF_StainlessSteel>
+					<Plasteel>30</Plasteel>
+					<ComponentSpacer>6</ComponentSpacer>
+					<ComponentIndustrial>8</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_TidalGenerator"]/costList</xpath>
+			<value>
+				<costList>
+				  <PRF_Concrete>100</PRF_Concrete>
+				  <Steel>150</Steel>
+				  <PRF_StainlessSteel>50</PRF_StainlessSteel>
+				  <ComponentIndustrial>9</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VPE_ChemfuelPump"]/costList</xpath>
+			<value>
+				<costList>
+					<PRF_Concrete>20</PRF_Concrete>
+					<Steel>80</Steel>
+					<ComponentIndustrial>4</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VPE_GasTank"]/costList</xpath>
+			<value>
+				<costList>
+					<PRF_Concrete>30</PRF_Concrete>
+					<Steel>70</Steel>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VPE_HelixienPump"]/costList</xpath>
+			<value>
+				<costList>
+					<PRF_Concrete>20</PRF_Concrete>
+					<Steel>80</Steel>
+					<ComponentIndustrial>4</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VPE_GasDrill"]/costList</xpath>
+			<value>
+				<costList>
+					<PRF_Concrete>40</PRF_Concrete>
+					<Steel>60</Steel>
+					<ComponentIndustrial>2</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VPE_LightningRod"]/costList</xpath>
+			<value>
+				<costList>
+				  <PRF_Concrete>30</PRF_Concrete>
+				  <Steel>40</Steel>
+				  <ComponentIndustrial>4</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<!-- GENERATORS -->
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VPE_HelixienGenerator"]/costList</xpath>
+			<value>
+				<costList>
+					<PRF_Concrete>40</PRF_Concrete>
+					<Steel>60</Steel>
+					<ComponentIndustrial>3</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VPE_IndustrialHelixienGenerator"]/costList</xpath>
+			<value>
+				<costList>
+					<PRF_Concrete>80</PRF_Concrete>
+					<Steel>100</Steel>
+					<ComponentIndustrial>6</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_IndustrialWoodFiredGenerator"]/costList</xpath>
+			<value>
+				<costList>
+					<PRF_Concrete>80</PRF_Concrete>
+					<Steel>100</Steel>
+					<ComponentIndustrial>4</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef [defName = "VFE_IndustrialChemfuelPoweredGenerator"]/costList</xpath>
+			<value>
+				<costList>
+					<PRF_Concrete>80</PRF_Concrete>
+					<Steel>100</Steel>
+					<ComponentIndustrial>6</ComponentIndustrial>
+				</costList>
+			</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>
