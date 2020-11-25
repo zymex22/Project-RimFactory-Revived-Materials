@@ -55,11 +55,41 @@
 	<!-- Copper -->
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_Copper</defName>
-    <label>copper</label>
-    <description>An orange-brownish colored metal, great electricity conductor.\n\nThis metal is not so strong, but it is a main ingredient in the making of electrical devices and components, that makes it highly valuable for traders.</description>
+    <label>copper ore</label>
+    <description>An orange-brownish colored metal. Needs to be smelted to be of any practical use.</description>
     <graphicData>
       <texPath>Resources/PRF_Copper</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.008</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>500</stackLimit>
+    <smallVolume>true</smallVolume>
+    <deepCommonality>1</deepCommonality>
+    <deepCountPerPortion>90</deepCountPerPortion>
+    <deepLumpSizeRange>10~20</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>PRF_CopperIngot</defName>
+    <label>copper ingot</label>
+    <description>An orange-brownish colored metal, great electricity conductor.\n\nThis metal is not so strong, but it is a main ingredient in the making of electrical devices and components, that makes it highly valuable for traders.</description>
+    <graphicData>
+      <texPath>Resources/PRF_CopperIngot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(175, 73, 27)</color>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
@@ -116,6 +146,7 @@
     <graphicData>
       <texPath>Resources/PRF_StainlessSteel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(180,173,150)</color>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
@@ -143,7 +174,7 @@
       </categories>
       <commonality>0.08</commonality>
       <constructEffect>ConstructMetal</constructEffect>
-      <color>(111,124,145)</color>
+      <color>(180,173,150)</color>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>

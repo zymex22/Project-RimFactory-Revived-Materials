@@ -10,7 +10,7 @@
 		<prerequisites><li>Electricity</li></prerequisites>
     <tab>PRF_Materials</tab>
   <researchViewX>0.00</researchViewX>
-  <researchViewY>0.35</researchViewY>
+  <researchViewY>2.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -21,8 +21,8 @@
 		<techLevel>Industrial</techLevel>
 		<prerequisites><li>PRF_BasicPlastics</li></prerequisites>
     <tab>PRF_Materials</tab>
-  <researchViewX>2.00</researchViewX>
-  <researchViewY>1.10</researchViewY>
+  <researchViewX>1.00</researchViewX>
+  <researchViewY>2.80</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -33,8 +33,8 @@
 		<techLevel>Industrial</techLevel>
 		<prerequisites><li>PRF_BasicPlastics</li></prerequisites>
     <tab>PRF_Materials</tab>
-  <researchViewX>2.00</researchViewX>
-  <researchViewY>0.35</researchViewY>
+  <researchViewX>1.00</researchViewX>
+  <researchViewY>2.20</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -45,8 +45,8 @@
 		<techLevel>Industrial</techLevel>
 		<prerequisites><li>PRF_BasicPlasticTextiles</li><li>PRF_AdvPlastics</li></prerequisites>
     <tab>PRF_Materials</tab>
-  <researchViewX>3.00</researchViewX>
-  <researchViewY>0.35</researchViewY>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>2.50</researchViewY>
 	</ResearchProjectDef>
 	
 </Defs>

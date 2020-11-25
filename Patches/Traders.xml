@@ -10,7 +10,7 @@
 				<countRange>500~800</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>PRF_Copper</thingDef>
+				<thingDef>PRF_CopperIngot</thingDef>
 				<countRange>600~900</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
@@ -32,7 +32,7 @@
 				<countRange>300~400</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>PRF_Copper</thingDef>
+				<thingDef>PRF_CopperIngot</thingDef>
 				<countRange>100~300</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
@@ -54,7 +54,7 @@
 				<countRange>500~800</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>PRF_Copper</thingDef>
+				<thingDef>PRF_CopperIngot</thingDef>
 				<countRange>200~400</countRange>
 			</li>
 		</value>
@@ -68,7 +68,7 @@
 				<countRange>200~300</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>PRF_Copper</thingDef>
+				<thingDef>PRF_CopperIngot</thingDef>
 				<countRange>100~200</countRange>
 			</li>
 		</value>

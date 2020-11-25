@@ -48,12 +48,13 @@ New raw materials:
 	sand: Used for Bricks and Concrete.
 	cement: Used for concrete.
 	iron: Raw Iron - can be used raw or made into steel.
-	copper: Raw copper - many uses.
+	copper: Raw copper.
 	coal: raw coal, from the ground or from charcoal production
 	Coke: coal processed under high temperatures to produce a more efficient fuel source
 	Carbon: crude building material and precursor to better things.
 
 New Manufactured materials:
+	copper ingots: refined copper, ready for use in wiring and electronics
 	stainless steel: Stronger and more sterile than steel
 	plastic: Lightweight with many uses
 	Glass: Transparent walls

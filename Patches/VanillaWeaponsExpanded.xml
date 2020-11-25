@@ -462,7 +462,7 @@
 						<countRange>100~300</countRange>
 					</li>
 					<li Class="StockGenerator_SingleDef">
-						<thingDef>PRF_Copper</thingDef>
+						<thingDef>PRF_CopperIngot</thingDef>
 						<countRange>100~200</countRange>
 					</li>
 <!-- 					<li Class="StockGenerator_SingleDef">

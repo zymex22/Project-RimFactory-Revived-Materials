@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<RecipeDef>
+    <defName>PRF_MakeCopperCoal</defName>
+    <label>make copper ingots with coal</label>
+    <description>Refine copper ore into usable cooper ingots.</description>
+    <jobString>Refining copper ore.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>7000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+	<recipeUsers>
+		<li>PRF_FurnaceI</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Coal</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PRF_Copper</li>
+        <li>PRF_Coal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PRF_CopperIngot>70</PRF_CopperIngot>
+    </products>
+	<researchPrerequisite>PRF_SteelAlloying</researchPrerequisite>
+  </RecipeDef>
+  
+	<RecipeDef>
+    <defName>PRF_MakeCopperCoke</defName>
+    <label>make copper ingots with coke</label>
+    <description>Refine copper ore into usable cooper ingots. Coke usage increase efficiency.</description>
+    <jobString>Refining copper ore.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>6000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+	<recipeUsers>
+		<li>PRF_FurnaceI</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Coke</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PRF_Copper</li>
+        <li>PRF_Coke</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PRF_CopperIngot>70</PRF_CopperIngot>
+    </products>
+	<researchPrerequisite>PRF_SteelAlloying</researchPrerequisite>
+  </RecipeDef>
+  
+  <!-- Steel Bulk Making -->
+	<RecipeDef>
+    <defName>PRF_MakeCopperBulkCoal</defName>
+    <label>make bulk copper ingots with coal</label>
+    <description>Refine copper ore into usable cooper ingots.</description>
+    <jobString>Refining copper ore.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>14000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+	<recipeUsers>
+		<li>PRF_FurnaceII</li>
+		<li>PRF_FurnaceIII</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Coal</li>
+          </thingDefs>
+        </filter>
+        <count>120</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PRF_Copper</li>
+        <li>PRF_Coal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PRF_CopperIngot>280</PRF_CopperIngot>
+    </products>
+	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+  </RecipeDef>
+  
+	<RecipeDef>
+    <defName>PRF_MakeCopperBulkCoke</defName>
+    <label>make bulk copper ingots with coke</label>
+    <description>Refine copper ore into usable cooper ingots. Coke usage increase efficiency.</description>
+    <jobString>Refining copper ore.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>11000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+	<recipeUsers>
+		<li>PRF_FurnaceII</li>
+		<li>PRF_FurnaceIII</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Coke</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PRF_Copper</li>
+        <li>PRF_Coke</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PRF_CopperIngot>280</PRF_CopperIngot>
+    </products>
+	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+  </RecipeDef>
+  
+</Defs>

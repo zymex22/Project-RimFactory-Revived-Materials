@@ -27,5 +27,13 @@
           <PRF_Fossil Weight="0.01" Count="1" />
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PRF_MineShaft"]/recipes</xpath>
+		<value>
+			<li>PRF_DigClay</li>
+			<li>PRF_DigSand</li>
+		</value>
+	</Operation>
 
 </Patch>

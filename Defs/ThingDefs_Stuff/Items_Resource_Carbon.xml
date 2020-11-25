@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>PRF_Carbon</defName>
 		<label>carbon powder</label>
-		<description>Raw carbon powder, a necessary precursor to many advanced materials.  Can be built with and is a good insulator but is extremely brittle and dirt sticks to it.</description>
+		<description>Raw carbon powder, a necessary precursor to many advanced materials.</description>
 		<graphicData>
 			<texPath>Resources/PRF_CarbonPowder</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -31,7 +31,7 @@
 			<li>ResourcesRaw</li>
 		</thingCategories>
 		<burnableByRecipe>true</burnableByRecipe>
-		<smeltable>false</smeltable>
+		<smeltable>false</smeltable><!-- 
 		<stuffProps>
 			<stuffAdjective>powder</stuffAdjective>
 			<categories>
@@ -57,7 +57,7 @@
 				<DeteriorationRate>0.2</DeteriorationRate>
 				<Mass>0.05</Mass>
 			</statFactors>
-		</stuffProps>
+		</stuffProps> -->
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceBase">
