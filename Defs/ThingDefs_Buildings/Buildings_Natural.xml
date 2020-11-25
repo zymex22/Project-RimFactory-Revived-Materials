@@ -1,29 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-<!--   <ThingDef ParentName="RockBase">
-    <defName>PRF_MineableClay</defName>
-    <label>compacted clay</label>
-    <description>A rich source of fire clay, used widely in bricks and other masonry.</description>
-    <graphicData>
-      <texPath>Things/Building/Linked/Rock_Atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <color>(98,61,51)</color>
-    </graphicData>
-    <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-    </statBases>
-    <building>
-      <isResourceRock>true</isResourceRock>
-      <mineableThing>PRF_RawClay</mineableThing>
-      <mineableYield>25</mineableYield>
-      <mineableScatterCommonality>0.0</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>
-        <min>10</min>
-        <max>20</max>
-      </mineableScatterLumpSizeRange>
-    </building>
-  </ThingDef> -->
   
     <ThingDef ParentName="RockBase">
     <defName>PRF_MineableIron</defName>
@@ -71,4 +47,27 @@
     </building>
   </ThingDef>
 
+  <ThingDef ParentName="RockBase">
+    <defName>PRF_MineableCoal</defName>
+    <label>coal</label>
+    <description>Coal is a combustible black or brownish-black sedimentary rock, formed as rock strata called coal seams.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(30,30,30)</color>
+      <colorTwo>(88,88,88)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>PRF_Coal</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.2</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>15~30</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
 </Defs>
