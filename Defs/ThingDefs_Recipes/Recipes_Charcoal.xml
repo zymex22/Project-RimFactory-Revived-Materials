@@ -35,4 +35,37 @@
 	<researchPrerequisite>Stonecutting</researchPrerequisite>
   </RecipeDef>
   
+  
+  <RecipeDef>
+    <defName>PRF_ChemfuelFromCoal</defName>
+    <label>make chemfuel from coal</label>
+    <description>Make a batch of chemfuel by extracting and condensing coal gas from coal.</description>
+    <jobString>Refining chemfuel from Coal.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Coal</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PRF_Coal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Chemfuel>10</Chemfuel>
+    </products>
+    <recipeUsers>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+  </RecipeDef>
+  
 </Defs>
