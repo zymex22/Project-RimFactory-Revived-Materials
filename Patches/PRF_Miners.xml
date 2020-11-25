@@ -5,7 +5,7 @@
 		<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry_mkI"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_BonusYield"]/bonusYields</xpath>
 		<value>
           <PRF_Iron Weight="0.02" Count="50" />
-          <WDCoal Weight="0.04" Count="20" />
+          <PRF_Coal Weight="0.04" Count="20" />
           <PRF_Fossil Weight="0.01" Count="1" />
 		</value>
 	</Operation>
@@ -14,7 +14,7 @@
 		<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_BonusYield"]/bonusYields</xpath>
 		<value>
           <PRF_Iron Weight="0.09" Count="50" />
-          <WDCoal Weight="0.04" Count="20" />
+          <PRF_Coal Weight="0.04" Count="20" />
           <PRF_Fossil Weight="0.01" Count="1" />
 		</value>
 	</Operation>
@@ -23,7 +23,7 @@
 		<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry_mkIII"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_BonusYield"]/bonusYields</xpath>
 		<value>
           <PRF_Iron Weight=".18" Count="50" />
-          <WDCoal Weight="0.04" Count="20" />
+          <PRF_Coal Weight="0.04" Count="20" />
           <PRF_Fossil Weight="0.01" Count="1" />
 		</value>
 	</Operation>
