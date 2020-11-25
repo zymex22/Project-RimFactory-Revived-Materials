@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StuffAppearanceDef>
+    <defName>SmoothAM</defName>
+  </StuffAppearanceDef>
+
+    <StuffAppearanceDef>
+    <defName>BricksAM</defName>
+  </StuffAppearanceDef>
+  
+  <StuffAppearanceDef>
+    <defName>GlassAM</defName>
+  </StuffAppearanceDef>
+  
+  <StuffAppearanceDef>
+    <defName>FiberAM</defName>
+  </StuffAppearanceDef>
+
+</Defs>
+

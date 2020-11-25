@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>Concrete</defName>
+		<label>rough concrete</label>
+		<description>Quick poured concrete. Cheap but also quite ugly.</description>
+		<texturePath>Terrain/Surfaces/Concrete</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>70</renderPrecedence>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<WorkToBuild>80</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_Concrete>1</PRF_Concrete>
+		</costList>
+		<designationHotKey>Misc6</designationHotKey>
+    <researchPrerequisites>
+      <li>PRF_BasicConcrete</li>
+    </researchPrerequisites>
+	</TerrainDef>
+	
+	  <DesignatorDropdownGroupDef>
+    <defName>PRF_Floor_Polished</defName>
+	  </DesignatorDropdownGroupDef>
+
+	
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_PolishedConcrete</defName>
+		<label>polished concrete</label>
+		<description>Quick pour concrete that has been buffed over, leaving a smooth and slightly reflective finish.</description>
+		<texturePath>Building/Floors/PRF_PolishedFlooring</texturePath>
+		<color>(140,140,140)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Polished</designatorDropdown>
+		<statBases>
+			<Beauty>2</Beauty>
+			<WorkToBuild>140</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_Concrete>1</PRF_Concrete>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_BasicConcrete</li>
+    </researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_PolishedReinforcedConcrete</defName>
+		<label>polished reinforced concrete</label>
+		<description>Reinforced concrete that has been buffed over, leaving a smooth and slightly reflective finish with a deep blue hue.</description>
+		<texturePath>Building/Floors/PRF_PolishedFlooring</texturePath>
+		<color>(130,130,150)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Polished</designatorDropdown>
+		<statBases>
+			<Beauty>3</Beauty>
+			<WorkToBuild>160</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_RefConcrete>1</PRF_RefConcrete>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_AdvancedConcrete</li>
+    </researchPrerequisites>
+	</TerrainDef>
+
+</Defs>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>PRF_Carbon</defName>
+		<label>Carbon Production</label>
+		<description>Learn how to create powdered Carbon from burnable materials, a precursor for many spacer materials.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+    <tab>PRF_Materials</tab>
+  <researchViewX>0.00</researchViewX>
+  <researchViewY>2.75</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_CarbonNanotubes</defName>
+		<label>Carbon Nanotube Production</label>
+		<description>Gain understanding of the process of synthesizing carbon nanotubes from raw carbon.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites><li>PRF_Carbon</li><li>Electricity</li></prerequisites>
+    <tab>PRF_Materials</tab>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>2.80</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_CarbonFiber</defName>
+		<label>Carbon Fiber Production</label>
+		<description>Learn how to weave carbon nanotubes into a sturdy fabric-like material.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites><li>PRF_CarbonNanotubes</li></prerequisites>
+    <tab>PRF_Materials</tab>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>2.35</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_CarbonKevlar</defName>
+		<label>Advanced Carbon Fiber Production</label>
+		<description>Learn how interweave carbon fiber with Kevlar to produce a superior fabric.</description>
+		<baseCost>750</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites><li>PRF_CarbonFiber</li></prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>PRF_Materials</tab>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>1.10</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_CarbonPlating</defName>
+		<label>Carbon Fiber Lamination</label>
+		<description>Develop methods of bonding carbon fiber with plastic materials to create a strong and light structural material.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites><li>PRF_CarbonFiber</li></prerequisites>
+    <tab>PRF_Materials</tab>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>0.35</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_SyntheticDiamond</defName>
+		<label>Diamond Synthesis</label>
+		<description>Learn how to synthesize industrial diamond from carbon fiber using heat and shearing force to produce one of the strongest materials in nature.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites><li>PRF_CarbonFiber</li></prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>PRF_Materials</tab>
+  <researchViewX>3.00</researchViewX>
+  <researchViewY>0.35</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

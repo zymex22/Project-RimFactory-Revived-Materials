@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>PRF_Brick</defName>
+		<label>clay bricks</label>
+		<description>Bricks made from fired clay, very strong and resistant to damage but is very limited in construction. Limited to just walls.</description>
+		<graphicData>
+			<texPath>Resources/PRF_Brick</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(139,79,57)</color>
+		</graphicData>
+		<statBases>
+			
+			<Mass>0.8</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>0.9</MarketValue>
+			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+			<Beauty>-16</Beauty>
+			<ConstructionSpeedFactor>0.6</ConstructionSpeedFactor>
+		</statBases>
+		<stuffProps>
+			<color>(119,79,57)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>brick</stuffAdjective>
+			<categories>
+				<li>Unused</li>
+            </categories>
+			<appearance>BricksAM</appearance>
+			<statOffsets>
+				<WorkToBuild>160</WorkToBuild>
+			</statOffsets>
+			<statFactors>
+				<Beauty>0.9</Beauty>  
+				<MarketValue>0.4</MarketValue>
+				<MaxHitPoints>1.8</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToBuild>7.0</WorkToBuild>
+				<WorkToMake>1.4</WorkToMake>
+				<DoorOpenSpeed>0.45</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>PRF_Concrete</defName>
+		<label>concrete mix</label>
+		<description>A mixture of lime and clay that has been heated to extreme temperatures, extremely tough and quite quick to mould.</description>
+		<graphicData>
+			<texPath>Resources/PRF_Concrete</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>1.25</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>1.5</MarketValue>
+			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.3</BluntDamageMultiplier>
+			<Beauty>-10</Beauty>
+			<ConstructionSpeedFactor>0.9</ConstructionSpeedFactor>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stuffProps>
+			<color>(120,120,120)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>concrete</stuffAdjective>
+			<appearance>SmoothAM</appearance>
+			<statOffsets>
+				<WorkToBuild>160</WorkToBuild>
+			</statOffsets>
+			<statFactors>
+				<Beauty>1</Beauty>  
+				<MarketValue>0.5</MarketValue>
+				<MaxHitPoints>2.35</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToBuild>6.5</WorkToBuild>
+				<WorkToMake>1.4</WorkToMake>
+				<DoorOpenSpeed>0.35</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>PRF_RefConcrete</defName>
+		<label>reinforced concrete mix</label>
+		<description>Concrete mix that has Plasteel wiring woven within it to increase strength even further, a very resistant material.</description>
+		<graphicData>
+			<texPath>Resources/PRF_RConcrete</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>1.5</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>2.5</MarketValue>
+			<SharpDamageMultiplier>0.4</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+			<Beauty>-10</Beauty>
+			<ConstructionSpeedFactor>0.7</ConstructionSpeedFactor>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stuffProps>
+			<color>(140,140,160)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>reinforced concrete</stuffAdjective>
+			<appearance>SmoothAM</appearance>
+			<statOffsets>
+				<WorkToBuild>160</WorkToBuild>
+			</statOffsets>
+			<statFactors>
+				<Beauty>0.9</Beauty>  
+				<MarketValue>0.8</MarketValue>
+				<MaxHitPoints>3.6</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToBuild>6.5</WorkToBuild>
+				<WorkToMake>1.4</WorkToMake>
+				<DoorOpenSpeed>0.25</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

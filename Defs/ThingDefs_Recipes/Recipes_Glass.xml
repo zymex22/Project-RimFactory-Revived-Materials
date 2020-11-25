@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>PRF_MakeBasicGlass</defName>
+		<label>make glass</label>
+		<description>Smelt sand into basic glass.</description>
+		<jobString>Making glass.</jobString>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_RawSand</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<PRF_Glass>5</PRF_Glass>
+		</products>
+		<workAmount>1100</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.5</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceII</li>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeBasicGlassBulk</defName>
+		<label>make bulk glass</label>
+		<description>Smelt lots of sand into lots of basic glass.</description>
+		<jobString>Making glass.</jobString>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_RawSand</li>
+					</thingDefs>
+				</filter>
+				<count>90</count>
+			</li>
+		</ingredients>
+		<products>
+			<PRF_Glass>50</PRF_Glass>
+		</products>
+		<workAmount>5000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.5</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeReinforcedGlass</defName>
+		<label>make reinforced glass</label>
+		<description>Smelt sand and plasteel into reinforced glass.</description>
+		<jobString>Making glass.</jobString>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_RawSand</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<PRF_RGlass>5</PRF_RGlass>
+		</products>
+		<workAmount>1600</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_ReinforcedGlass</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeReinforcedGlassBulk</defName>
+		<label>make reinforced glass</label>
+		<description>Smelt sand and plasteel into reinforced glass.</description>
+		<jobString>Making glass.</jobString>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_RawSand</li>
+					</thingDefs>
+				</filter>
+				<count>90</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>18</count>
+			</li>
+		</ingredients>
+		<products>
+			<PRF_RGlass>50</PRF_RGlass>
+		</products>
+		<workAmount>8000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_ReinforcedGlass</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

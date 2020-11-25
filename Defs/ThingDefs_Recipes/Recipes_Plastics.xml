@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<RecipeDef>
+		<defName>PRF_MakeMixedPlastic</defName>
+		<label>make plastic</label>
+		<description>Reform the hydrocarbons within crude oil or bio-oil to produce a solidified form that can be used in construction.</description>
+		<jobString>Making plastic.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>3</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Carbon</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+				<li>PRF_Carbon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_MixedPlastic>10</PRF_MixedPlastic>
+		</products>
+		<workAmount>600</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeMixedPlasticBulk</defName>
+		<label>make bulk plastic</label>
+		<description>Reform the hydrocarbons within crude oil or bio-oil to produce a large solidified form that can be used in construction.</description>
+		<jobString>Making plastic.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>6</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Carbon</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+				<li>PRF_Carbon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_MixedPlastic>100</PRF_MixedPlastic>
+		</products>
+		<workAmount>6000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_AdvPlastics</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>	
+
+	<RecipeDef>
+		<defName>PRF_MakePolyesterFibre</defName>
+		<label>make polyester fibre</label>
+		<description>By denaturing and reforming plastics through the process of polycondensation, small fibres of polyester can be made, however they will require further work at a tailor bench to be made into a usable fabric.</description>
+		<jobString>Making polyester fibre.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>3</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<products>
+			<PRF_Polyester>20</PRF_Polyester>
+		</products>
+		<workAmount>500</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicPlasticTextiles</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakePolyesterFibreBulk</defName>
+		<label>make bulk polyester fibre</label>
+		<description>By denaturing and reforming lots of plastics through the process of polycondensation,lots of small fibres of polyester can be made, however they will require further work at a tailor bench to be made into a usable fabric.</description>
+		<jobString>Making polyester fibre.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>6</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<products>
+			<PRF_Polyester>100</PRF_Polyester>
+		</products>
+		<workAmount>4500</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicPlasticTextiles</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeKevlarFibre</defName>
+		<label>make kevlar fibre</label>
+		<description>Produce a batch of extremely sharp resistant fibres for use in clothing, however they will require further work at a tailor bench to be made into a usable fabric.</description>
+		<jobString>Making kevlar fibre.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>8</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<PRF_Kevlar>20</PRF_Kevlar>
+		</products>
+		<workAmount>1200</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_AdvPlasticTextiles</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeKevlarFibreBulk</defName>
+		<label>make bulk kevlar fibre</label>
+		<description>Produce a large batch of extremely sharp resistant fibres for use in clothing, however they will require further work at a tailor bench to be made into a usable fabric.</description>
+		<jobString>Making kevlar fibre.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>12</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+		</ingredients>
+		<products>
+			<PRF_Kevlar>200</PRF_Kevlar>
+		</products>
+		<workAmount>6500</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_AdvPlasticTextiles</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+</Defs>

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonFiber</defName>
+		<label>make carbon fiber from carbon</label>
+		<description>Synthesize carbon nanotubes and weave them into a fabric.</description>
+		<jobString>Making carbon fiber.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>7</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Carbon</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_Carbon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_CarbonFiber>10</PRF_CarbonFiber>
+		</products>
+		<workAmount>750</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_CarbonFiber</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonFiberBulk</defName>
+		<label>make carbon fiber from carbon in bulk</label>
+		<description>Synthesize carbon nanotubes and weave them into a fabric.</description>
+		<jobString>Making carbon fiber.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>9</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Carbon</li>
+					</thingDefs>
+				</filter>
+				<count>1000</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_Carbon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_CarbonFiber>100</PRF_CarbonFiber>
+		</products>
+		<workAmount>6500</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_CarbonFiber</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonKevlar</defName>
+		<label>make carbon-kevlar composite</label>
+		<description>Interweave carbon fiber and kevlar.</description>
+		<jobString>Making carbon-kevlar composite.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>16</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_CarbonFiber</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Kevlar</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_CarbonFiber</li>
+				<li>PRF_Kevlar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_CarbonKevlarComposite>10</PRF_CarbonKevlarComposite>
+		</products>
+		<workAmount>1550</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_CarbonKevlar</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonKevlarBulk</defName>
+		<label>make carbon-kevlar composite in bulk</label>
+		<description>Interweave carbon fiber and kevlar.</description>
+		<jobString>Making carbon-kevlar composite.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>16</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_CarbonFiber</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Kevlar</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_CarbonFiber</li>
+				<li>PRF_Kevlar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_CarbonKevlarComposite>100</PRF_CarbonKevlarComposite>
+		</products>
+		<workAmount>13500</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_CarbonKevlar</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonPlate</defName>
+		<label>make carbon fiber plate</label>
+		<description>laminating carbon fiber with plastic.</description>
+		<jobString>Making carbon fiber plate.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>14</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_CarbonFiber</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_CarbonFiber</li>
+				<li>PRF_MixedPlastic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_CarbonPlate>10</PRF_CarbonPlate>
+		</products>
+		<workAmount>1250</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_CarbonPlating</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonPlateBulk</defName>
+		<label>make carbon fiber plate in bulk</label>
+		<description>laminate carbon fiber with plastic to produce a solid material.</description>
+		<jobString>Making carbon fiber plate.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>14</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_CarbonFiber</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_CarbonFiber</li>
+				<li>PRF_MixedPlastic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_CarbonPlate>100</PRF_CarbonPlate>
+		</products>
+		<workAmount>3450</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_CarbonPlating</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_MetalRefinery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeSyntheticDiamond</defName>
+		<label>make synthetic diamond</label>
+		<description>make synthetic diamond by applying heat and shear force to carbon fiber.</description>
+		<jobString>Making synthetic diamond.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>16</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_CarbonFiber</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_CarbonFiber</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_SyntheticDiamond>10</PRF_SyntheticDiamond>
+		</products>
+		<workAmount>2250</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeSyntheticDiamondBulk</defName>
+		<label>make synthetic diamond in bulk</label>
+		<description>make synthetic diamond by applying heat and shear force to carbon fiber.</description>
+		<jobString>Making synthetic diamond.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>16</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_CarbonFiber</li>
+					</thingDefs>
+				</filter>
+				<count>1000</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_CarbonFiber</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_SyntheticDiamond>100</PRF_SyntheticDiamond>
+		</products>
+		<workAmount>6575</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+</Defs>

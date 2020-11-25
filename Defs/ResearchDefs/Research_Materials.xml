@@ -1,0 +1,116 @@
+﻿<?Yml version="1.0" encoding="utf8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>PRF_CokeProduction</defName>
+		<label>coke coal</label>
+		<description>Through the same process as charcoal production: burning coal or charcoal further in the absence of air yields a purer fuel that is even more effective than coal.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>1.80</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_Brick</defName>
+		<label>bricklaying</label>
+		<description>Learn how to create basic brick from clay and sand for use in structures as a very strong building material.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>4.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_BasicGlass</defName>
+		<label>glassworking</label>
+		<description>Smelt sand inside a kiln to produce a transparent material that can be used to produce windows and used as a material in furniture.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>3.45</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_ReinforcedGlass</defName>
+		<label>reinforced glass</label>
+		<description>By smelting sand and layering plasteel in a lattice formation, a highly damage resistant material can be made.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PRF_BasicGlass</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>3.45</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_Cement</defName>
+		<label>Cement</label>
+		<description>Develop methods of turning rock into cement, a basic component of Concrete.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>PRF_Brick</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>4.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_BasicConcrete</defName>
+		<label>concrete</label>
+		<description>By mixing the techniques of clay baking and lime production: a new material can be made through the combination of the two, concrete. A strong, neutral beauty material.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PRF_Cement</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>4.80</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_BulkConcrete</defName>
+		<label>bulk concrete</label>
+		<description>Develop techniques on the mass production of concrete products that take less time and less materials to produce in the long term.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PRF_BasicConcrete</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>4.80</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_AdvancedConcrete</defName>
+		<label>reinforced concrete</label>
+		<description>Mixing concrete with small plasteel fibres will increase overall structure strength two-fold. Making the final material stronger than plasteel or concrete alone.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PRF_BasicConcrete</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>4.20</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

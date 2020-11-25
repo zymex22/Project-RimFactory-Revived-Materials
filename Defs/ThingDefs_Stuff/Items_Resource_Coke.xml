@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>PRF_Coke</defName>
+		<label>coal coke</label>
+		<description>A fuel with an extremely high carbon content and few impurities, made by heating coal in the absence of air. A great fuel source.</description>
+		<graphicData>
+			<texPath>Resources/PRF_Coke</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+			<Mass>0.15</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+
+</Defs>

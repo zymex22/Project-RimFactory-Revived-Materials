@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--   <ThingDef ParentName="RockBase">
+    <defName>PRF_MineableClay</defName>
+    <label>compacted clay</label>
+    <description>A rich source of fire clay, used widely in bricks and other masonry.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/Rock_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(98,61,51)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>PRF_RawClay</mineableThing>
+      <mineableYield>25</mineableYield>
+      <mineableScatterCommonality>0.0</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>10</min>
+        <max>20</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef> -->
+  
+    <ThingDef ParentName="RockBase">
+    <defName>PRF_MineableIron</defName>
+    <label>iron ore</label>
+    <description>Rock containing bits of iron.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <colorTwo>(200,183,183)</colorTwo>
+      <color>(108,83,83)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>PRF_Iron</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>15~25</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+    <ThingDef ParentName="RockBase">
+    <defName>PRF_MineableCopper</defName>
+    <label>copper ore</label>
+    <description>Rock containing bits of copper.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <colorTwo>(175,73,27)</colorTwo>
+      <color>(87,40,19)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>PRF_Copper</mineableThing>
+      <mineableYield>55</mineableYield>
+      <mineableScatterCommonality>0.8</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!--<blockLight>true</blockLight>
+	For future ref-->
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>PRF_Glass</defName>
+		<label>glass</label>
+		<description>Silica glass sheets that can be moulded into any shape. Glass is quite pretty but is terrible at doing anything else.</description>
+		<graphicData>
+			<texPath>Resources/PRF_Glass</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<categories>
+				<li>PRF_Glassy</li>
+			</categories>
+			<commonality>0</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(230,245,236)</color>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<stuffAdjective>glass</stuffAdjective>
+			<appearance>GlassAM</appearance>
+			<statFactors>
+				<MaxHitPoints>0.60</MaxHitPoints>
+				<Beauty>1.75</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>1.25</WorkToMake>
+				<WorkToBuild>1.25</WorkToBuild>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>PRF_RGlass</defName>
+		<label>reinforced glass</label>
+		<description>Silica glass that has been reinforced with a plasteel mesh. Works like normal glass, except slightly stronger - at the cost of beauty.</description>
+		<graphicData>
+			<texPath>Resources/PRF_RGlass</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<categories>
+				<li>PRF_Glassy</li>
+			</categories>
+			<commonality>0</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(175,238,238)</color>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<stuffAdjective>reinforced glass</stuffAdjective>
+			<appearance>GlassAM</appearance>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>1.15</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>2</WorkToMake>
+				<WorkToBuild>2</WorkToBuild>
+			</statFactors>			
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

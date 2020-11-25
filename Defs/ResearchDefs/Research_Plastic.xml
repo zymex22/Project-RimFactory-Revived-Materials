@@ -1,0 +1,52 @@
+﻿<?Yml version="1.0" encoding="utf8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>PRF_BasicPlastics</defName>
+		<label>basic plastics</label>
+		<description>Learn how to extract crude oil from oil shale and convert it to chemfuel and mixed plastic material, which can be later used to create laminated wood.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites><li>Electricity</li></prerequisites>
+    <tab>PRF_Materials</tab>
+  <researchViewX>0.00</researchViewX>
+  <researchViewY>0.35</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_AdvPlastics</defName>
+		<label>advanced plastics</label>
+		<description>Learn how to extract crude oil from oil shale and convert it to chemfuel and mixed plastic material, which can be later used to create laminated wood.</description>
+		<baseCost>750</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites><li>PRF_BasicPlastics</li></prerequisites>
+    <tab>PRF_Materials</tab>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>1.10</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_BasicPlasticTextiles</defName>
+		<label>polyester production</label>
+		<description>Develop methods of polyester production from refined oil; a wind-proof, water-proof textile that has some insulative properties to it.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites><li>PRF_BasicPlastics</li></prerequisites>
+    <tab>PRF_Materials</tab>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>0.35</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_AdvPlasticTextiles</defName>
+		<label>kevlar production</label>
+		<description>Learn how to produce kevlar from plastic: a tough textile that has a high resistance to weapons.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites><li>PRF_BasicPlasticTextiles</li><li>PRF_AdvPlastics</li></prerequisites>
+    <tab>PRF_Materials</tab>
+  <researchViewX>3.00</researchViewX>
+  <researchViewY>0.35</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

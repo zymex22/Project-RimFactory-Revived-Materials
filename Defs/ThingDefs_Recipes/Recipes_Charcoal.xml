@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Make Charcoal -->
+<RecipeDef>
+    <defName>PRF_MakeCharcoal</defName>
+    <label>make charcoal</label>
+    <description>Burn wood in order to obtain charcoal, it is low yield compared to mineral coal, but still a good replacement.</description>
+    <jobString>making charcoal.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>700</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<recipeUsers>
+		<li>ElectricSmelter</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <WDCoal>15</WDCoal>
+    </products>
+	<researchPrerequisite>Stonecutting</researchPrerequisite>
+  </RecipeDef>
+  
+</Defs>

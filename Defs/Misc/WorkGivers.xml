@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+  <WorkGiverDef>
+    <defName>DigAtDiggingSpot</defName>
+    <label>dig at digging spot</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>20</priorityInType>
+    <fixedBillGiverDefs>
+      <li>PRF_DigSpot</li>
+    </fixedBillGiverDefs>
+        <verb>dig</verb>
+    <gerund>digging</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+</Defs>
+

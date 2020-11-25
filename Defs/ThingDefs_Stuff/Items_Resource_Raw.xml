@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="PRF_RawResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>100</stackLimit>
+		<statBases>
+			<Beauty>-15</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<tradeability>None</tradeability>
+	</ThingDef>
+
+ 	<ThingDef ParentName="PRF_RawResourceBase">
+		<defName>PRF_RawClay</defName>
+		<label>clay</label>
+		<description>Raw clay that has been mined or dug up from the ground, essential for complex masonry materials such as concrete and bricks.</description>
+		<graphicData>
+			<texPath>Resources/PRF_Clay</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.1</MarketValue>
+		     <Mass>0.20</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+ 	<ThingDef ParentName="PRF_RawResourceBase">
+		<defName>PRF_Cement</defName>
+		<label>cement</label>
+		<description>Limestone that has been heated to immense temperatures, slaked and then powdered. Used in the production of concrete and plaster.</description>
+		<graphicData>
+			<texPath>Resources/PRF_Cement</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.1</MarketValue>
+		     <Mass>0.20</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+ 	<ThingDef ParentName="PRF_RawResourceBase">
+		<defName>PRF_RawSand</defName>
+		<label>sand</label>
+		<description>Crushed rock or very dense sand that has been dug up or made from stone chunks.</description>
+		<graphicData>
+			<texPath>Resources/PRF_Sand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+		     <Mass>0.30</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+</Defs>

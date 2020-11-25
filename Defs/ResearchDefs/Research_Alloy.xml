@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+  <ResearchProjectDef>
+    <defName>PRF_StainlessSteelAlloying</defName>
+    <label>stainless steel alloying</label>
+    <description>Alloy a special type of steel immune to corrosion, a necessary material in the fabrication of prosthetic parts, bionics and synthetic organs.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>PRF_Materials</tab>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>2.55</researchViewY>
+	<prerequisites>
+		<li>PRF_SteelAlloying</li>
+	</prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>PRF_SteelAlloying</defName>
+    <label>steel alloying</label>
+    <description>Smelt Iron along with carbon obtained from wood using high temperatures, allowing you to alloy steel, a much harder and efficient material.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>PRF_Materials</tab>
+  <researchViewX>0.00</researchViewX>
+  <researchViewY>2.55</researchViewY>
+	<prerequisites>
+		<li>LongBlades</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

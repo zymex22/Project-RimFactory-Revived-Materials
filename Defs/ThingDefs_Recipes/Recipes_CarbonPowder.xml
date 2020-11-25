@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonPowder_Wood</defName>
+		<label>make carbon powder from wood</label>
+		<description>Burn wood at high temperature to produce carbon powder.</description>
+		<jobString>Making carbon powder.</jobString>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_Carbon>30</PRF_Carbon>
+		</products>
+		<workAmount>600</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceI</li>
+			<li>PRF_FurnaceII</li>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonPowder_Coal</defName>
+		<label>make carbon powder from coal</label>
+		<description>Burn coal at high temperature to produce carbon powder.</description>
+		<jobString>Making carbon powder.</jobString>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Coal</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_Coal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_Carbon>30</PRF_Carbon>
+		</products>
+		<workAmount>600</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceI</li>
+			<li>PRF_FurnaceII</li>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonPowder_Coke</defName>
+		<label>make carbon powder from coal coke</label>
+		<description>Burn coal coke at high temperature to produce carbon powder.</description>
+		<jobString>Making carbon powder.</jobString>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Coke</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_Coke</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_Carbon>30</PRF_Carbon>
+		</products>
+		<workAmount>600</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceI</li>
+			<li>PRF_FurnaceII</li>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeCarbonPowder_Chemfuel</defName>
+		<label>make carbon powder from chemfuel</label>
+		<description>Burn chemfuel at high temperature to produce carbon powder.</description>
+		<jobString>Making carbon powder.</jobString>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_Carbon>30</PRF_Carbon>
+		</products>
+		<workAmount>600</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FurnaceI</li>
+			<li>PRF_FurnaceII</li>
+			<li>PRF_FurnaceIII</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>
