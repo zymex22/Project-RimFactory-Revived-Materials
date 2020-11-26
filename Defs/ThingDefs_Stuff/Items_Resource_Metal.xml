@@ -58,7 +58,7 @@
     <label>copper ore</label>
     <description>An orange-brownish colored metal. Needs to be smelted to be of any practical use.</description>
     <graphicData>
-      <texPath>Resources/PRF_Copper</texPath>
+      <texPath>Resources/PRF_CopperOre</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
