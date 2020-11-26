@@ -196,6 +196,7 @@
 		<stuffProps>
 			<categories>
 				<li>Metallic</li>
+				<li>Woody</li>
 				<li>Stony</li>
 			</categories>
 			<commonality>0.02</commonality>
@@ -249,6 +250,7 @@
 		<stuffProps>
 			<categories>
 				<li>PRF_Glassy</li>
+				<li>Stony</li>
 			</categories>
 			<commonality>0.05</commonality>
 			<color>(148,176,180)</color>
