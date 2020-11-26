@@ -89,7 +89,7 @@
     <graphicData>
       <texPath>Resources/PRF_CopperIngot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <color>(175, 73, 27)</color>
+      <color>(175,73,27)</color>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
@@ -108,13 +108,13 @@
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
-    </thingCategories>
+    </thingCategories><!-- 
     <stackLimit>500</stackLimit>
     <smallVolume>true</smallVolume>
     <deepCommonality>1</deepCommonality>
     <deepCountPerPortion>90</deepCountPerPortion>
     <deepLumpSizeRange>10~20</deepLumpSizeRange>
-    <burnableByRecipe>false</burnableByRecipe>
+    <burnableByRecipe>false</burnableByRecipe> -->
     <smeltable>true</smeltable>
     <stuffProps>
       <categories>
@@ -146,7 +146,7 @@
     <graphicData>
       <texPath>Resources/PRF_StainlessSteel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <color>(180,173,150)</color>
+      <color>(221,211,210)</color>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
@@ -174,7 +174,7 @@
       </categories>
       <commonality>0.08</commonality>
       <constructEffect>ConstructMetal</constructEffect>
-      <color>(180,173,150)</color>
+      <color>(221,211,210)</color>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
