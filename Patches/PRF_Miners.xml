@@ -35,5 +35,29 @@
 			<li>PRF_DigSand</li>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PRF_DeepQuarry_mkI"]/recipes</xpath>
+		<value>
+			<li>PRF_DigClay</li>
+			<li>PRF_DigSand</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PRF_DeepQuarry"]/recipes</xpath>
+		<value>
+			<li>PRF_DigClay</li>
+			<li>PRF_DigSand</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PRF_DeepQuarry_mkIII"]/recipes</xpath>
+		<value>
+			<li>PRF_DigClay</li>
+			<li>PRF_DigSand</li>
+		</value>
+	</Operation>
 
 </Patch>
