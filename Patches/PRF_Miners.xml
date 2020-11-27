@@ -37,27 +37,27 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName = "PRF_DeepQuarry_mkI"]/recipes</xpath>
-		<value>
-			<li>PRF_DigClay</li>
-			<li>PRF_DigSand</li>
-		</value>
+		<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry_mkI"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_BonusYield"]/bonusYields</xpath>
+			<value>
+				<PRF_RawClay Weight="0.015" Count="10" />
+				<PRF_RawSand Weight="0.015" Count="10" />
+			</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName = "PRF_DeepQuarry"]/recipes</xpath>
-		<value>
-			<li>PRF_DigClay</li>
-			<li>PRF_DigSand</li>
-		</value>
+		<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_BonusYield"]/bonusYields</xpath>
+			<value>
+				<PRF_RawClay Weight="0.015" Count="10" />
+				<PRF_RawSand Weight="0.015" Count="10" />
+			</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName = "PRF_DeepQuarry_mkIII"]/recipes</xpath>
-		<value>
-			<li>PRF_DigClay</li>
-			<li>PRF_DigSand</li>
-		</value>
+		<xpath>/Defs/ThingDef[defName="Building_AutoMachineTool_Miner"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_BonusYield"]/bonusYields</xpath>
+			<value>
+				<PRF_RawClay Weight="0.015" Count="10" />
+				<PRF_RawSand Weight="0.015" Count="10" />
+			</value>
 	</Operation>
 
 </Patch>
