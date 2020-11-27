@@ -73,7 +73,7 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>500</stackLimit>
-    <smallVolume>true</smallVolume>
+    <smallVolume>false</smallVolume>
     <deepCommonality>1</deepCommonality>
     <deepCountPerPortion>90</deepCountPerPortion>
     <deepLumpSizeRange>10~20</deepLumpSizeRange>
