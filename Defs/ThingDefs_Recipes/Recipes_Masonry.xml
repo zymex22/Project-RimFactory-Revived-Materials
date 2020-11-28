@@ -279,9 +279,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicConcrete</researchPrerequisite>
 		<recipeUsers>
-			<li>PRF_FurnaceI</li>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
+			<li>PRF_MaterialsRefinery</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -338,8 +336,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BulkConcrete</researchPrerequisite>
 		<recipeUsers>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
+			<li>PRF_MaterialsRefinery</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -405,8 +402,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_AdvancedConcrete</researchPrerequisite>
 		<recipeUsers>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
+			<li>PRF_MaterialsRefinery</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -472,7 +468,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BulkConcrete</researchPrerequisite>
 		<recipeUsers>
-			<li>PRF_FurnaceIII</li>
+			<li>PRF_MaterialsRefinery</li>
 		</recipeUsers>
 	</RecipeDef>
 

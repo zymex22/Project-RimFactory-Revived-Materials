@@ -312,7 +312,7 @@
   
 	<RecipeDef>
     <defName>PRF_MakeStainlessSteelChemBulk</defName>
-    <label>make stainless steel in bulk</label>
+    <label>make stainless steel in bulk with chemfuel</label>
     <description>Alloy a special type of steel by mixing it with chromium and tungsten, this steel is used to make medical protheses, bionics and synthetic organs.</description>
     <jobString>Alloying stainless steel.</jobString>
     <effectWorking>Cremate</effectWorking>
@@ -363,7 +363,7 @@
   
 	<RecipeDef>
     <defName>PRF_MakeStainlessSteelCokeBulk</defName>
-    <label>make stainless steel in bulk</label>
+    <label>make stainless steel in bulk with coke</label>
     <description>Alloy a special type of steel by mixing it with chromium and tungsten, this steel is used to make medical protheses, bionics and synthetic organs.</description>
     <jobString>Alloying stainless steel.</jobString>
     <effectWorking>Cremate</effectWorking>

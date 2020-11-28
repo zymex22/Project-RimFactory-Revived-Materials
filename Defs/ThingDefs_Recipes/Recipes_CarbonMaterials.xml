@@ -219,7 +219,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_CarbonPlating</researchPrerequisite>
 		<recipeUsers>
-			<li>PRF_MetalRefinery</li>
+			<li>PRF_MaterialsRefinery</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -267,7 +267,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_CarbonPlating</researchPrerequisite>
 		<recipeUsers>
-			<li>PRF_MetalRefinery</li>
+			<li>PRF_MaterialsRefinery</li>
 		</recipeUsers>
 	</RecipeDef>
 
