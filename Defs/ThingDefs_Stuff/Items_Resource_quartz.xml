@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PRF_quartz</defName>
+    <label>quartz crystals</label>
+    <description>Quartz crystals that have been exposed to the fallout from everything that has happened to the rimworld.  Glows faintly, you probably do not want to think about why.</description>
+    <graphicData>
+      <texPath>Resources/PRF_Crystal</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.6</Mass>
+      <Flammability>0.0</Flammability>
+      <DeteriorationRate>0.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>500</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <deepCommonality>1.0</deepCommonality>
+    <deepCountPerPortion>35</deepCountPerPortion>
+    <deepLumpSizeRange>10~40</deepLumpSizeRange>
+  </ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>PRF_CrystalPowder</defName>
+		<label>crystal powder</label>
+		<description>Powdered quartz crystals, used for lighting, electronics, and abrasives.</description>
+		<graphicData>
+			<texPath>Resources/PRF_CrystalPowder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>ChunkRock_Drop</soundInteract>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>0.1</MarketValue>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Mass>0.05</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.09</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.04</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>8.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>-0.4</SharpDamageMultiplier>
+			<BluntDamageMultiplier>-0.9</BluntDamageMultiplier>
+		</statBases>
+		<tradeability>All</tradeability>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<stuffProps>
+			<categories>
+				<li>PRF_Glassy</li>
+			</categories>
+			<commonality>0</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(175,238,238)</color>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<stuffAdjective>reinforced glass</stuffAdjective>
+			<appearance>GlassAM</appearance>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>1.15</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>2</WorkToMake>
+				<WorkToBuild>2</WorkToBuild>
+			</statFactors>			
+		</stuffProps>
+	</ThingDef>
+
+</Defs>
