@@ -108,7 +108,7 @@
 
 	<RecipeDef>
 		<defName>PRF_MakeReinforcedGlassBulk</defName>
-		<label>make reinforced glass</label>
+		<label>make reinforced glass in bulk</label>
 		<description>Smelt sand and plasteel into reinforced glass.</description>
 		<jobString>Making glass.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
