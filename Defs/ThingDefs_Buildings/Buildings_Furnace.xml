@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--==================== T3 Plasma Furnace ====================-->
+  <ThingDef ParentName="PRF_FurnaceBase">
+    <defName>PRF_FurnaceIV</defName>
+    <label>Plasma Furnace</label>
+    <thingClass>ProjectRimFactory.SAL3.Things.Assemblers.Building_SimpleAssembler</thingClass>
+    <graphicData>
+      <texPath>Industry/t3_plasmaforge</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>650</MaxHitPoints>
+      <Cleanliness>2</Cleanliness>
+      <Beauty>2</Beauty>
+      <MarketValue>12352</MarketValue>
+    </statBases>
+    <description>Advanced Furnace using multiple extreme temperature plasma-arcs to smelt raw resources into useful materials, faster than previous iterations.\n\nImports any recipe from the Electric Smelter and the Crematorium.</description>
+    <costList>
+	  <Steel>200</Steel>
+      <PRF_StainlessSteel>100</PRF_StainlessSteel>
+      <Plasteel>300</Plasteel>
+      <PRFWeakAIChip>4</PRFWeakAIChip>
+      <PRFAdvancedAIChip>1</PRFAdvancedAIChip>
+      <ComponentIndustrial>20</ComponentIndustrial>
+      <ComponentSpacer>10</ComponentSpacer>
+      <PRFMachineFrameLarge>1</PRFMachineFrameLarge>
+    </costList>
+    <recipes>
+			<li>PRF_BakeBrickBulk</li>
+			<li>PRF_MakeCokeBulk</li>
+			<li>PRF_MakeBasicGlassBulk</li>
+			<li>PRF_MakeReinforcedGlassBulk</li>
+			<li>PRF_MakeSteelBulkCoal</li>
+			<li>PRF_MakeSteelBulkCoke</li>
+			<li>PRF_MakeCopperBulkCoal</li>
+			<li>PRF_MakeCopperBulkCoke</li>
+			<li>PRF_MakeStainlessSteelChemBulk</li>
+			<li>PRF_MakeStainlessSteelCokeBulk</li>
+			<li>PRF_MakeSyntheticDiamondBulk</li>
+    </recipes>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>1250</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(217,112,33,0)</glowColor>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <modExtensions>
+      <li Class="ProjectRimFactory.SAL3.Exposables.AssemblerDefModExtension">
+        <workSpeedBaseFactor>10</workSpeedBaseFactor>
+        <importRecipesFrom>
+          <li>PRF_FurnaceIII</li>
+        </importRecipesFrom>
+        <doEffect>false</doEffect>
+        <drawStatus>true</drawStatus>
+        <workingGraphicData>
+          <graphicClass>Graphic_Single</graphicClass>
+          <texPath>Industry/t3_plasmaforge_on</texPath>
+          <drawSize>(3,3)</drawSize>
+        </workingGraphicData>
+      </li>
+      <li Class="ProjectRimFactory.Common.ModExtension_Skills">
+        <SkillUsage>ThisOverrides</SkillUsage>
+        <BaseSkill>20</BaseSkill>
+        <skills>
+          <li>
+            <def>Artistic</def>
+            <levelInt>15</levelInt>
+          </li>
+        </skills>
+      </li>
+    </modExtensions>
+    <researchPrerequisites>
+      <li>PRF_MachineLearning</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>
