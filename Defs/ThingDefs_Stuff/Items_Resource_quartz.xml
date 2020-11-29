@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_quartz</defName>
     <label>quartz crystals</label>
-    <description>Quartz crystals that have been exposed to everything that has happened to the rimworld.  Glows faintly, you probably do not want to think about why.</description>
+    <description>Quartz crystals that have been exposed to everything that has happened to this rimworld.  Glows faintly, you probably do not want to think about why.</description>
     <graphicData>
       <texPath>Resources/PRF_CrystalOre</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -21,7 +21,6 @@
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <stackLimit>500</stackLimit>
     <healthAffectsPrice>false</healthAffectsPrice>
     <deepCommonality>1.0</deepCommonality>
     <deepCountPerPortion>35</deepCountPerPortion>
@@ -29,7 +28,7 @@
 	<comps>
 	<li Class="CompProperties_Glower">
         <glowRadius>4</glowRadius>
-        <glowColor>(249,255,125,86)</glowColor>
+        <glowColor>(175,198,233,86)</glowColor>
     </li>
 	</comps>
 	<stuffProps>
@@ -83,6 +82,12 @@
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
+		<comps>
+		<li Class="CompProperties_Glower">
+			<glowRadius>2</glowRadius>
+			<glowColor>(175,198,233,86)</glowColor>
+		</li>
+		</comps>
 		<burnableByRecipe>true</burnableByRecipe>
 		<smeltable>false</smeltable>	
 	</ThingDef>

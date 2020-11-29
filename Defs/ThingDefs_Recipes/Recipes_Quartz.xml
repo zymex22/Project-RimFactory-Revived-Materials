@@ -14,17 +14,17 @@
 		<ingredients>
 			<li>
 				<filter>
-					<categories>
+					<thingDefs>
 						<li>PRF_quartz</li>
-					</categories>
+					</thingDefs>
 				</filter>
 				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
+			<thingDefs>
 				<li>PRF_quartz</li>
-			</categories>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<PRF_CrystalPowder>5</PRF_CrystalPowder>

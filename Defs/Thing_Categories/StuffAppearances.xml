@@ -16,6 +16,10 @@
   <StuffAppearanceDef>
     <defName>FiberAM</defName>
   </StuffAppearanceDef>
+  
+  <StuffAppearanceDef>
+    <defName>QuartzAM</defName>
+  </StuffAppearanceDef>
 
 </Defs>
 
