@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>PRF_CrushQuartz</defName>
+		<label>crush quartz into crystal powder</label>
+		<description>pulverise quartz into crystal powder.</description>
+		<jobString>Crushing quartz.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		<soundWorking>Interact_ConstructDirt</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PRF_quartz</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>PRF_quartz</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_CrystalPowder>5</PRF_CrystalPowder>
+		</products>
+		<workSkill>Mining</workSkill>
+		<recipeUsers>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>
