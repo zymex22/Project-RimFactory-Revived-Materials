@@ -1,6 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingDef ParentName="BuildingBase" >
+		<defName>PRF_QuartzTorch</defName>
+		<label>quartz torch</label>
+		<description>Not so much a torch as a glowing piece of rock strapped to a stick, but it's better than nothing.</description>
+		<graphicData>
+			<texPath>Building/sconce</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<designationCategory>Furniture</designationCategory>
+		<pathCost>0</pathCost>
+		<costList>
+			<WoodLog>1</WoodLog>
+			<PRF_quartz>1</PRF_quartz>
+		</costList>
+		<statBases>
+			<Beauty>5</Beauty>
+			<WorkToBuild>50</WorkToBuild>
+			<Flammability>0.0</Flammability>
+			<Mass>1.5</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<uiIconPath>Building/sconce_MenuIcon</uiIconPath>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<fillPercent>0</fillPercent>
+		<comps>
+		  <li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+			<glowRadius>7</glowRadius>
+			<glowColor>(140,200,250,0)</glowColor>
+			<key>PRF_Cool_White</key>
+			<moreColors>
+				  <li>
+					<key>PRF_Blue</key>
+					<color>(80,80,217,0)</color>
+				  </li>
+			</moreColors>
+		  </li>
+		</comps>
+		<specialDisplayRadius>7</specialDisplayRadius>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+	</ThingDef>
+
 	<ThingDef ParentName="LampBase" >
 		<defName>PRF_QuartzPylon</defName>
 		<label>crystal pylon</label>
