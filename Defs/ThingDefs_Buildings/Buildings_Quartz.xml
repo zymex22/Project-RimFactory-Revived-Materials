@@ -39,20 +39,12 @@
 					<color>(140,200,250,0)</color>
 				  </li>
 				  <li>
-					<key>PRF_Green</key>
-					<color>(80,217,80,0)</color>
-				  </li>
-				  <li>
 					<key>PRF_Blue</key>
 					<color>(80,80,217,0)</color>
 				  </li>
 				  <li>
 					<key>PRF_Cyan</key>
 					<color>(10,245,245,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Yellow</key>
-					<color>(240,240,20,0)</color>
 				  </li>
 			</moreColors>
 			<prerequisites>
@@ -101,20 +93,12 @@
 					<color>(140,200,250,0)</color>
 				  </li>
 				  <li>
-					<key>PRF_Green</key>
-					<color>(80,217,80,0)</color>
-				  </li>
-				  <li>
 					<key>PRF_Blue</key>
 					<color>(80,80,217,0)</color>
 				  </li>
 				  <li>
 					<key>PRF_Cyan</key>
 					<color>(10,245,245,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Yellow</key>
-					<color>(240,240,20,0)</color>
 				  </li>
 			</moreColors>
 			<prerequisites>
@@ -169,20 +153,12 @@
 					<color>(140,200,250,0)</color>
 				  </li>
 				  <li>
-					<key>PRF_Green</key>
-					<color>(80,217,80,0)</color>
-				  </li>
-				  <li>
 					<key>PRF_Blue</key>
 					<color>(80,80,217,0)</color>
 				  </li>
 				  <li>
 					<key>PRF_Cyan</key>
 					<color>(10,245,245,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Yellow</key>
-					<color>(240,240,20,0)</color>
 				  </li>
 			</moreColors>
 			<prerequisites>
@@ -239,20 +215,12 @@
 					<color>(140,200,250,0)</color>
 				  </li>
 				  <li>
-					<key>PRF_Green</key>
-					<color>(80,217,80,0)</color>
-				  </li>
-				  <li>
 					<key>PRF_Blue</key>
 					<color>(80,80,217,0)</color>
 				  </li>
 				  <li>
 					<key>PRF_Cyan</key>
 					<color>(10,245,245,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Yellow</key>
-					<color>(240,240,20,0)</color>
 				  </li>
 			</moreColors>
 			<prerequisites>
@@ -309,20 +277,12 @@
 					<color>(140,200,250,0)</color>
 				  </li>
 				  <li>
-					<key>PRF_Green</key>
-					<color>(80,217,80,0)</color>
-				  </li>
-				  <li>
 					<key>PRF_Blue</key>
 					<color>(80,80,217,0)</color>
 				  </li>
 				  <li>
 					<key>PRF_Cyan</key>
 					<color>(10,245,245,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Yellow</key>
-					<color>(240,240,20,0)</color>
 				  </li>
 			</moreColors>
 			<prerequisites>
