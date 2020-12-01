@@ -7,8 +7,8 @@
           <PRF_Iron Weight="0.02" Count="50" />
           <PRF_Coal Weight="0.04" Count="20" />
           <PRF_Fossil Weight="0.01" Count="1" />
-          <PRF_Sand Weight="0.04" Count="10" />
-          <PRF_Clay Weight="0.02" Count="20" />
+          <PRF_RawSand Weight="0.04" Count="10" />
+          <PRF_RawClay Weight="0.02" Count="20" />
 		</value>
 	</Operation>
 
@@ -18,8 +18,8 @@
           <PRF_Iron Weight="0.09" Count="50" />
           <PRF_Coal Weight="0.04" Count="20" />
           <PRF_Fossil Weight="0.01" Count="1" />
-          <PRF_Sand Weight="0.04" Count="20" />
-          <PRF_Clay Weight="0.02" Count="40" />
+          <PRF_RawSand Weight="0.04" Count="20" />
+          <PRF_RawClay Weight="0.02" Count="40" />
 		</value>
 	</Operation>
 
@@ -29,8 +29,8 @@
           <PRF_Iron Weight=".18" Count="50" />
           <PRF_Coal Weight="0.04" Count="20" />
           <PRF_Fossil Weight="0.01" Count="1" />
-          <PRF_Sand Weight="0.04" Count="40" />
-          <PRF_Clay Weight="0.02" Count="50" />
+          <PRF_RawSand Weight="0.04" Count="40" />
+          <PRF_RawClay Weight="0.02" Count="50" />
 		</value>
 	</Operation>
 	
