@@ -84,7 +84,7 @@
   
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_CopperIngot</defName>
-    <label>copper ingot</label>
+    <label>copper</label>
     <description>An orange-brownish colored metal, great electricity conductor.\n\nThis metal is not so strong, but it is a main ingredient in the making of electrical devices and components, that makes it highly valuable for traders.</description>
     <graphicData>
       <texPath>Resources/PRF_CopperIngot</texPath>
