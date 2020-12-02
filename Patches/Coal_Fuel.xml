@@ -7,11 +7,22 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef/comps/li[@Class = "CompProperties_Refuelable" and fuelFilter/thingDefs/li[text() = "WoodLog"]]/fuelFilter/thingDefs</xpath>
 				<value>
-					<li>PRF_Coke</li>
+					<li>PRF_Coal</li>
 				</value>
 			</li>
 		</operations>
 	</Operation>
-
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Expanded Woodworking</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable" and fuelFilter/thingDefs/li[.="WoodLog_Generic"]]/fuelFilter/thingDefs</xpath>
+			<value>
+				<li>PRF_Coal</li>
+			</value>
+		</match>
+	</Operation>
 	
 </Patch>
