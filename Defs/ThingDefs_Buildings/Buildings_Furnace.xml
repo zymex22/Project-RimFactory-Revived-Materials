@@ -11,6 +11,9 @@
       <drawSize>(3,3)</drawSize>
     </graphicData>
     <size>(3,3)</size>
+    <inspectorTabs>
+      <li>ProjectRimFactory.Common.ITab_PowerSupply</li>      <!-- Power boost -->
+    </inspectorTabs>
     <statBases>
       <MaxHitPoints>650</MaxHitPoints>
       <Cleanliness>2</Cleanliness>
@@ -44,8 +47,23 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <shortCircuitInRain>false</shortCircuitInRain>
-        <basePowerConsumption>1250</basePowerConsumption>
+        <basePowerConsumption>0</basePowerConsumption>
+      </li>
+      <li Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting">
+        <!-- speed settings -->
+        <speedSetting>true</speedSetting>
+        <minPowerForSpeed>1000</minPowerForSpeed>
+        <minSpeedFactor>2</minSpeedFactor>
+        <maxPowerForSpeed>10000</maxPowerForSpeed>
+        <maxSpeedFactor>7</maxSpeedFactor>
+        <!-- range settings -->
+        <rangeSetting>true</rangeSetting>
+        <minPowerForRange>0</minPowerForRange>
+        <minRange>1</minRange>
+        <maxPowerForRange>500</maxPowerForRange>
+        <maxRange>5</maxRange>
+        <allowManualRangeTypeChange>true</allowManualRangeTypeChange>
+        <rangeType>ProjectRimFactory.Common.RectRange</rangeType>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>5</glowRadius>

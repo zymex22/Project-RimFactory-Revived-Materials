@@ -17,21 +17,12 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>PRF_Carbon</li>
-					</thingDefs>
-				</filter>
-				<count>20</count>
+				<count>25</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Chemfuel</li>
-				<li>PRF_Carbon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -65,21 +56,12 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>45</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>PRF_Carbon</li>
-					</thingDefs>
-				</filter>
-				<count>200</count>
+				<count>250</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Chemfuel</li>
-				<li>PRF_Carbon</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

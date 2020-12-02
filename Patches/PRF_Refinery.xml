@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!--================== Metal Refinery ====================-->
-<!-- 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "PRF_MetalRefinery"]/label</xpath>
-		<value>
-			<label>Material Refinery</label>
-		</value>
-	</Operation>
- -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "PRF_MetalRefinery"]/recipes</xpath>
 		<value>
@@ -22,14 +14,6 @@
 			<li>PRF_MakeCarbonKevlarBulk</li>
 		</value>
 	</Operation>
-<!-- 
-	<Operation Class="PatchOperationAdd">		
-		<xpath>/Defs/ThingDef[defName="PRF_MaterialsRefinery"]/modExtensions/li[@Class="ProjectRimFactory.SAL3.Exposables.AssemblerDefModExtension"]/importRecipesFrom</xpath>
-		<value>
-			<li>BiofuelRefinery</li>
-		</value>
-	</Operation>
- -->
 
 	<!--================== Furnaces ====================-->
 	<Operation Class="PatchOperationAdd">
@@ -50,43 +34,23 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "PRF_FurnaceII"]/recipes</xpath>
 		<value>
-			<li>PRF_MakeCharcoal</li>
 			<li>PRF_MakeCoke</li>
-			<li>PRF_BakeBrick</li>
 			<li>PRF_MakeBasicGlass</li>
 			<li>PRF_MakeSteelCoal</li>
 			<li>PRF_MakeSteelCoke</li>
 			<li>PRF_MakeCopperCoal</li>
 			<li>PRF_MakeCopperCoke</li>
-			<li>PRF_MakeCarbonPowder_Wood</li>
-			<li>PRF_MakeCarbonPowder_Coal</li>
-			<li>PRF_MakeCarbonPowder_Coke</li>
-			<li>PRF_MakeCarbonPowder_Chemfuel</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "PRF_FurnaceIII"]/recipes</xpath>
 		<value>
-			<li>PRF_MakeCharcoal</li>
-			<li>PRF_MakeCoke</li>
-			<li>PRF_BakeBrick</li>
-			<li>PRF_MakeBasicGlass</li>
 			<li>PRF_MakeReinforcedGlass</li>
-			<li>PRF_MakeSteelCoal</li>
-			<li>PRF_MakeSteelCoke</li>
-			<li>PRF_MakeCopperCoal</li>
-			<li>PRF_MakeCopperCoke</li>
 			<li>PRF_MakeStainlessSteelChem</li>
 			<li>PRF_MakeStainlessSteelCoke</li>
-			<li>PRF_MakeCarbonPowder_Wood</li>
-			<li>PRF_MakeCarbonPowder_Coal</li>
-			<li>PRF_MakeCarbonPowder_Coke</li>
-			<li>PRF_MakeCarbonPowder_Chemfuel</li>
 			<li>PRF_MakeSyntheticDiamond</li>
 		</value>
 	</Operation>
-
-
 
 </Patch>

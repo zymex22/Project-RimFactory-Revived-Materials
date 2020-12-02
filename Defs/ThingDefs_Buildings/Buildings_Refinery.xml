@@ -14,7 +14,6 @@
     <designatorDropdown>PRF_industry_gr</designatorDropdown>
     <size>(3,3)</size>
     <inspectorTabs>
-      <li>ProjectRimFactory.SAL3.UI.ITab_SAL3Bills</li>
       <li>ProjectRimFactory.Common.ITab_PowerSupply</li>      <!-- Power boost -->
     </inspectorTabs>
     <statBases>
