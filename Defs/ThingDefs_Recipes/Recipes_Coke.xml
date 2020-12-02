@@ -30,10 +30,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_CokeProduction</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 	
 	<RecipeDef>
@@ -65,9 +61,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_CokeProduction</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 	
 </Defs>

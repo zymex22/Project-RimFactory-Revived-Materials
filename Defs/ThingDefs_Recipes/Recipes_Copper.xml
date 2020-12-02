@@ -10,9 +10,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>7000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceI</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -52,9 +49,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>6000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceI</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -95,10 +89,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>14000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceII</li>
-		<li>PRF_FurnaceIII</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -138,10 +128,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>11000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceII</li>
-		<li>PRF_FurnaceIII</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>

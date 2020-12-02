@@ -35,9 +35,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MetalRefinery</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -74,9 +71,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_AdvPlastics</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MetalRefinery</li>
-		</recipeUsers>
 	</RecipeDef>	
 
 	<RecipeDef>
@@ -116,9 +110,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicPlasticTextiles</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MetalRefinery</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -158,9 +149,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicPlasticTextiles</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MetalRefinery</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -200,9 +188,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_AdvPlasticTextiles</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MetalRefinery</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -242,9 +227,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_AdvPlasticTextiles</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MetalRefinery</li>
-		</recipeUsers>
 	</RecipeDef>
 	
 </Defs>

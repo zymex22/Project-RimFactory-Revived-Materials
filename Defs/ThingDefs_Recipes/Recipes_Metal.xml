@@ -12,7 +12,6 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 	<recipeUsers>
 		<li>BiofuelRefinery</li>
-		<li>PRF_MetalRefinery</li>
 	</recipeUsers>
     <ingredients>
       <li>
@@ -43,9 +42,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>7000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceI</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -85,9 +81,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>6000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceI</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -128,10 +121,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>14000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceII</li>
-		<li>PRF_FurnaceIII</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -171,10 +160,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>11000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceII</li>
-		<li>PRF_FurnaceIII</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -215,10 +200,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>4000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceII</li>
-		<li>PRF_FurnaceIII</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -267,10 +248,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>3500</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceII</li>
-		<li>PRF_FurnaceIII</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -319,9 +296,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>35000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceIII</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -370,9 +344,6 @@
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>30000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>PRF_FurnaceIII</li>
-	</recipeUsers>
     <ingredients>
       <li>
         <filter>

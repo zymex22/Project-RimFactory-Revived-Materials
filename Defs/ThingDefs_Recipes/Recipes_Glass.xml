@@ -27,10 +27,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -59,9 +55,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -101,9 +94,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_ReinforcedGlass</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -143,9 +133,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_ReinforcedGlass</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 </Defs>

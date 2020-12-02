@@ -35,11 +35,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceI</li>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -76,11 +71,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceI</li>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -117,11 +107,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceI</li>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -158,11 +143,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceI</li>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 </Defs>

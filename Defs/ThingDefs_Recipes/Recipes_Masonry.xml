@@ -179,11 +179,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Brick</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceI</li>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -220,10 +215,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Brick</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_FurnaceII</li>
-			<li>PRF_FurnaceIII</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -278,9 +269,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicConcrete</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MaterialsRefinery</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -335,9 +323,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BulkConcrete</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MaterialsRefinery</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -401,9 +386,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_AdvancedConcrete</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MaterialsRefinery</li>
-		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -467,9 +449,6 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BulkConcrete</researchPrerequisite>
-		<recipeUsers>
-			<li>PRF_MaterialsRefinery</li>
-		</recipeUsers>
 	</RecipeDef>
 
 </Defs>
