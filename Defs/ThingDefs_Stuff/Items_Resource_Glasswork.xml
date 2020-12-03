@@ -75,7 +75,7 @@
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<stuffAdjective>reinforced glass</stuffAdjective>
-			<appearance>GlassAM</appearance>
+			<appearance>ReinforceAM</appearance>
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
 				<Beauty>1.15</Beauty>

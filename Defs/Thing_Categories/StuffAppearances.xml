@@ -20,6 +20,10 @@
   <StuffAppearanceDef>
     <defName>QuartzAM</defName>
   </StuffAppearanceDef>
+  
+  <StuffAppearanceDef>
+    <defName>ReinforceAM</defName>
+  </StuffAppearanceDef>
 
 </Defs>
 

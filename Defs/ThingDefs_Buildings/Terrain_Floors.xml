@@ -177,8 +177,7 @@
 		<defName>PRF_KevlarCarpet</defName>
 		<label>kevlar</label>
 		<description>Kevlar weave, for when you need your floors to stop bullets.</description>
-		<texturePath>Building/Floors/PRF_WeaveFloor</texturePath>
-        <color>(112,142,112)</color>
+		<texturePath>Building/Floors/PRF_KevlarFloor</texturePath>
 		<edgeType>Hard</edgeType>
 		<renderPrecedence>150</renderPrecedence>
 		<designatorDropdown>PRF_Floor_Polished</designatorDropdown>
@@ -199,7 +198,7 @@
 		<label>carbon fiber</label>
 		<description>Pretty, but really itchy if you roll around on it.</description>
 		<texturePath>Building/Floors/PRF_WeaveFloor</texturePath>
-		<color>(50,50,50)</color>
+		<color>(100,100,100)</color>
 		<edgeType>Hard</edgeType>
 		<renderPrecedence>150</renderPrecedence>
 		<designatorDropdown>PRF_Floor_Polished</designatorDropdown>
@@ -219,8 +218,8 @@
 		<defName>PRF_CarbonKevlarCarpet</defName>
 		<label>carbon kevlar weave</label>
 		<description>Carbon Fiber/Kevlar composite.  Really?  does your floor need to stop anti-tank rounds?</description>
-		<texturePath>Building/Floors/PRF_WeaveFloor</texturePath>
-		<color>(75,75,75)</color>
+		<texturePath>Building/Floors/PRF_KevlarFloor</texturePath>
+		<color>(150,150,150)</color>
 		<edgeType>Hard</edgeType>
 		<renderPrecedence>150</renderPrecedence>
 		<designatorDropdown>PRF_Floor_Polished</designatorDropdown>
