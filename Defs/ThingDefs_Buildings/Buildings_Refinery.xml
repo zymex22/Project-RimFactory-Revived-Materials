@@ -24,10 +24,10 @@
       <Flammability>0.5</Flammability>
     </statBases>
     <costList>
-      <PRFRoboticArm>2</PRFRoboticArm>
-      <PRFWeakAIChip>2</PRFWeakAIChip>
-      <PRFAdvancedAIChip>1</PRFAdvancedAIChip>
-      <PRFMachineFrameLarge>1</PRFMachineFrameLarge>
+      <PRF_RoboticArm>2</PRF_RoboticArm>
+      <PRF_ElectronicChip_I>2</PRF_ElectronicChip_I>
+      <PRF_ElectronicChip_II>1</PRF_ElectronicChip_II>
+      <PRF_MachineFrame_III>1</PRF_MachineFrame_III>
       <Plasteel>200</Plasteel>
       <Steel>100</Steel>
       <PRF_StainlessSteel>50</PRF_StainlessSteel>
