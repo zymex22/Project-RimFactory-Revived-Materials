@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Jewelry -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Jewelry</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Sapphire"]/stuffProps/categories</xpath>
+					<value>
+						<li>PRF_Glassy</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Ruby"]/stuffProps/categories</xpath>
+					<value>
+						<li>PRF_Glassy</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Diamond"]/stuffProps/categories</xpath>
+					<value>
+						<li>PRF_Glassy</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Sapphire"]/stuffProps</xpath>
+					<value>
+						<appearance>GlassAM</appearance>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Ruby"]/stuffProps</xpath>
+					<value>
+						<appearance>GlassAM</appearance>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Diamond"]/stuffProps</xpath>
+					<value>
+						<appearance>GlassAM</appearance>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
