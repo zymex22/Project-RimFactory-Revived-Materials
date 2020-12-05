@@ -43,6 +43,10 @@
 			<li>PRF_MakeStainlessSteelChemBulk</li>
 			<li>PRF_MakeStainlessSteelCokeBulk</li>
 			<li>PRF_MakeSyntheticDiamondBulk</li>
+			<li>PRF_MakeCarbonPowder_Coke</li>
+			<li>PRF_MakeCarbonPowder_Wood</li>
+			<li>PRF_MakeCarbonPowder_Coal</li>
+			<li>PRF_MakeCarbonPowder_Chemfuel</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Power">
