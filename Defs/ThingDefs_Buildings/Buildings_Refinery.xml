@@ -49,8 +49,8 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>0</basePowerConsumption>
       </li>
-      <li>
-        <compClass>ProjectRimFactory.Common.CompOutputAdjustable</compClass>
+      <li Class="ProjectRimFactory.Common.CompProperties_CompOutputAdjustable">
+        <SupportDiagonal>true</SupportDiagonal>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
