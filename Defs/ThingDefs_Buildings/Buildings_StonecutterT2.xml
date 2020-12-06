@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--==================== Materials Refinery ====================-->
+  <ThingDef ParentName="PRF_IndustrialBase">
+    <defName>PRF_T2_Stonecutter</defName>
+    <label>Stone Fabricator</label>
+    <description>A fabricator designed to quickly and efficiently process stone-like materials using diamond cutters.</description>
+    <thingClass>ProjectRimFactory.SAL3.Things.Assemblers.Building_SimpleAssembler</thingClass>    <!-- Using assembler type -->
+    <graphicData>
+      <texPath>Industry/T2StoneFabricator</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <designatorDropdown>PRF_industry_gr</designatorDropdown>
+    <size>(2,2)</size>
+    <inspectorTabs>
+      <li>ProjectRimFactory.SAL3.UI.ITab_SAL3Bills</li>
+      <li>ProjectRimFactory.Common.ITab_PowerSupply</li>      <!-- Power boost -->
+    </inspectorTabs>
+    <statBases>
+      <WorkToBuild>3500</WorkToBuild>
+      <MaxHitPoints>350</MaxHitPoints>
+      <MarketValue>2850</MarketValue>
+      <Flammability>0.1</Flammability>
+    </statBases>
+    <costList>
+      <PRF_RoboticArm>2</PRF_RoboticArm>
+      <PRF_ElectronicChip_I>2</PRF_ElectronicChip_I>
+      <PRF_ElectronicChip_II>1</PRF_ElectronicChip_II>
+      <PRF_MachineFrame_II>1</PRF_MachineFrame_II>
+      <Plasteel>100</Plasteel>
+      <Steel>50</Steel>
+      <PRF_SyntheticDiamond>50</PRF_SyntheticDiamond>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>0</basePowerConsumption>
+      </li>
+      <li Class="ProjectRimFactory.Common.CompProperties_CompOutputAdjustable">
+        <SupportDiagonal>true</SupportDiagonal>
+      </li>
+      <li Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting">
+        <!-- speed settings -->
+        <speedSetting>true</speedSetting>
+        <minPowerForSpeed>3000</minPowerForSpeed>
+        <minSpeedFactor>2</minSpeedFactor>
+        <maxPowerForSpeed>10000</maxPowerForSpeed>
+        <maxSpeedFactor>7</maxSpeedFactor>
+        <!-- range settings -->
+        <rangeSetting>true</rangeSetting>
+        <minPowerForRange>0</minPowerForRange>
+        <minRange>1</minRange>
+        <maxPowerForRange>500</maxPowerForRange>
+        <maxRange>3</maxRange>
+        <allowManualRangeTypeChange>true</allowManualRangeTypeChange>
+        <rangeType>ProjectRimFactory.Common.RectRange</rangeType>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ProjectRimFactory.SAL3.Exposables.AssemblerDefModExtension">
+        <drawStatus>true</drawStatus>
+        <doEffect>false</doEffect>
+        <importRecipesFrom>
+          <li>TableStonecutter</li>
+        </importRecipesFrom>
+      </li>
+      <li Class="ProjectRimFactory.Common.ModExtension_Skills">
+        <SkillUsage>ThisOverrides</SkillUsage>
+        <BaseSkill>16</BaseSkill>
+        <skills>
+          <li>
+            <def>Artistic</def>
+            <levelInt>14</levelInt>
+          </li>
+        </skills>
+      </li>
+    </modExtensions>
+    <staticSunShadowHeight>1</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+      <li>PRF_CoreTierII</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>
