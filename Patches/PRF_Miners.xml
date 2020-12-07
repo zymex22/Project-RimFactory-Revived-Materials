@@ -39,6 +39,9 @@
 		<value>
 			<li>PRF_DigClay</li>
 			<li>PRF_DigSand</li>
+			<li>PRF_Excavate_Iron</li>
+			<li>PRF_Excavate_Coal</li>
+			<li>PRF_Excavate_Copper</li>
 		</value>
 	</Operation>
 

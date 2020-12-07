@@ -450,5 +450,40 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BulkConcrete</researchPrerequisite>
 	</RecipeDef>
+	
+<!-- 	Recipes for T0 Miner -->
+
+	<RecipeDef ParentName="PRF_MiningWork">
+		<defName>PRF_Excavate_Iron</defName>
+		<label>mine iron</label>
+		<description>mining iron.</description>
+		<jobString>Mining iron</jobString>
+		<workAmount>655</workAmount>
+		<products>
+			<PRF_Iron>5</PRF_Iron>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="PRF_MiningWork">
+		<defName>PRF_Excavate_Coal</defName>
+		<label>mine coal</label>
+		<description>mining coal.</description>
+		<jobString>Mining coal</jobString>
+		<workAmount>655</workAmount>
+		<products>
+			<PRF_Coal>5</PRF_Coal>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="PRF_MiningWork">
+		<defName>PRF_Excavate_Copper</defName>
+		<label>mine copper</label>
+		<description>mining copper.</description>
+		<jobString>Mining copper</jobString>
+		<workAmount>655</workAmount>
+		<products>
+			<PRF_Copper>5</PRF_Copper>
+		</products>
+	</RecipeDef>
 
 </Defs>
