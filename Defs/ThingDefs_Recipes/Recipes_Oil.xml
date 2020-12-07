@@ -32,6 +32,70 @@
 		  <PRF_Oil>85</PRF_Oil>
 		</products>
 	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeChemfuelFromOil</defName>
+		<label>make chemfuel from oil</label>
+		<description>Cracking oil to produce chemfuel.</description>
+		<jobString>Refining chemfuel from oil.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>4000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>PRF_Oil</li>
+			  </thingDefs>
+			</filter>
+			<count>10</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>PRF_Oil</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+		  <Chemfuel>5</Chemfuel>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeChemfuelFromOilBulk</defName>
+		<label>make chemfuel from oil in bulk</label>
+		<description>Cracking oil to produce chemfuel.</description>
+		<jobString>Refining chemfuel from oil.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>7600</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>PRF_Oil</li>
+			  </thingDefs>
+			</filter>
+			<count>100</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>PRF_Oil</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+		  <Chemfuel>50</Chemfuel>
+		</products>
+	</RecipeDef>
 	
 	<RecipeDef>
 		<defName>PRF_MakeMixedPlasticOil</defName>
