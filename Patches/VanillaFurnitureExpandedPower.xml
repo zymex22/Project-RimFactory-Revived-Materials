@@ -115,16 +115,6 @@
 			</li>
 			<!-- GENERATORS -->
 			<li Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef [defName = "VPE_HelixienGenerator"]/costList</xpath>
-			<value>
-				<costList>
-					<PRF_Concrete>40</PRF_Concrete>
-					<Steel>60</Steel>
-					<ComponentIndustrial>3</ComponentIndustrial>
-				</costList>
-			</value>
-			</li>
-			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VPE_IndustrialHelixienGenerator"]/costList</xpath>
 			<value>
 				<costList>

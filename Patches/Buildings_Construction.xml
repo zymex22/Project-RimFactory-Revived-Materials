@@ -196,28 +196,6 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "WoodFiredGenerator"]/costList</xpath>
-		<value>
-			<costList>
-			  <PRF_Concrete>40</PRF_Concrete>
-			  <Steel>60</Steel>
-			  <ComponentIndustrial>2</ComponentIndustrial>
-			</costList>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/costList</xpath>
-		<value>
-			<costList>
-			  <PRF_Concrete>40</PRF_Concrete>
-			  <Steel>60</Steel>
-			  <ComponentIndustrial>3</ComponentIndustrial>
-			</costList>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName = "GeothermalGenerator"]/costList</xpath>
 		<value>
 			<costList>

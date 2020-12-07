@@ -1,37 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<RecipeDef>
-    <defName>PRF_MakeChemfuelFromFossil</defName>
-    <label>make chemfuel from fossil</label>
-    <description>A somewhat long proces that extracts huge amounts of chemfuel from fossils.</description>
-    <jobString>Refining chemfuel from fossils.</jobString>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>5000</workAmount>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>BiofuelRefinery</li>
-	</recipeUsers>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PRF_Fossil</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>PRF_Fossil</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <Chemfuel>75</Chemfuel>
-    </products>
-  </RecipeDef>
   
 	<RecipeDef>
     <defName>PRF_MakeSteelCoal</defName>
@@ -69,7 +37,7 @@
     <products>
       <Steel>70</Steel>
     </products>
-	<researchPrerequisite>PRF_SteelAlloying</researchPrerequisite>
+	<researchPrerequisite>Smithing</researchPrerequisite>
   </RecipeDef>
   
 	<RecipeDef>
@@ -108,7 +76,7 @@
     <products>
       <Steel>70</Steel>
     </products>
-	<researchPrerequisite>PRF_SteelAlloying</researchPrerequisite>
+	<researchPrerequisite>Smithing</researchPrerequisite>
   </RecipeDef>
   
   <!-- Steel Bulk Making -->

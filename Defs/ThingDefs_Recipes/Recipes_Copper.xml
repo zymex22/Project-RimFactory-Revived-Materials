@@ -37,7 +37,7 @@
     <products>
       <PRF_CopperIngot>70</PRF_CopperIngot>
     </products>
-	<researchPrerequisite>PRF_SteelAlloying</researchPrerequisite>
+	<researchPrerequisite>Smithing</researchPrerequisite>
   </RecipeDef>
   
 	<RecipeDef>
@@ -76,7 +76,7 @@
     <products>
       <PRF_CopperIngot>70</PRF_CopperIngot>
     </products>
-	<researchPrerequisite>PRF_SteelAlloying</researchPrerequisite>
+	<researchPrerequisite>Smithing</researchPrerequisite>
   </RecipeDef>
   
   <!-- Steel Bulk Making -->

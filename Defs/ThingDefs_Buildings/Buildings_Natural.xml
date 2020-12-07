@@ -122,4 +122,31 @@
     </building>
   </ThingDef>
   
+  
+  <ThingDef ParentName="RockBase">
+    <defName>PRF_MineableSteelSlag</defName>
+    <label>steel slags</label>
+    <description>The remains of some collapsed structure. Contains some scrap of buildings, needs smelting to be useful.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(128,128,128)</color>
+      <colorTwo>(66,66,66)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+	  <mineableThing>ChunkSlagSteel</mineableThing>
+      <mineableYield>1</mineableYield>
+      <mineableScatterCommonality>0.15</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>50</min>
+        <max>50</max>
+      </mineableScatterLumpSizeRange>
+	</building>
+  </ThingDef>
+  
 </Defs>

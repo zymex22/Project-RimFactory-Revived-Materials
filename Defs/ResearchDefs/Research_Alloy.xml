@@ -3,30 +3,16 @@
 	
   <ResearchProjectDef>
     <defName>PRF_StainlessSteelAlloying</defName>
-    <label>stainless steel alloying</label>
-    <description>Alloy steel to create a material immune to corrosion, useful for many surgical and industrial applications.</description>
+    <label>Alloying</label>
+    <description>Alloy materials to create materials for industrial applications.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>PRF_Materials</tab>
   <researchViewX>1.00</researchViewX>
   <researchViewY>0.00</researchViewY>
 	<prerequisites>
-		<li>PRF_SteelAlloying</li>
+		<li>Smithing</li>
 	</prerequisites>
   </ResearchProjectDef>
-  
-  <ResearchProjectDef>
-    <defName>PRF_SteelAlloying</defName>
-    <label>metal refining</label>
-    <description>Refine raw ores into metals with more valuable properties.</description>
-    <baseCost>800</baseCost>
-    <techLevel>Medieval</techLevel>
-    <tab>PRF_Materials</tab>
-  <researchViewX>1.00</researchViewX>
-  <researchViewY>0.00</researchViewY>
-	<prerequisites>
-		<li>LongBlades</li>
-	</prerequisites>
-  </ResearchProjectDef>  
 
 </Defs>
