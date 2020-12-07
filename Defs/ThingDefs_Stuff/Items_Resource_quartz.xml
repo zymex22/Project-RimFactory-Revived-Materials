@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_quartz</defName>
     <label>quartz crystals</label>
-    <description>Quartz crystals that have been exposed to everything that has happened to this rimworld.  Glows faintly, you probably do not want to think about why.</description>
+    <description>Quartz crystals that have been exposed to everything that has happened to this rimworld.  Glows faintly, you probably do not want to think about it.</description>
     <graphicData>
       <texPath>Resources/PRF_CrystalOre</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -56,7 +56,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>PRF_CrystalPowder</defName>
 		<label>crystal powder</label>
-		<description>Powdered quartz crystals, used for lighting, electronics, and abrasives.</description>
+		<description>Chrushed quartz crystals, that is properly equivalent to Silica, which is commonly used in structural material, microelectronics and as abrasives.\nIt still have that strange glow? i wonder what sort of effect this will have on endproducts, properly safe, don't think about it.\nCan properly be used as some sort of lamps too?</description>
 		<graphicData>
 			<texPath>Resources/PRF_CrystalPowder</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
