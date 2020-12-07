@@ -4,7 +4,7 @@
 	<RecipeDef>
 		<defName>PRF_MakeMixedPlastic</defName>
 		<label>make plastic</label>
-		<description>Reform the hydrocarbons within crude oil or bio-oil to produce a solidified form that can be used in construction.</description>
+		<description>Reform the hydrocarbons within chemfuel to produce a solidified form that can be used in construction.</description>
 		<jobString>Making plastic.</jobString>  
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
@@ -40,7 +40,7 @@
 	<RecipeDef>
 		<defName>PRF_MakeMixedPlasticBulk</defName>
 		<label>make bulk plastic</label>
-		<description>Reform the hydrocarbons within crude oil or bio-oil to produce a large solidified form that can be used in construction.</description>
+		<description>Reform the hydrocarbons within chemfuel to produce a large solidified form that can be used in construction.</description>
 		<jobString>Making plastic.</jobString>  
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>

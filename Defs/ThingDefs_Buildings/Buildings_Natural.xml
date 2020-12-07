@@ -98,5 +98,51 @@
     </li>
 	</comps>
   </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>PRF_MineableDiamond</defName>
+    <label>raw diamond</label>
+    <description>Diamond is a natural crystalline material with many uses once it is processed.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(97,95,105)</color>
+      <colorTwo>(175,198,233)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>PRF_quartz</mineableThing>
+      <mineableYield>20</mineableYield>
+      <mineableScatterCommonality>0.2</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>PRF_MineableDiamond</defName>
+    <label>raw diamond</label>
+    <description>Diamond is a natural crystalline material with many uses once it is processed.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(97,95,105)</color>
+      <colorTwo>(175,198,233)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>PRF_quartz</mineableThing>
+      <mineableYield>20</mineableYield>
+      <mineableScatterCommonality>0.2</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
   
 </Defs>

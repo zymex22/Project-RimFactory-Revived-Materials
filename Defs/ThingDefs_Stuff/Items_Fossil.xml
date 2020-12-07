@@ -31,24 +31,44 @@
     <deepCountPerPortion>11</deepCountPerPortion>
     <deepLumpSizeRange>2~7</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>
-    <smeltable>true</smeltable><!-- 
-    <stuffProps>
-      <categories>
-        <li>Stony</li>
-      </categories>
-      <commonality>1.00</commonality>
-      <constructEffect>ConstructMetal</constructEffect>
-      <color>(176,146,100)</color>
-      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-      <statFactors>
-        <MaxHitPoints>1</MaxHitPoints>
-        <Beauty>1.65</Beauty>
-        <Flammability>0.12</Flammability>
-      </statFactors>
-    </stuffProps> -->
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <smeltable>true</smeltable>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>PRF_Oil</defName>
+    <label> oil</label>
+    <description>A dark liquid found underground.\n\nA valuable precursor to chemfuel and plastics.</description>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Resources/PRF_Oil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>8</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>2.0</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.95</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+        <startWickOnDamageTaken>
+          <li>Flame</li>
+        </startWickOnDamageTaken>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>70~150</wickTicks>
+      </li>
+    </comps>
   </ThingDef>
 
 </Defs>

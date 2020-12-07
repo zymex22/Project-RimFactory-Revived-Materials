@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>PRF_MakeOilFromFossil</defName>
+		<label>make oil from fossil</label>
+		<description>Cooking fossils using a slow evaporation system to obtain oil.</description>
+		<jobString>Refining oil from fossils.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>9000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>PRF_Fossil</li>
+			  </thingDefs>
+			</filter>
+			<count>10</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>PRF_Fossil</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+		  <PRF_Oil>85</PRF_Oil>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>PRF_MakeMixedPlasticOil</defName>
+		<label>make plastic from oil</label>
+		<description>Reform the hydrocarbons within oil to produce a solidified form that can be used in construction.</description>
+		<jobString>Making plastic.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>3</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Oil</li>
+					</thingDefs>
+				</filter>
+				<count>13</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_Oil</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_MixedPlastic>10</PRF_MixedPlastic>
+		</products>
+		<workAmount>600</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeMixedPlasticOilBulk</defName>
+		<label>make bulk plastic from oil</label>
+		<description>Reform the hydrocarbons within oil to produce a large solidified form that can be used in construction.</description>
+		<jobString>Making plastic.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>6</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Oil</li>
+					</thingDefs>
+				</filter>
+				<count>125</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_Oil</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_MixedPlastic>100</PRF_MixedPlastic>
+		</products>
+		<workAmount>6000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_AdvPlastics</researchPrerequisite>
+	</RecipeDef>	
+	
+</Defs>

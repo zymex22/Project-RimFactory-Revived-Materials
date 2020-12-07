@@ -31,33 +31,7 @@
 			<li>ResourcesRaw</li>
 		</thingCategories>
 		<burnableByRecipe>true</burnableByRecipe>
-		<smeltable>false</smeltable><!-- 
-		<stuffProps>
-			<stuffAdjective>powder</stuffAdjective>
-			<categories>
-				<li>Stony</li>
-			</categories>
-			<commonality>0.3</commonality>
-			<constructEffect>ConstructWood</constructEffect>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
-			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-			<color>(92,92,92)</color>
-			<statOffsets>
-				<Cleanliness>-0.5</Cleanliness>
-			</statOffsets>
-			<statFactors>
-				<MaxHitPoints>0.1</MaxHitPoints>
-				<Beauty>-2</Beauty>
-				<Flammability>4.0</Flammability>
-				<WorkToMake>1.4</WorkToMake>
-				<WorkToBuild>2.3</WorkToBuild>
-				<MeleeWeapon_CooldownMultiplier>-0.7</MeleeWeapon_CooldownMultiplier>
-				<DoorOpenSpeed>-1.3</DoorOpenSpeed>
-				<DeteriorationRate>0.2</DeteriorationRate>
-				<Mass>0.05</Mass>
-			</statFactors>
-		</stuffProps> -->
+		<smeltable>false</smeltable>
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceBase">
@@ -222,6 +196,50 @@
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
+	
+		<ThingDef ParentName="ResourceBase">
+		<defName>PRF_RawDiamond</defName>
+		<label>raw diamond</label>
+		<description>Raw diamond, requires processing to produce usable material.</description>
+		<graphicData>
+			<texPath>Resources/PRF_RawDiamond</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>ChunkRock_Drop</soundInteract>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>7.5</MarketValue>
+			<Mass>0.08</Mass>
+		</statBases>
+		<deepCommonality>0.05</deepCommonality>
+		<deepCountPerPortion>25</deepCountPerPortion>
+		<deepLumpSizeRange>2~6</deepLumpSizeRange>
+		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<stuffProps>
+			<commonality>0.02</commonality>
+			<color>(148,176,180)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<statOffsets>
+				<Beauty>10</Beauty>
+				<Cleanliness>0.2</Cleanliness>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>12</MaxHitPoints>
+				<Flammability>0.01</Flammability>
+				<DeteriorationRate>0.0</DeteriorationRate>
+			</statFactors>
+		</stuffProps>
+		<tradeability>All</tradeability>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>PRF_SyntheticDiamond</defName>

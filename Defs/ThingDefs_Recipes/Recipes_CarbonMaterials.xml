@@ -2,6 +2,39 @@
 <Defs>
 
 	<RecipeDef>
+		<defName>PRF_MakeCharcoal</defName>
+		<label>make charcoal</label>
+		<description>Burn wood in order to obtain charcoal, a substitute for coal for when you can't mine it.</description>
+		<jobString>Grounding rocks into rock powder.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<workAmount>700</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>WoodLog</li>
+			  </thingDefs>
+			</filter>
+			<count>30</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>WoodLog</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+		  <PRF_Coal>10</PRF_Coal>
+		</products>
+		<researchPrerequisite>Stonecutting</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
 		<defName>PRF_MakeCarbonFiber</defName>
 		<label>make carbon fiber from carbon</label>
 		<description>Synthesize carbon nanotubes and weave them into a fabric.</description>
@@ -315,6 +348,78 @@
 		</fixedIngredientFilter>
 		<products>
 			<PRF_SyntheticDiamond>100</PRF_SyntheticDiamond>
+		</products>
+		<workAmount>6575</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_ProcessRawDiamond</defName>
+		<label>process raw diamond</label>
+		<description>process raw diamond into a usable industrial material.</description>
+		<jobString>processing raw diamond.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>16</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_RawDiamond</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_RawDiamond</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_SyntheticDiamond>7</PRF_SyntheticDiamond>
+		</products>
+		<workAmount>2250</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_ProcessRawDiamondBulk</defName>
+		<label>process raw diamond in bulk</label>
+		<description>process raw diamond into a usable industrial material.</description>
+		<jobString>processing raw diamond.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>16</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_RawDiamond</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_RawDiamond</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_SyntheticDiamond>75</PRF_SyntheticDiamond>
 		</products>
 		<workAmount>6575</workAmount>
 		<workSkill>Crafting</workSkill>
