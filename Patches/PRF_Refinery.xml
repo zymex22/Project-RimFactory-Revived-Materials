@@ -52,5 +52,13 @@
 			<li>PRF_MakeSyntheticDiamond</li>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "ElectricSmelter"]/recipes</xpath>
+		<value>
+			<li>PRF_MakeSteelCoal</li>
+			<li>PRF_MakeCopperCoal</li>
+		</value>
+	</Operation>
 
 </Patch>
