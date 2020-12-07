@@ -30,7 +30,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <PRF_Coal>15</PRF_Coal>
+      <PRF_Coal>10</PRF_Coal>
     </products>
 	<researchPrerequisite>Stonecutting</researchPrerequisite>
   </RecipeDef>
