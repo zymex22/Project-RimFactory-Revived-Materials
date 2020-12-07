@@ -212,6 +212,7 @@
 		<building>
 			<isEdifice>false</isEdifice>
 		</building>
+		<specialDisplayRadius>15</specialDisplayRadius>
 	</ThingDef>
 	
 	<ThingDef ParentName="FurnitureBase">
@@ -274,6 +275,7 @@
 		<building>
 			<isEdifice>false</isEdifice>
 		</building>
+		<specialDisplayRadius>20</specialDisplayRadius>
 	</ThingDef>
 	
 	<ThingDef ParentName="FurnitureBase">
@@ -336,6 +338,7 @@
 		<building>
 			<isEdifice>false</isEdifice>
 		</building>
+		<specialDisplayRadius>25</specialDisplayRadius>
 	</ThingDef>
 
 </Defs>

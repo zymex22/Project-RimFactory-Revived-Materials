@@ -7,6 +7,7 @@
 		<costList>
 		  <Steel>45</Steel>
 		  <PRF_StainlessSteel>20</PRF_StainlessSteel>
+		  <PRF_CopperIngot>2</PRF_CopperIngot>
 		  <Plasteel>5</Plasteel>
 		  <ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
@@ -21,12 +22,6 @@
 		  <PRF_StainlessSteel>5</PRF_StainlessSteel>
 		  <Plasteel>5</Plasteel>
 		</costList>
-	</value>
-</Operation>
-<Operation Class="PatchOperationReplace">
-	<xpath>/Defs/ThingDef [defName = "Apparel_AdvancedHelmet"] /description</xpath>
-	<value>
-		<description>A lightweight combat helmet with a complex design, reinforced with titanium and plasteel. Not effective against blunt weapons.</description>
 	</value>
 </Operation>
 	

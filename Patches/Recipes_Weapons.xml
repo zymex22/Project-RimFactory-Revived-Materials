@@ -49,8 +49,9 @@
 	<xpath>/Defs/ThingDef [defName = "Gun_ChargeRifle"] /costList</xpath>
 	<value>
 		<costList>
-		  <PRF_StainlessSteel>30</PRF_StainlessSteel>
-		  <Plasteel>20</Plasteel>
+		  <PRF_StainlessSteel>10</PRF_StainlessSteel>
+		  <PRF_CopperIngot>5</PRF_CopperIngot>
+		  <Plasteel>30</Plasteel>
 		  <ComponentSpacer>2</ComponentSpacer>
 		</costList>
 	</value>
@@ -61,6 +62,7 @@
 	<value>
 		<costList>
 		  <PRF_StainlessSteel>30</PRF_StainlessSteel>
+		  <PRF_CopperIngot>10</PRF_CopperIngot>
 		  <Plasteel>30</Plasteel>
 		  <ComponentSpacer>3</ComponentSpacer>
 		</costList>

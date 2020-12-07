@@ -226,16 +226,16 @@
 					</costList>
 				</value>
 			</li>
-<!-- 			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWE_FlashGrenade"]/costList</xpath>
 				<value>
 					<costList>
 					  <Steel>20</Steel>
-					  <PRF_Tungsten>20</PRF_Tungsten>
+					  <PRF_CrystalPowder>25</PRF_CrystalPowder>
 					  <ComponentIndustrial>6</ComponentIndustrial>
 					</costList>
 				</value>
-			</li> -->
+			</li>
 		</operations>
 	</match>
 </Operation>
@@ -300,140 +300,150 @@
 	<match Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-<!-- 			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_LaserSword"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Tungsten>100</PRF_Tungsten>
-						<PRF_Lithium>35</PRF_Lithium>
+						<PRF_CopperIngot>5</PRF_CopperIngot>
+						<PRF_StainlessSteel>15</PRF_StainlessSteel>
+						<PRF_CrystalPowder>15</PRF_CrystalPowder>
 						<Plasteel>30</Plasteel>
 						<ComponentSpacer>10</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserPistol"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>18</PRF_Lithium>
-						<PRF_Tungsten>75</PRF_Tungsten>
+						<PRF_CopperIngot>10</PRF_CopperIngot>
+						<PRF_StainlessSteel>15</PRF_StainlessSteel>
+						<PRF_CrystalPowder>5</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
 						<ComponentSpacer>4</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserSMG"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>20</PRF_Lithium>
-						<PRF_Tungsten>75</PRF_Tungsten>
+						<PRF_CopperIngot>20</PRF_CopperIngot>
+						<PRF_StainlessSteel>25</PRF_StainlessSteel>
+						<PRF_CrystalPowder>15</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
 						<ComponentSpacer>5</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserRifle"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>20</PRF_Lithium>
-						<PRF_Tungsten>55</PRF_Tungsten>
+						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_StainlessSteel>15</PRF_StainlessSteel>
+						<PRF_CrystalPowder>10</PRF_CrystalPowder>
 						<Plasteel>70</Plasteel>
 						<ComponentSpacer>6</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserShotgun"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>20</PRF_Lithium>
-						<PRF_Tungsten>55</PRF_Tungsten>
+						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_StainlessSteel>15</PRF_StainlessSteel>
+						<PRF_CrystalPowder>20</PRF_CrystalPowder>
 						<Plasteel>70</Plasteel>
 						<ComponentSpacer>6</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserSniperRifle"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>42</PRF_Lithium>
-						<PRF_Tungsten>65</PRF_Tungsten>
+						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_StainlessSteel>5</PRF_StainlessSteel>
+						<PRF_CrystalPowder>15</PRF_CrystalPowder>
 						<Plasteel>70</Plasteel>
 						<ComponentSpacer>8</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserMinigun"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>100</PRF_Lithium>
-						<PRF_Tungsten>30</PRF_Tungsten>
+						<PRF_CopperIngot>25</PRF_CopperIngot>
+						<PRF_StainlessSteel>25</PRF_StainlessSteel>
+						<PRF_CrystalPowder>25</PRF_CrystalPowder>
 						<Plasteel>100</Plasteel>
 						<ComponentSpacer>10</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_TeslaGun"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Copper>12</PRF_Copper>
-						<PRF_Lithium>20</PRF_Lithium>
-						<PRF_Tungsten>30</PRF_Tungsten>
+						<PRF_CopperIngot>25</PRF_CopperIngot>
+						<PRF_StainlessSteel>25</PRF_StainlessSteel>
 						<Plasteel>80</Plasteel>
 						<ComponentSpacer>8</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
+			</li>
 			<!-- Salvaged -->
-<!-- 			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_SalvagedLaserPistol"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>12</PRF_Lithium>
-						<PRF_Tungsten>75</PRF_Tungsten>
+						<PRF_CopperIngot>10</PRF_CopperIngot>
+						<PRF_StainlessSteel>15</PRF_StainlessSteel>
+						<PRF_CrystalPowder>5</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
 						<ComponentSpacer>12</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_SalvagedLaserRifle"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>12</PRF_Lithium>
-						<PRF_Tungsten>75</PRF_Tungsten>
+						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_StainlessSteel>15</PRF_StainlessSteel>
+						<PRF_CrystalPowder>10</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
 						<ComponentSpacer>12</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_SalvagedLaserShotgun"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>12</PRF_Lithium>
-						<PRF_Tungsten>75</PRF_Tungsten>
+						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_StainlessSteel>15</PRF_StainlessSteel>
+						<PRF_CrystalPowder>20</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
 						<ComponentSpacer>12</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
-<!-- 			<li Class="PatchOperationReplace">
+			</li>
+			<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_SalvagedLaserSniperRifle"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_Lithium>12</PRF_Lithium>
-						<PRF_Tungsten>75</PRF_Tungsten>
+						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_StainlessSteel>5</PRF_StainlessSteel>
+						<PRF_CrystalPowder>15</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
 						<ComponentSpacer>12</ComponentSpacer>
 					</costList>
 				</value>
-			</li> -->
+			</li>
 		</operations>
 	</match>
 </Operation>
@@ -465,10 +475,10 @@
 						<thingDef>PRF_CopperIngot</thingDef>
 						<countRange>100~200</countRange>
 					</li>
-<!-- 					<li Class="StockGenerator_SingleDef">
-						<thingDef>PRF_Titanium</thingDef>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>PRF_CrystalPowder</thingDef>
 						<countRange>50~150</countRange>
-					</li> -->
+					</li>
 					<li Class="StockGenerator_SingleDef">
 						<thingDef>PRF_StainlessSteel</thingDef>
 						<countRange>50~150</countRange>

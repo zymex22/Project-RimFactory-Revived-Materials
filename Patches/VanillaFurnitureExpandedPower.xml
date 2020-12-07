@@ -14,6 +14,7 @@
 				<costList>
 					<Steel>50</Steel>
 					<PRF_StainlessSteel>20</PRF_StainlessSteel>
+				    <PRF_CopperIngot>15</PRF_CopperIngot>
 					<Plasteel>20</Plasteel>
 					<ComponentSpacer>3</ComponentSpacer>
 				</costList>
@@ -24,7 +25,8 @@
 			<value>
 				<costList>
 					<Steel>50</Steel>
-					<PRF_StainlessSteel>20</PRF_StainlessSteel>
+				    <PRF_CopperIngot>15</PRF_CopperIngot>
+				    <PRF_CrystalPowder>20</PRF_CrystalPowder>
 					<Plasteel>20</Plasteel>
 					<ComponentSpacer>3</ComponentSpacer>
 				</costList>
@@ -35,7 +37,8 @@
 			<value>
 				<costList>
 					<Steel>100</Steel>
-					<PRF_StainlessSteel>150</PRF_StainlessSteel>
+					<PRF_StainlessSteel>125</PRF_StainlessSteel>
+				    <PRF_CopperIngot>15</PRF_CopperIngot>
 					<ComponentSpacer>3</ComponentSpacer>
 				</costList>
 			</value>
@@ -44,9 +47,10 @@
 			<xpath>/Defs/ThingDef [defName = "VPE_NuclearGenerator"]/costList</xpath>
 			<value>
 				<costList>
-					<PRF_Concrete>140</PRF_Concrete>
+					<PRF_Concrete>150</PRF_Concrete>
 					<Steel>150</Steel>
 					<PRF_StainlessSteel>50</PRF_StainlessSteel>
+				    <PRF_CopperIngot>15</PRF_CopperIngot>
 					<Plasteel>30</Plasteel>
 					<ComponentSpacer>6</ComponentSpacer>
 					<ComponentIndustrial>8</ComponentIndustrial>
@@ -60,6 +64,7 @@
 				  <PRF_Concrete>100</PRF_Concrete>
 				  <Steel>150</Steel>
 				  <PRF_StainlessSteel>50</PRF_StainlessSteel>
+				  <PRF_CopperIngot>15</PRF_CopperIngot>
 				  <ComponentIndustrial>9</ComponentIndustrial>
 				</costList>
 			</value>
@@ -109,6 +114,7 @@
 				<costList>
 				  <PRF_Concrete>30</PRF_Concrete>
 				  <Steel>40</Steel>
+				  <PRF_CopperIngot>15</PRF_CopperIngot>
 				  <ComponentIndustrial>4</ComponentIndustrial>
 				</costList>
 			</value>
@@ -120,6 +126,7 @@
 				<costList>
 					<PRF_Concrete>80</PRF_Concrete>
 					<Steel>100</Steel>
+				    <PRF_CopperIngot>5</PRF_CopperIngot>
 					<ComponentIndustrial>6</ComponentIndustrial>
 				</costList>
 			</value>
@@ -130,6 +137,7 @@
 				<costList>
 					<PRF_Concrete>80</PRF_Concrete>
 					<Steel>100</Steel>
+				    <PRF_CopperIngot>5</PRF_CopperIngot>
 					<ComponentIndustrial>4</ComponentIndustrial>
 				</costList>
 			</value>
@@ -140,6 +148,7 @@
 				<costList>
 					<PRF_Concrete>80</PRF_Concrete>
 					<Steel>100</Steel>
+				    <PRF_CopperIngot>5</PRF_CopperIngot>
 					<ComponentIndustrial>6</ComponentIndustrial>
 				</costList>
 			</value>
