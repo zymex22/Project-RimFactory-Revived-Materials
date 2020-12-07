@@ -24,6 +24,10 @@
   <StuffAppearanceDef>
     <defName>ReinforceAM</defName>
   </StuffAppearanceDef>
+  
+  <StuffAppearanceDef>
+    <defName>RustyAM</defName>
+  </StuffAppearanceDef>
 
 </Defs>
 

@@ -43,6 +43,7 @@
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+		<appearance>RustyAM</appearance>
       <statFactors>
         <MaxHitPoints>0.9</MaxHitPoints>
         <Beauty>1</Beauty>
@@ -108,13 +109,7 @@
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
-    </thingCategories><!-- 
-    <stackLimit>500</stackLimit>
-    <smallVolume>true</smallVolume>
-    <deepCommonality>1</deepCommonality>
-    <deepCountPerPortion>90</deepCountPerPortion>
-    <deepLumpSizeRange>10~20</deepLumpSizeRange>
-    <burnableByRecipe>false</burnableByRecipe> -->
+    </thingCategories>
     <smeltable>true</smeltable>
     <stuffProps>
       <categories>
