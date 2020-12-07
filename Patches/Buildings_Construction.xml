@@ -30,6 +30,17 @@
 		</value>
 	</Operation>
 	
+	<!-- Sterile Tile needs Stainless -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TerrainDef[defName = "SterileTile"]/costList</xpath>
+		<value>
+			<costList>
+			  <PRF_StainlessSteel>7</PRF_StainlessSteel>
+			</costList>
+		</value>
+	</Operation>
+	
 	<!-- ============================================== PRE-ELECTRICITY BUILDINGS USE IRON INSTEAD OF STEEL ============================================== -->
 	<!-- Fueled stove Uses Iron -->
 	<Operation Class="PatchOperationRemove">
