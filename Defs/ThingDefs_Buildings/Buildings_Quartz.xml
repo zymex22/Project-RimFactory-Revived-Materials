@@ -150,7 +150,11 @@
 		  </li>
 		</comps>
 		<specialDisplayRadius>7</specialDisplayRadius>
-	</ThingDef>
+	</ThingDef>	
+
+	  <DesignatorDropdownGroupDef>
+    <defName>PRF_Chandelier</defName>
+	  </DesignatorDropdownGroupDef>
 	
 	<ThingDef Name="CrystalChandelierSmall" ParentName="FurnitureBase">
 		<defName>PRF_CrystalChandelierSmall</defName>
@@ -176,13 +180,11 @@
 			<Beauty>10</Beauty>
 		</statBases>
 		<clearBuildingArea>false</clearBuildingArea>
-		<stuffCategories>
-			<li>Woody</li>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>10</costStuffCount>
+		<designatorDropdown>PRF_Chandelier</designatorDropdown>
 		<costList>
 			<PRF_CrystalPowder>10</PRF_CrystalPowder>
+			<WoodLog>10</WoodLog>
+			<PRF_Iron>5</PRF_Iron>
 		</costList>
 		<tickerType>Rare</tickerType>
 		<comps>
@@ -239,13 +241,11 @@
 			<Beauty>10</Beauty>
 		</statBases>
 		<clearBuildingArea>false</clearBuildingArea>
-		<stuffCategories>
-			<li>Woody</li>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>15</costStuffCount>
+		<designatorDropdown>PRF_Chandelier</designatorDropdown>
 		<costList>
 			<PRF_CrystalPowder>15</PRF_CrystalPowder>
+			<WoodLog>15</WoodLog>
+			<PRF_Iron>5</PRF_Iron>
 		</costList>
 		<tickerType>Rare</tickerType>
 		<comps>
@@ -302,13 +302,11 @@
 			<Beauty>10</Beauty>
 		</statBases>
 		<clearBuildingArea>false</clearBuildingArea>
-		<stuffCategories>
-			<li>Woody</li>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>20</costStuffCount>
+		<designatorDropdown>PRF_Chandelier</designatorDropdown>
 		<costList>
 			<PRF_CrystalPowder>20</PRF_CrystalPowder>
+			<WoodLog>20</WoodLog>
+			<PRF_Iron>5</PRF_Iron>
 		</costList>
 		<tickerType>Rare</tickerType>
 		<comps>
