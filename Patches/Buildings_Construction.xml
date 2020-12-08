@@ -36,7 +36,27 @@
 		<xpath>/Defs/TerrainDef[defName = "SterileTile"]/costList</xpath>
 		<value>
 			<costList>
-			  <PRF_StainlessSteel>7</PRF_StainlessSteel>
+			  <PRF_StainlessSteel>5</PRF_StainlessSteel>
+			</costList>
+		</value>
+	</Operation>
+	
+	<!-- Concrete needs concrete -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TerrainDef[defName = "PavedTile"]/costList</xpath>
+		<value>
+			<costList>
+			  <PRF_Concrete>2</PRF_Concrete>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TerrainDef[defName = "Concrete"]/costList</xpath>
+		<value>
+			<costList>
+			  <PRF_Concrete>1</PRF_Concrete>
 			</costList>
 		</value>
 	</Operation>
