@@ -3,12 +3,12 @@
   
 	<RecipeDef>
     <defName>PRF_MakeSteelCoal</defName>
-    <label>make steel with coal</label>
+    <label>Refine Steel with coal</label>
     <description>An alloy af iron and carbon, steel is more resistant to rust and stronger than iron.</description>
     <jobString>Alloying steel.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>7000</workAmount>
+    <workAmount>6500</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <ingredients>
       <li>
@@ -42,12 +42,12 @@
   
 	<RecipeDef>
     <defName>PRF_MakeSteelCoke</defName>
-    <label>make steel with coke</label>
+    <label>Refine Steel with coke</label>
     <description>An alloy af iron and carbon, steel is more resistant to rust and stronger than iron. Coke usage increase efficiency.</description>
     <jobString>Alloying steel.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>6000</workAmount>
+    <workAmount>5500</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <ingredients>
       <li>
@@ -82,12 +82,12 @@
   <!-- Steel Bulk Making -->
 	<RecipeDef>
     <defName>PRF_MakeSteelBulkCoal</defName>
-    <label>make bulk steel with coal</label>
+    <label>Refine bulk Steel with coal</label>
     <description>An alloy af iron and carbon, steel is more resistant to rust and stronger than iron.</description>
     <jobString>Alloying steel.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>14000</workAmount>
+    <workAmount>13000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <ingredients>
       <li>
@@ -121,12 +121,12 @@
   
 	<RecipeDef>
     <defName>PRF_MakeSteelBulkCoke</defName>
-    <label>make bulk steel with coke</label>
+    <label>Refine bulk Steel with coke</label>
     <description>An alloy af iron and carbon, steel is more resistant to rust and stronger than iron. Coke usage increase efficiency.</description>
     <jobString>Alloying steel.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>11000</workAmount>
+    <workAmount>10000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <ingredients>
       <li>
