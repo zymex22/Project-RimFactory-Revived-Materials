@@ -45,6 +45,61 @@
 						<appearance>GlassAM</appearance>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+					
+					  <TerrainDef ParentName="GemsMetalBase">
+						<defName>PRF_SyntheticDiamondTile</defName>
+						<label>synthetic diamond tile</label>
+						<renderPrecedence>242</renderPrecedence>
+						<description>The next best thing to real diamond flooring.</description>
+						<color>(148,176,180)</color>
+						<statBases>
+						  <Beauty>5</Beauty>
+						  <WorkToBuild>800</WorkToBuild>
+						  <Cleanliness>0.2</Cleanliness>
+						</statBases>
+						<costList>
+						  <PRF_SyntheticDiamond>10</PRF_SyntheticDiamond>
+						</costList>
+					  </TerrainDef>
+					  
+					  <TerrainDef ParentName="GemsMetalBase">
+						<defName>PRF_quartzTile</defName>
+						<label>quartz tile</label>
+						<renderPrecedence>242</renderPrecedence>
+						<description>For when you want floors that look extravagant but really aren't, quartz is your answer.</description>
+						<color>(175,238,238)</color>
+						<statBases>
+						  <Beauty>3</Beauty>
+						  <WorkToBuild>800</WorkToBuild>
+						  <Cleanliness>0.2</Cleanliness>
+						</statBases>
+						<costList>
+						  <PRF_quartz>10</PRF_quartz>
+						</costList>
+					  </TerrainDef>
+					  
+					  <TerrainDef ParentName="GemsMetalBase">
+						<defName>PRF_GlassTile</defName>
+						<label>glass tile</label>
+						<renderPrecedence>242</renderPrecedence>
+						<description>Pretty and easy to clean, glass is the cheap answer for when you want shiny floors. Just don't drop anything heavy.</description>
+						<color>(230,245,236)</color>
+						<statBases>
+						  <Beauty>3</Beauty>
+						  <WorkToBuild>800</WorkToBuild>
+						  <Cleanliness>0.4</Cleanliness>
+						</statBases>
+						<costList>
+						  <PRF_Glass>10</PRF_Glass>
+						</costList>
+					  </TerrainDef>
+  					
+					</value>
+				</li>
+				
 			</operations>
 		</match>
 	</Operation>

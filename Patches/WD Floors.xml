@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>[WD] Expanded Floors</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "WDCheckSterileTile"]/costList</xpath>
+				<value>
+					<costList>
+					  <PRF_StainlessSteel>7</PRF_StainlessSteel>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "WDHexSterileTile"]/costList</xpath>
+				<value>
+					<costList>
+					  <PRF_StainlessSteel>7</PRF_StainlessSteel>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs</xpath>
+				<value>
+				
+				  <TerrainDef ParentName="FloorBase">
+					<defName>WDStainlessSteelCheckTile</defName>
+					<label>check stainless steel tile</label>
+					<renderPrecedence>244</renderPrecedence>
+					<description>Stainless steel check tiles, for that pristine future look. Slightly easier to clean. Expensive and slow to build, but very pretty. The smooth tile surface gets a bonus to cleanliness.</description>
+					<texturePath>Terrain/Surfaces/Metal/WDMetalTileCheck</texturePath>
+					<color>(221,211,210)</color>
+					<statBases>
+					  <WorkToBuild>780</WorkToBuild>
+					  <Beauty>5</Beauty>
+					  <Cleanliness>0.5</Cleanliness>
+					</statBases>
+					<costList>
+					  <PRF_StainlessSteel>7</PRF_StainlessSteel>
+					</costList>
+					<constructEffect>ConstructMetal</constructEffect>
+					<researchPrerequisites>
+					  <li>Smithing</li>
+					</researchPrerequisites>
+					<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+					<tags>
+						<li>FineFloor</li>
+					</tags>			
+				  </TerrainDef>  
+				  
+				  <TerrainDef ParentName="FloorBase">
+					<defName>WDStainlessSteelTileHex</defName>
+					<label>hexagonal stainless steel tile</label>
+					<renderPrecedence>244</renderPrecedence>
+					<description>Stainless steel hexagonal tiles, for that pristine future look. Slightly easier to clean. Expensive and slow to build, but very pretty. The smooth tile surface gets a bonus to cleanliness.</description>
+					<texturePath>Terrain/Surfaces/Metal/WDMetalTileHex</texturePath>
+					<color>(221,211,210)</color>
+					<statBases>
+					  <WorkToBuild>780</WorkToBuild>
+					  <Beauty>5</Beauty>
+					  <Cleanliness>0.5</Cleanliness>
+					</statBases>
+					<costList>
+					  <PRF_StainlessSteel>7</PRF_StainlessSteel>
+					</costList>
+					<constructEffect>ConstructMetal</constructEffect>
+					<researchPrerequisites>
+					  <li>Smithing</li>
+					</researchPrerequisites>
+					<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+					<tags>
+						<li>FineFloor</li>
+					</tags>			
+				  </TerrainDef>
+				
+				  <TerrainDef ParentName="FloorBase">
+					<defName>WDCopperCheckTile</defName>
+					<label>check copper tile</label>
+					<renderPrecedence>244</renderPrecedence>
+					<description>Copper check tiles, for that steampunk look. Slightly easier to clean. Expensive and slow to build, but very pretty. The smooth tile surface gets a bonus to cleanliness.</description>
+					<texturePath>Terrain/Surfaces/Metal/WDMetalTileCheck</texturePath>
+					<color>(175,73,27)</color>
+					<statBases>
+					  <WorkToBuild>780</WorkToBuild>
+					  <Beauty>5</Beauty>
+					  <Cleanliness>0.2</Cleanliness>
+					</statBases>
+					<costList>
+					  <PRF_CopperIngot>7</PRF_CopperIngot>
+					</costList>
+					<constructEffect>ConstructMetal</constructEffect>
+					<researchPrerequisites>
+					  <li>Smithing</li>
+					</researchPrerequisites>
+					<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+					<tags>
+						<li>FineFloor</li>
+					</tags>			
+				  </TerrainDef>  
+				  
+				  <TerrainDef ParentName="FloorBase">
+					<defName>WDCopperTileHex</defName>
+					<label>hexagonal copper tile</label>
+					<renderPrecedence>244</renderPrecedence>
+					<description>Copper hexagonal tiles, for that steampunk look. Slightly easier to clean. Expensive and slow to build, but very pretty. The smooth tile surface gets a bonus to cleanliness.</description>
+					<texturePath>Terrain/Surfaces/Metal/WDMetalTileHex</texturePath>
+					<color>(175,73,27)</color>
+					<statBases>
+					  <WorkToBuild>780</WorkToBuild>
+					  <Beauty>5</Beauty>
+					  <Cleanliness>0.2</Cleanliness>
+					</statBases>
+					<costList>
+					  <PRF_CopperIngot>7</PRF_CopperIngot>
+					</costList>
+					<constructEffect>ConstructMetal</constructEffect>
+					<researchPrerequisites>
+					  <li>Smithing</li>
+					</researchPrerequisites>
+					<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+					<tags>
+						<li>FineFloor</li>
+					</tags>			
+				  </TerrainDef>
+				
+				  <TerrainDef ParentName="FloorBase">
+					<defName>WDIronCheckTile</defName>
+					<label>check iron tile</label>
+					<renderPrecedence>244</renderPrecedence>
+					<description>Iron check tiles, for that ancient fortress look. Not pretty or clean, but better than dirt.</description>
+					<texturePath>Terrain/Surfaces/Metal/WDMetalTileCheck</texturePath>
+					<color>(200, 183, 183)</color>
+					<statBases>
+					  <WorkToBuild>780</WorkToBuild>
+					  <Beauty>5</Beauty>
+					  <Cleanliness>0.2</Cleanliness>
+					</statBases>
+					<costList>
+					  <PRF_Iron>7</PRF_Iron>
+					</costList>
+					<constructEffect>ConstructMetal</constructEffect>
+					<researchPrerequisites>
+					  <li>Smithing</li>
+					</researchPrerequisites>
+					<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+					<tags>
+						<li>FineFloor</li>
+					</tags>			
+				  </TerrainDef>  
+				  
+				  <TerrainDef ParentName="FloorBase">
+					<defName>WDIronTileHex</defName>
+					<label>hexagonal iron tile</label>
+					<renderPrecedence>244</renderPrecedence>
+					<description>Iron hexagonal tiles, for that ancient fortress look. Not pretty or clean, but better than dirt.</description>
+					<texturePath>Terrain/Surfaces/Metal/WDMetalTileHex</texturePath>
+					<color>(200, 183, 183)</color>
+					<statBases>
+					  <WorkToBuild>780</WorkToBuild>
+					  <Beauty>5</Beauty>
+					  <Cleanliness>0.2</Cleanliness>
+					</statBases>
+					<costList>
+					  <PRF_Iron>7</PRF_Iron>
+					</costList>
+					<constructEffect>ConstructMetal</constructEffect>
+					<researchPrerequisites>
+					  <li>Smithing</li>
+					</researchPrerequisites>
+					<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+					<tags>
+						<li>FineFloor</li>
+					</tags>			
+				  </TerrainDef>
+				</value>
+				</li>
+				  
+		</operations>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>[WD] Expanded Floors (Dropdown Menu)</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WDStainlessSteelCheckTile"]</xpath>
+				<value>
+				  <designatorDropdown>Floor_WDTilesMetalCheck</designatorDropdown>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WDStainlessSteelTileHex"]</xpath>
+				<value>
+				  <designatorDropdown>Floor_WDTilesMetalHex</designatorDropdown>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WDCopperCheckTile"]</xpath>
+				<value>
+				  <designatorDropdown>Floor_WDTilesMetalCheck</designatorDropdown>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WDCopperTileHex"]</xpath>
+				<value>
+				  <designatorDropdown>Floor_WDTilesMetalHex</designatorDropdown>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WDIronCheckTile"]</xpath>
+				<value>
+				  <designatorDropdown>Floor_WDTilesMetalCheck</designatorDropdown>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WDIronTileHex"]</xpath>
+				<value>
+				  <designatorDropdown>Floor_WDTilesMetalHex</designatorDropdown>
+				</value>
+			</li>
+			
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

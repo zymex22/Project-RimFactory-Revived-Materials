@@ -36,7 +36,7 @@
 		<xpath>/Defs/TerrainDef[defName = "SterileTile"]/costList</xpath>
 		<value>
 			<costList>
-			  <PRF_StainlessSteel>5</PRF_StainlessSteel>
+			  <PRF_StainlessSteel>7</PRF_StainlessSteel>
 			</costList>
 		</value>
 	</Operation>
