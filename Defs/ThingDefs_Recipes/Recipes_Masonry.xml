@@ -94,6 +94,11 @@
 				<li>StoneChunks</li>
 			</categories>
 		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+		  <thingDefs>
+			<li>ChunkLimestone</li>
+		  </thingDefs>
+		</defaultIngredientFilter>
 		<products>
 			<PRF_Cement>25</PRF_Cement>
 		</products>
@@ -130,6 +135,11 @@
 				<li>StoneChunks</li>
 			</categories>
 		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+		  <thingDefs>
+			<li>ChunkLimestone</li>
+		  </thingDefs>
+		</defaultIngredientFilter>
 		<products>
 			<PRF_Cement>250</PRF_Cement>
 		</products>

@@ -48,8 +48,8 @@
 
 	<ThingDef ParentName="StoneBlocksBase">
 		<defName>PRF_Concrete</defName>
-		<label>concrete mix</label>
-		<description>A mixture of lime and clay that has been heated to extreme temperatures, extremely tough and quite quick to mould.</description>
+		<label>concrete</label>
+		<description>A mixture of crushed stone that has been heated to extreme temperatures, extremely tough and quite quick to mold.</description>
 		<graphicData>
 			<texPath>Resources/PRF_Concrete</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -91,8 +91,8 @@
 
 	<ThingDef ParentName="StoneBlocksBase">
 		<defName>PRF_RefConcrete</defName>
-		<label>reinforced concrete mix</label>
-		<description>Concrete mix that has Plasteel wiring woven within it to increase strength even further, a very resistant material.</description>
+		<label>reinforced concrete</label>
+		<description>Concrete mix that has steel wiring woven within it to increase strength even further, a very resistant material.</description>
 		<graphicData>
 			<texPath>Resources/PRF_RConcrete</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
