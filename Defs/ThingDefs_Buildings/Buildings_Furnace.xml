@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+  <!--==================== T0 Smelter ====================-->
+
+  <ThingDef ParentName="PRF_FurnaceBase">
+    <defName>PRF_FueledStoneSmelter</defName>
+    <label>primitive smelter</label>
+    <thingClass>ProjectRimFactory.SAL3.Things.Assemblers.Building_SimpleAssembler</thingClass>
+    <altitudeLayer>Gas</altitudeLayer>
+    <graphicData>
+      <texPath>Industry/PRF_Kiln</texPath>
+      <drawSize>(2,2)</drawSize>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <size>(2,2)</size>
+    <statBases>
+      <Cleanliness>-5</Cleanliness>
+      <Beauty>2</Beauty>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <description>A simple furnace of rock and clay, the most basic level of metal refining technology. Ideal for getting your base industry started and is actually nice to look at.</description>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <PRF_RawClay>30</PRF_RawClay>
+    </costList>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <recipes>
+      <li>BurnApparel</li>
+      <li>CremateCorpse</li>
+      <li>ExtractMetalFromSlag</li>
+	  <li>PRF_MakeCharcoal</li>
+	  <li>PRF_BakeBrick</li>
+	  <li>PRF_MakeConcrete</li>
+	  <li>PRF_MakeSteelCoal</li>
+    </recipes>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>40.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
+        <!--<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>-->
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(217,112,33,0)</glowColor>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ProjectRimFactory.SAL3.Exposables.AssemblerDefModExtension">
+        <workSpeedBaseFactor>0.05</workSpeedBaseFactor>
+        <doEffect>false</doEffect>
+        <drawStatus>true</drawStatus>
+      </li>
+      <li Class="ProjectRimFactory.Common.ModExtension_Skills">
+        <SkillUsage>ThisOverrides</SkillUsage>
+        <BaseSkill>10</BaseSkill>
+      </li>
+    </modExtensions>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>PRF_CoreTierO</li>
+    </researchPrerequisites>
+  </ThingDef>
+
   <!--==================== T3 Plasma Furnace ====================-->
   <ThingDef ParentName="PRF_FurnaceBase">
     <defName>PRF_FurnaceIV</defName>

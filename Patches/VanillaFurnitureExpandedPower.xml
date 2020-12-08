@@ -14,7 +14,7 @@
 				<costList>
 					<Steel>50</Steel>
 					<PRF_StainlessSteel>20</PRF_StainlessSteel>
-				    <PRF_CopperIngot>15</PRF_CopperIngot>
+				    <PRF_Copper>15</PRF_Copper>
 					<Plasteel>20</Plasteel>
 					<ComponentSpacer>3</ComponentSpacer>
 				</costList>
@@ -25,7 +25,7 @@
 			<value>
 				<costList>
 					<Steel>50</Steel>
-				    <PRF_CopperIngot>15</PRF_CopperIngot>
+				    <PRF_Copper>15</PRF_Copper>
 				    <PRF_CrystalPowder>20</PRF_CrystalPowder>
 					<Plasteel>20</Plasteel>
 					<ComponentSpacer>3</ComponentSpacer>
@@ -38,7 +38,7 @@
 				<costList>
 					<Steel>100</Steel>
 					<PRF_StainlessSteel>125</PRF_StainlessSteel>
-				    <PRF_CopperIngot>15</PRF_CopperIngot>
+				    <PRF_Copper>15</PRF_Copper>
 					<ComponentSpacer>3</ComponentSpacer>
 				</costList>
 			</value>
@@ -50,7 +50,7 @@
 					<PRF_Concrete>150</PRF_Concrete>
 					<Steel>150</Steel>
 					<PRF_StainlessSteel>50</PRF_StainlessSteel>
-				    <PRF_CopperIngot>15</PRF_CopperIngot>
+				    <PRF_Copper>15</PRF_Copper>
 					<Plasteel>30</Plasteel>
 					<ComponentSpacer>6</ComponentSpacer>
 					<ComponentIndustrial>8</ComponentIndustrial>
@@ -64,7 +64,7 @@
 				  <PRF_Concrete>100</PRF_Concrete>
 				  <Steel>150</Steel>
 				  <PRF_StainlessSteel>50</PRF_StainlessSteel>
-				  <PRF_CopperIngot>15</PRF_CopperIngot>
+				  <PRF_Copper>15</PRF_Copper>
 				  <ComponentIndustrial>9</ComponentIndustrial>
 				</costList>
 			</value>
@@ -114,7 +114,7 @@
 				<costList>
 				  <PRF_Concrete>30</PRF_Concrete>
 				  <Steel>40</Steel>
-				  <PRF_CopperIngot>15</PRF_CopperIngot>
+				  <PRF_Copper>15</PRF_Copper>
 				  <ComponentIndustrial>4</ComponentIndustrial>
 				</costList>
 			</value>
@@ -126,7 +126,7 @@
 				<costList>
 					<PRF_Concrete>80</PRF_Concrete>
 					<Steel>100</Steel>
-				    <PRF_CopperIngot>5</PRF_CopperIngot>
+				    <PRF_Copper>5</PRF_Copper>
 					<ComponentIndustrial>6</ComponentIndustrial>
 				</costList>
 			</value>
@@ -137,7 +137,7 @@
 				<costList>
 					<PRF_Concrete>80</PRF_Concrete>
 					<Steel>100</Steel>
-				    <PRF_CopperIngot>5</PRF_CopperIngot>
+				    <PRF_Copper>5</PRF_Copper>
 					<ComponentIndustrial>4</ComponentIndustrial>
 				</costList>
 			</value>
@@ -148,7 +148,7 @@
 				<costList>
 					<PRF_Concrete>80</PRF_Concrete>
 					<Steel>100</Steel>
-				    <PRF_CopperIngot>5</PRF_CopperIngot>
+				    <PRF_Copper>5</PRF_Copper>
 					<ComponentIndustrial>6</ComponentIndustrial>
 				</costList>
 			</value>

@@ -94,7 +94,7 @@
 					  <Cleanliness>0.2</Cleanliness>
 					</statBases>
 					<costList>
-					  <PRF_CopperIngot>7</PRF_CopperIngot>
+					  <PRF_Copper>7</PRF_Copper>
 					</costList>
 					<constructEffect>ConstructMetal</constructEffect>
 					<researchPrerequisites>
@@ -119,7 +119,7 @@
 					  <Cleanliness>0.2</Cleanliness>
 					</statBases>
 					<costList>
-					  <PRF_CopperIngot>7</PRF_CopperIngot>
+					  <PRF_Copper>7</PRF_Copper>
 					</costList>
 					<constructEffect>ConstructMetal</constructEffect>
 					<researchPrerequisites>

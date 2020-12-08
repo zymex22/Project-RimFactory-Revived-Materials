@@ -57,7 +57,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_Copper</defName>
     <label>copper ore</label>
-    <description>An orange-brownish colored metal. Needs to be smelted to be of any practical use.</description>
+    <description>An orange-brownish colored metal highly useful for electrical systems.</description>
     <graphicData>
       <texPath>Resources/PRF_CopperOre</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -83,7 +83,7 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
   
-  <ThingDef ParentName="ResourceBase">
+<!--   <ThingDef ParentName="ResourceBase">
     <defName>PRF_CopperIngot</defName>
     <label>copper</label>
     <description>An orange-brownish colored metal, great electricity conductor.\n\nThis metal is not so strong, but it is a main ingredient in the making of electrical devices and components, that makes it highly valuable for traders.</description>
@@ -131,7 +131,7 @@
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-  </ThingDef>
+  </ThingDef> -->
   
   <!-- Stainless Steel -->
   <ThingDef ParentName="ResourceBase">

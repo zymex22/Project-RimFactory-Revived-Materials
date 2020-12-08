@@ -14,7 +14,7 @@
 				<value>
 					<costList>
 					  <Steel>25</Steel>
-					  <PRF_CopperIngot>75</PRF_CopperIngot>
+					  <PRF_Copper>75</PRF_Copper>
 					  <ComponentIndustrial>4</ComponentIndustrial>
 					</costList>
 				</value>
@@ -46,7 +46,7 @@
 					<costList>
 					  <Steel>20</Steel>
 					  <PRF_StainlessSteel>40</PRF_StainlessSteel>
-					  <PRF_CopperIngot>10</PRF_CopperIngot>
+					  <PRF_Copper>10</PRF_Copper>
 					  <ComponentIndustrial>2</ComponentIndustrial>
 					  <ComponentSpacer>1</ComponentSpacer>
 					</costList>
@@ -58,7 +58,7 @@
 					<costList>
 					  <Steel>20</Steel>
 					  <PRF_StainlessSteel>50</PRF_StainlessSteel>
-					  <PRF_CopperIngot>10</PRF_CopperIngot>
+					  <PRF_Copper>10</PRF_Copper>
 					  <Plasteel>10</Plasteel>
 					  <ComponentSpacer>1</ComponentSpacer>
 					</costList>
@@ -109,7 +109,7 @@
 			<value>
 				<costList>
 				  <PRF_StainlessSteel>15</PRF_StainlessSteel>
-				  <PRF_CopperIngot>5</PRF_CopperIngot>
+				  <PRF_Copper>5</PRF_Copper>
 				  <Steel>10</Steel>
 				</costList>
 			</value>
@@ -119,7 +119,7 @@
 			<value>
 				<costList>
 				  <PRF_StainlessSteel>20</PRF_StainlessSteel>
-				  <PRF_CopperIngot>5</PRF_CopperIngot>
+				  <PRF_Copper>5</PRF_Copper>
 				  <Steel>10</Steel>
 				</costList>
 			</value>
@@ -130,7 +130,7 @@
 				<costList>
 				  <Steel>35</Steel>
 				  <PRF_StainlessSteel>30</PRF_StainlessSteel>
-				  <PRF_CopperIngot>15</PRF_CopperIngot>
+				  <PRF_Copper>15</PRF_Copper>
 				  <ComponentIndustrial>4</ComponentIndustrial>
 				  <ComponentSpacer>6</ComponentSpacer>
 				</costList>
@@ -142,7 +142,7 @@
 				<costList>
 					<Steel>20</Steel>
 					<PRF_StainlessSteel>40</PRF_StainlessSteel>
-				    <PRF_CopperIngot>5</PRF_CopperIngot>
+				    <PRF_Copper>5</PRF_Copper>
 				    <PRF_CrystalPowder>5</PRF_CrystalPowder>
 					<Plasteel>20</Plasteel>
 					<ComponentSpacer>1</ComponentSpacer>
@@ -155,7 +155,7 @@
 				<costList>
 					<Steel>10</Steel>
 					<PRF_StainlessSteel>20</PRF_StainlessSteel>
-				    <PRF_CopperIngot>5</PRF_CopperIngot>
+				    <PRF_Copper>5</PRF_Copper>
 				    <PRF_CrystalPowder>5</PRF_CrystalPowder>
 					<ComponentIndustrial>1</ComponentIndustrial>
 				</costList>
@@ -177,7 +177,7 @@
 				<costList>
 					<Steel>10</Steel>
 					<PRF_StainlessSteel>20</PRF_StainlessSteel>
-				    <PRF_CopperIngot>5</PRF_CopperIngot>
+				    <PRF_Copper>5</PRF_Copper>
 				    <PRF_CrystalPowder>5</PRF_CrystalPowder>
 					<ComponentIndustrial>1</ComponentIndustrial>
 				</costList>
@@ -198,7 +198,7 @@
 			<value>
 				<costList>
 				  <PRF_StainlessSteel>10</PRF_StainlessSteel>
-				  <PRF_CopperIngot>5</PRF_CopperIngot>
+				  <PRF_Copper>5</PRF_Copper>
 				  <PRF_CrystalPowder>5</PRF_CrystalPowder>
 				  <ComponentIndustrial>4</ComponentIndustrial>
 				</costList>
@@ -209,7 +209,7 @@
 			<value>
 				<costList>
 				  <PRF_StainlessSteel>15</PRF_StainlessSteel>
-				  <PRF_CopperIngot>5</PRF_CopperIngot>
+				  <PRF_Copper>5</PRF_Copper>
 				  <PRF_CrystalPowder>10</PRF_CrystalPowder>
 				  <ComponentIndustrial>8</ComponentIndustrial>
 				</costList>
@@ -232,7 +232,7 @@
 				<value>
 					<costList>
 						<Steel>40</Steel>
-						<PRF_CopperIngot>35</PRF_CopperIngot>
+						<PRF_Copper>35</PRF_Copper>
 						<Chemfuel>75</Chemfuel>
 					</costList>
 				</value>

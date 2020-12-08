@@ -304,7 +304,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_LaserSword"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>5</PRF_CopperIngot>
+						<PRF_Copper>5</PRF_Copper>
 						<PRF_StainlessSteel>15</PRF_StainlessSteel>
 						<PRF_CrystalPowder>15</PRF_CrystalPowder>
 						<Plasteel>30</Plasteel>
@@ -316,7 +316,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserPistol"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>10</PRF_CopperIngot>
+						<PRF_Copper>10</PRF_Copper>
 						<PRF_StainlessSteel>15</PRF_StainlessSteel>
 						<PRF_CrystalPowder>5</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
@@ -328,7 +328,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserSMG"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>20</PRF_CopperIngot>
+						<PRF_Copper>20</PRF_Copper>
 						<PRF_StainlessSteel>25</PRF_StainlessSteel>
 						<PRF_CrystalPowder>15</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
@@ -340,7 +340,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserRifle"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_Copper>15</PRF_Copper>
 						<PRF_StainlessSteel>15</PRF_StainlessSteel>
 						<PRF_CrystalPowder>10</PRF_CrystalPowder>
 						<Plasteel>70</Plasteel>
@@ -352,7 +352,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserShotgun"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_Copper>15</PRF_Copper>
 						<PRF_StainlessSteel>15</PRF_StainlessSteel>
 						<PRF_CrystalPowder>20</PRF_CrystalPowder>
 						<Plasteel>70</Plasteel>
@@ -364,7 +364,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserSniperRifle"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_Copper>15</PRF_Copper>
 						<PRF_StainlessSteel>5</PRF_StainlessSteel>
 						<PRF_CrystalPowder>15</PRF_CrystalPowder>
 						<Plasteel>70</Plasteel>
@@ -376,7 +376,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_LaserMinigun"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>25</PRF_CopperIngot>
+						<PRF_Copper>25</PRF_Copper>
 						<PRF_StainlessSteel>25</PRF_StainlessSteel>
 						<PRF_CrystalPowder>25</PRF_CrystalPowder>
 						<Plasteel>100</Plasteel>
@@ -388,7 +388,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_TeslaGun"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>25</PRF_CopperIngot>
+						<PRF_Copper>25</PRF_Copper>
 						<PRF_StainlessSteel>25</PRF_StainlessSteel>
 						<Plasteel>80</Plasteel>
 						<ComponentSpacer>8</ComponentSpacer>
@@ -400,7 +400,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_SalvagedLaserPistol"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>10</PRF_CopperIngot>
+						<PRF_Copper>10</PRF_Copper>
 						<PRF_StainlessSteel>15</PRF_StainlessSteel>
 						<PRF_CrystalPowder>5</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
@@ -412,7 +412,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_SalvagedLaserRifle"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_Copper>15</PRF_Copper>
 						<PRF_StainlessSteel>15</PRF_StainlessSteel>
 						<PRF_CrystalPowder>10</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
@@ -424,7 +424,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_SalvagedLaserShotgun"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_Copper>15</PRF_Copper>
 						<PRF_StainlessSteel>15</PRF_StainlessSteel>
 						<PRF_CrystalPowder>20</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
@@ -436,7 +436,7 @@
 			<xpath>/Defs/ThingDef [defName = "VWEL_Gun_SalvagedLaserSniperRifle"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>15</PRF_CopperIngot>
+						<PRF_Copper>15</PRF_Copper>
 						<PRF_StainlessSteel>5</PRF_StainlessSteel>
 						<PRF_CrystalPowder>15</PRF_CrystalPowder>
 						<Plasteel>60</Plasteel>
@@ -472,7 +472,7 @@
 						<countRange>100~300</countRange>
 					</li>
 					<li Class="StockGenerator_SingleDef">
-						<thingDef>PRF_CopperIngot</thingDef>
+						<thingDef>PRF_Copper</thingDef>
 						<countRange>100~200</countRange>
 					</li>
 					<li Class="StockGenerator_SingleDef">

@@ -6,7 +6,7 @@
 		<xpath>/Defs/ThingDef[defName = "PowerConduit"]/costList</xpath>
 		<value>
 			<costList>
-			  <PRF_CopperIngot>1</PRF_CopperIngot>
+			  <PRF_Copper>1</PRF_Copper>
 			</costList>
 		</value>
 	</Operation>
@@ -14,7 +14,7 @@
 		<xpath>/Defs/ThingDef[defName = "WaterproofConduit"]/costList</xpath>
 		<value>
 			<costList>
-			  <PRF_CopperIngot>8</PRF_CopperIngot>
+			  <PRF_Copper>8</PRF_Copper>
 			  <Steel>2</Steel>
 			</costList>
 		</value>
@@ -24,7 +24,7 @@
 		<value>
 			<costList>
 			  <Steel>10</Steel>
-			  <PRF_CopperIngot>5</PRF_CopperIngot>
+			  <PRF_Copper>5</PRF_Copper>
 			  <ComponentIndustrial>1</ComponentIndustrial>
 			</costList>
 		</value>
@@ -171,7 +171,7 @@
 			  <Steel>40</Steel>
 			  <Plasteel>40</Plasteel>
 			  <PRF_StainlessSteel>10</PRF_StainlessSteel>
-			  <PRF_CopperIngot>60</PRF_CopperIngot>
+			  <PRF_Copper>60</PRF_Copper>
 			  <Gold>20</Gold>
 			  <ComponentIndustrial>8</ComponentIndustrial>
 			</costList>

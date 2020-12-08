@@ -306,7 +306,7 @@
       <Cleanliness>0.5</Cleanliness>
     </statBases>
     <costList>
-      <PRF_CopperIngot>7</PRF_CopperIngot>
+      <PRF_Copper>7</PRF_Copper>
     </costList>
     <designationHotKey>Misc7</designationHotKey>
     <tags>

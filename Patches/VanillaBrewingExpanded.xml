@@ -31,7 +31,7 @@
 				<xpath>/Defs/ThingDef [defName = "VBE_GinStill"]/costList</xpath>
 				<value>
 					<costList>
-						<PRF_CopperIngot>40</PRF_CopperIngot>
+						<PRF_Copper>40</PRF_Copper>
 						<ComponentIndustrial>1</ComponentIndustrial>
 					</costList>
 				</value>

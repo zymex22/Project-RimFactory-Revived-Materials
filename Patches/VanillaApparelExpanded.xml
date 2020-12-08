@@ -14,7 +14,7 @@
 				<value>
 					<costList>
 						<PRF_StainlessSteel>10</PRF_StainlessSteel>
-						<PRF_CopperIngot>5</PRF_CopperIngot>
+						<PRF_Copper>5</PRF_Copper>
 						<PRF_CrystalPowder>5</PRF_CrystalPowder>
 						<Plasteel>5</Plasteel>
 						<ComponentIndustrial>2</ComponentIndustrial>

@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <RecipeDef>
+  
+<!-- 	<RecipeDef>
     <defName>PRF_MakeCopperCoal</defName>
-    <label>Refine copper ingots</label>
+    <label>make copper ingots with coal</label>
     <description>Refine copper ore into usable cooper ingots.</description>
+    <jobString>Refining copper ore.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>7000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Copper</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Coal</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PRF_Copper</li>
+        <li>PRF_Coal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PRF_CopperIngot>70</PRF_CopperIngot>
+    </products>
+	<researchPrerequisite>Smithing</researchPrerequisite>
+  </RecipeDef>
+  
+	<RecipeDef>
+    <defName>PRF_MakeCopperCoke</defName>
+    <label>make copper ingots with coke</label>
+    <description>Refine copper ore into usable cooper ingots. Coke usage increase efficiency.</description>
     <jobString>Refining copper ore.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
@@ -19,37 +58,7 @@
         </filter>
         <count>70</count>
       </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>PRF_Copper</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <PRF_CopperIngot>70</PRF_CopperIngot>
-    </products>
-    <researchPrerequisite>Smithing</researchPrerequisite>
-  </RecipeDef>
-
-  <RecipeDef>
-    <defName>PRF_MakeCopperCoke</defName>
-    <label>make copper ingots with coke</label>
-    <description>Refine copper ore into usable cooper ingots. Coke usage increase efficiency.</description>
-    <jobString>Refining copper ore.</jobString>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>5000</workAmount>
-    <workSpeedStat>SmeltingSpeed</workSpeedStat>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PRF_Copper</li>
-          </thingDefs>
-        </filter>
-        <count>70</count>
-      </li>
-      <li>
+	  <li>
         <filter>
           <thingDefs>
             <li>PRF_Coke</li>
@@ -67,18 +76,17 @@
     <products>
       <PRF_CopperIngot>70</PRF_CopperIngot>
     </products>
-    <researchPrerequisite>Smithing</researchPrerequisite>
+	<researchPrerequisite>Smithing</researchPrerequisite>
   </RecipeDef>
-
-  <!-- Steel Bulk Making -->
-  <RecipeDef>
+  
+	<RecipeDef>
     <defName>PRF_MakeCopperBulkCoal</defName>
-    <label>Refine bulk copper ingots with coal</label>
+    <label>make bulk copper ingots with coal</label>
     <description>Refine copper ore into usable cooper ingots.</description>
     <jobString>Refining copper ore.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>12000</workAmount>
+    <workAmount>14000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <ingredients>
       <li>
@@ -89,26 +97,35 @@
         </filter>
         <count>250</count>
       </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>PRF_Coal</li>
+          </thingDefs>
+        </filter>
+        <count>120</count>
+      </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>PRF_Copper</li>
+        <li>PRF_Coal</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
       <PRF_CopperIngot>280</PRF_CopperIngot>
     </products>
-    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef>
-
-  <RecipeDef>
+  
+	<RecipeDef>
     <defName>PRF_MakeCopperBulkCoke</defName>
     <label>make bulk copper ingots with coke</label>
     <description>Refine copper ore into usable cooper ingots. Coke usage increase efficiency.</description>
     <jobString>Refining copper ore.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>9000</workAmount>
+    <workAmount>11000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <ingredients>
       <li>
@@ -119,7 +136,7 @@
         </filter>
         <count>250</count>
       </li>
-      <li>
+	  <li>
         <filter>
           <thingDefs>
             <li>PRF_Coke</li>
@@ -137,7 +154,7 @@
     <products>
       <PRF_CopperIngot>280</PRF_CopperIngot>
     </products>
-    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
-  </RecipeDef>
-
+	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+  </RecipeDef> -->
+  
 </Defs>
