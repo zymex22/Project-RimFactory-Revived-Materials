@@ -76,7 +76,7 @@
 		<label>concrete</label>
 		<description>By mixing the techniques of clay baking and lime production: a new material can be made through the combination of the two, concrete. A strong, neutral beauty material.</description>
 		<baseCost>600</baseCost>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>PRF_Cement</li>
 		</prerequisites>
