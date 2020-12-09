@@ -10,7 +10,7 @@
     <altitudeLayer>Gas</altitudeLayer>
     <graphicData>
       <texPath>Industry/PRF_Kiln</texPath>
-      <drawSize>(2,2)</drawSize>
+      <drawSize>(4,4)</drawSize>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
