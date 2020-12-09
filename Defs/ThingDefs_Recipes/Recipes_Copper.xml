@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-<!-- 	<RecipeDef>
+
+  <!-- 	<RecipeDef>
     <defName>PRF_MakeCopperCoal</defName>
     <label>make copper ingots with coal</label>
     <description>Refine copper ore into usable cooper ingots.</description>
@@ -156,5 +156,5 @@
     </products>
 	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef> -->
-  
+
 </Defs>

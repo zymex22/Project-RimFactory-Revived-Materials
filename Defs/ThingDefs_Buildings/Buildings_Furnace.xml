@@ -7,7 +7,8 @@
     <defName>PRF_FueledStoneSmelter</defName>
     <label>primitive smelter</label>
     <thingClass>ProjectRimFactory.SAL3.Things.Assemblers.Building_SimpleAssembler</thingClass>
-    <altitudeLayer>Gas</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
+    <constructEffect></constructEffect>
     <graphicData>
       <texPath>Industry/PRF_Kiln</texPath>
       <drawSize>(4,4)</drawSize>
@@ -32,10 +33,10 @@
       <li>BurnApparel</li>
       <li>CremateCorpse</li>
       <li>ExtractMetalFromSlag</li>
-	  <li>PRF_MakeCharcoal</li>
-	  <li>PRF_BakeBrick</li>
-	  <li>PRF_MakeConcrete</li>
-	  <li>PRF_MakeSteelCoal</li>
+      <li>PRF_MakeCharcoal</li>
+      <li>PRF_BakeBrick</li>
+      <li>PRF_MakeConcrete</li>
+      <li>PRF_MakeSteelCoal</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Refuelable">
@@ -93,7 +94,7 @@
     </statBases>
     <description>Advanced Furnace using multiple extreme temperature plasma-arcs to smelt raw resources into useful materials, faster than previous iterations.\n\nImports any recipe from the Electric Smelter and the Crematorium.</description>
     <costList>
-	  <Steel>200</Steel>
+      <Steel>200</Steel>
       <PRF_StainlessSteel>100</PRF_StainlessSteel>
       <Plasteel>300</Plasteel>
       <PRF_ElectronicChip_I>4</PRF_ElectronicChip_I>
@@ -103,21 +104,21 @@
       <PRF_MachineFrame_III>1</PRF_MachineFrame_III>
     </costList>
     <recipes>
-			<li>PRF_BakeBrickBulk</li>
-			<li>PRF_MakeCokeBulk</li>
-			<li>PRF_MakeBasicGlassBulk</li>
-			<li>PRF_MakeReinforcedGlassBulk</li>
-			<li>PRF_MakeSteelBulkCoal</li>
-			<li>PRF_MakeSteelBulkCoke</li>
-			<li>PRF_MakeCopperBulkCoal</li>
-			<li>PRF_MakeCopperBulkCoke</li>
-			<li>PRF_MakeStainlessSteelChemBulk</li>
-			<li>PRF_MakeStainlessSteelCokeBulk</li>
-			<li>PRF_MakeSyntheticDiamondBulk</li>
-			<li>PRF_MakeCarbonPowder_Coke</li>
-			<li>PRF_MakeCarbonPowder_Wood</li>
-			<li>PRF_MakeCarbonPowder_Coal</li>
-			<li>PRF_MakeCarbonPowder_Chemfuel</li>
+      <li>PRF_BakeBrickBulk</li>
+      <li>PRF_MakeCokeBulk</li>
+      <li>PRF_MakeBasicGlassBulk</li>
+      <li>PRF_MakeReinforcedGlassBulk</li>
+      <li>PRF_MakeSteelBulkCoal</li>
+      <li>PRF_MakeSteelBulkCoke</li>
+      <!-- <li>PRF_MakeCopperBulkCoal</li> -->
+      <!-- <li>PRF_MakeCopperBulkCoke</li> -->
+      <li>PRF_MakeStainlessSteelChemBulk</li>
+      <li>PRF_MakeStainlessSteelCokeBulk</li>
+      <li>PRF_MakeSyntheticDiamondBulk</li>
+      <li>PRF_MakeCarbonPowder_Coke</li>
+      <li>PRF_MakeCarbonPowder_Wood</li>
+      <li>PRF_MakeCarbonPowder_Coal</li>
+      <li>PRF_MakeCarbonPowder_Chemfuel</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Power">

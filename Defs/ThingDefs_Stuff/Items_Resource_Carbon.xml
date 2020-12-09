@@ -137,15 +137,15 @@
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-	
-		<ThingDef ParentName="ResourceBase">
+
+	<ThingDef ParentName="ResourceBase">
 		<defName>PRF_CarbonPlate</defName>
 		<label>carbon fiber plate</label>
-		<description>Carbon Fiber stabilized with plastic into a rigid structure.  Very light and very strong, but is flammable.</description>
+		<description>Carbon Fiber stabilized with a strong type of epoxy resin into a rigid structure. Very light durable and have a good impact resistance, its usefull for stationary buildings that doesnt need to flex. Due to its Resin layers its have a lower fire point and will only ignite at around 300-500c.</description>
 		<graphicData>
 			<texPath>Resources/PRF_CarbonPlate</texPath>
 			<graphicClass>Graphic_Stackcount</graphicClass>
-			<color>(75,75,75)</color>
+			<!-- <color>(75,75,75)</color> -->
 		</graphicData>
 		<soundInteract>ChunkRock_Drop</soundInteract>
 		<soundDrop>ChunkRock_Drop</soundDrop>
@@ -187,7 +187,7 @@
 			<statFactors>
 				<MaxHitPoints>5.5</MaxHitPoints>
 				<Beauty>1.2</Beauty>
-				<Flammability>1</Flammability>
+				<Flammability>0.05</Flammability>
 				<WorkToMake>2.0</WorkToMake>
 				<WorkToBuild>2.3</WorkToBuild>
 				<MeleeWeapon_CooldownMultiplier>0.9</MeleeWeapon_CooldownMultiplier>
@@ -196,8 +196,8 @@
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-	
-		<ThingDef ParentName="ResourceBase">
+
+	<ThingDef ParentName="ResourceBase">
 		<defName>PRF_RawDiamond</defName>
 		<label>raw diamond</label>
 		<description>Raw diamond, requires processing to produce usable material.</description>
