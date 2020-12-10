@@ -11,7 +11,7 @@
       <texPath>Industry/T2StoneFabricator</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
-    <designatorDropdown>PRF_industry_gr</designatorDropdown>
+    <designatorDropdown>PRF_IndustryGroup</designatorDropdown>
     <size>(2,2)</size>
     <inspectorTabs>
       <li>ProjectRimFactory.SAL3.UI.ITab_SAL3Bills</li>

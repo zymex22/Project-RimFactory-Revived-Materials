@@ -22,7 +22,7 @@
 							  <texPath>Industry/MaterialsRefinery</texPath>
 							  <drawSize>(3,3)</drawSize>
 							</graphicData>
-							<designatorDropdown>PRF_industry_gr</designatorDropdown>
+							<designatorDropdown>PRF_IndustryGroup</designatorDropdown>
 							<size>(3,3)</size>
 							<inspectorTabs>
 							  <li>ProjectRimFactory.Common.ITab_PowerSupply</li>      <!-- Power boost -->

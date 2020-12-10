@@ -6,9 +6,9 @@
 		<xpath>/Defs/TerrainDef[@Name = "PRF_ConcreteFloorBase"]/costList</xpath>
 		<value>
 			<costList>
-			  <PRF_Concrete>1</PRF_Concrete>
+				<PRF_Concrete>1</PRF_Concrete>
 			</costList>
 		</value>
 	</Operation>
-	
+
 </Patch>

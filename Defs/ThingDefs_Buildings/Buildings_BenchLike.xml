@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="PRF_BenchLikeBase" ParentName="BuildingBase" Abstract="True">
-		<canOverlapZones>false</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
-		<statBases>
-			<Mass>20</Mass>
-		</statBases>
-		<interactionCellIcon>DiningChair</interactionCellIcon>
-		<comps>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
-		</comps>
-		<placeWorkers>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
-		</placeWorkers>
-	</ThingDef>
-
 	<!-- Base concept borrowed from VGP Gourmet, updated to prf - materials fit -->
 	<ThingDef ParentName="PRF_BenchLikeBase">
 		<defName>PRF_GrindStone</defName>

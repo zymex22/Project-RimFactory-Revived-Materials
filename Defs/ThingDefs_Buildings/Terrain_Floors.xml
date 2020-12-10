@@ -34,7 +34,7 @@
 		<color>(140,140,140)</color>
 		<edgeType>Hard</edgeType>
 		<renderPrecedence>150</renderPrecedence>
-		<designatorDropdown>PRF_ConcreteFloor</designatorDropdown>
+		<designatorDropdown>PRF_ConcreteFloorGroup</designatorDropdown>
 		<statBases>
 			<Beauty>2</Beauty>
 			<WorkToBuild>140</WorkToBuild>
@@ -55,7 +55,7 @@
 		<color>(130,130,150)</color>
 		<edgeType>Hard</edgeType>
 		<renderPrecedence>150</renderPrecedence>
-		<designatorDropdown>PRF_ConcreteFloor</designatorDropdown>
+		<designatorDropdown>PRF_ConcreteFloorGroup</designatorDropdown>
 		<statBases>
 			<Beauty>3</Beauty>
 			<WorkToBuild>160</WorkToBuild>
