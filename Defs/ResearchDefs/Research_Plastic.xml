@@ -7,10 +7,12 @@
 		<description>Learn how to extract crude oil from oil shale and convert it to chemfuel and mixed plastic material, which can be later used to create laminated wood.</description>
 		<baseCost>250</baseCost>
 		<techLevel>Industrial</techLevel>
-		<prerequisites><li>Electricity</li></prerequisites>
-    <tab>PRF_Materials</tab>
-  <researchViewX>0.00</researchViewX>
-  <researchViewY>2.25</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -19,10 +21,12 @@
 		<description>Learn how to extract crude oil from oil shale and convert it to chemfuel and mixed plastic material, which can be later used to create laminated wood.</description>
 		<baseCost>750</baseCost>
 		<techLevel>Industrial</techLevel>
-		<prerequisites><li>PRF_BasicPlastics</li></prerequisites>
-    <tab>PRF_Materials</tab>
-  <researchViewX>1.00</researchViewX>
-  <researchViewY>2.80</researchViewY>
+		<prerequisites>
+			<li>PRF_BasicPlastics</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -31,10 +35,12 @@
 		<description>Develop methods of polyester production from refined oil; a wind-proof, water-proof textile that has some insulative properties to it.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
-		<prerequisites><li>PRF_BasicPlastics</li></prerequisites>
-    <tab>PRF_Materials</tab>
-  <researchViewX>1.00</researchViewX>
-  <researchViewY>2.20</researchViewY>
+		<prerequisites>
+			<li>PRF_BasicPlastics</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.20</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -43,10 +49,13 @@
 		<description>Learn how to produce kevlar from plastic: a tough textile that has a high resistance to weapons.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
-		<prerequisites><li>PRF_BasicPlasticTextiles</li><li>PRF_AdvPlastics</li></prerequisites>
-    <tab>PRF_Materials</tab>
-  <researchViewX>2.00</researchViewX>
-  <researchViewY>2.50</researchViewY>
+		<prerequisites>
+			<li>PRF_BasicPlasticTextiles</li>
+			<li>PRF_AdvPlastics</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>2.50</researchViewY>
 	</ResearchProjectDef>
-	
+
 </Defs>

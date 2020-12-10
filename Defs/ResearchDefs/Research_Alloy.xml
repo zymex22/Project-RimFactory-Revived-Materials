@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
+
   <ResearchProjectDef>
     <defName>PRF_StainlessSteelAlloying</defName>
     <label>Alloying</label>
@@ -8,11 +8,11 @@
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>PRF_Materials</tab>
-  <researchViewX>1.00</researchViewX>
-  <researchViewY>0.00</researchViewY>
-	<prerequisites>
-		<li>Smithing</li>
-	</prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
   </ResearchProjectDef>
 
 </Defs>

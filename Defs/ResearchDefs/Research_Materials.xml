@@ -11,8 +11,8 @@
 			<li>Smithing</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>0.00</researchViewX>
-  <researchViewY>1.25</researchViewY>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -25,8 +25,8 @@
 			<li>Smithing</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>0.00</researchViewX>
-  <researchViewY>1.70</researchViewY>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>1.70</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -39,8 +39,8 @@
 			<li>Smithing</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>0.00</researchViewX>
-  <researchViewY>0.60</researchViewY>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.60</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -53,8 +53,8 @@
 			<li>PRF_BasicGlass</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>1.00</researchViewX>
-  <researchViewY>0.65</researchViewY>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.65</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -67,8 +67,8 @@
 			<li>PRF_Brick</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>1.00</researchViewX>
-  <researchViewY>1.30</researchViewY>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.30</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -81,8 +81,8 @@
 			<li>PRF_Cement</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>2.00</researchViewX>
-  <researchViewY>1.30</researchViewY>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>1.30</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -95,8 +95,8 @@
 			<li>PRF_BasicConcrete</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>3.00</researchViewX>
-  <researchViewY>1.55</researchViewY>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.55</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -109,8 +109,8 @@
 			<li>PRF_BasicConcrete</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>3.00</researchViewX>
-  <researchViewY>1.05</researchViewY>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.05</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>
