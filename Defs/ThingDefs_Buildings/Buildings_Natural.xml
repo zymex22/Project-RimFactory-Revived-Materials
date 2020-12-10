@@ -115,7 +115,7 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>PRF_quartz</mineableThing>
+      <mineableThing>PRF_RawDiamond</mineableThing>
       <mineableYield>20</mineableYield>
       <mineableScatterCommonality>0.2</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
