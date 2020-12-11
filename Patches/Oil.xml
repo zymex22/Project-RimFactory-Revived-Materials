@@ -26,7 +26,7 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>/Defs/RecipeDef [defName = "PRF_RefinePlasteel"]/ingredients</xpath>
+	<xpath>/Defs/RecipeDef [defName = "PRF_RefinePlasteel"]/fixedIngredientFilter</xpath>
 	<value>
 		<fixedIngredientFilter>
 		  <thingDefs>
