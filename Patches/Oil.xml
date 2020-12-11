@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RecipeDef [defName = "PRF_RefinePlasteel"]/ingredients</xpath>
+	<value>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Steel</li>
+			  </thingDefs>
+			</filter>
+			<count>20</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>PRF_Oil</li>
+			  </thingDefs>
+			</filter>
+			<count>30</count>
+		  </li>
+		</ingredients>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RecipeDef [defName = "PRF_RefinePlasteel"]/ingredients</xpath>
+	<value>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>Steel</li>
+			<li>PRF_Oil</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+		
+</Patch>
