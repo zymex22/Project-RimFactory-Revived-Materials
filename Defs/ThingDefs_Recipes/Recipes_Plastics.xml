@@ -34,6 +34,9 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>PRF_MaterialsRefinery</li>
+		</recipeUsers>
 		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
 	</RecipeDef>
 
@@ -70,6 +73,9 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>PRF_MaterialsRefinery</li>
+		</recipeUsers>
 		<researchPrerequisite>PRF_AdvPlastics</researchPrerequisite>
 	</RecipeDef>	
 	
@@ -106,6 +112,9 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>PRF_MaterialsRefinery</li>
+		</recipeUsers>
 		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
 	</RecipeDef>
 
@@ -142,6 +151,9 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>PRF_MaterialsRefinery</li>
+		</recipeUsers>
 		<researchPrerequisite>PRF_AdvPlastics</researchPrerequisite>
 	</RecipeDef>	
 
