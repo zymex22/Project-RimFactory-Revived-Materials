@@ -62,7 +62,7 @@
         <minPowerForSpeed>3000</minPowerForSpeed>
         <minSpeedFactor>2</minSpeedFactor>
         <maxPowerForSpeed>10000</maxPowerForSpeed>
-        <maxSpeedFactor>7</maxSpeedFactor>
+        <maxSpeedFactor>4</maxSpeedFactor>
         <!-- range settings -->
         <rangeSetting>true</rangeSetting>
         <minPowerForRange>0</minPowerForRange>
