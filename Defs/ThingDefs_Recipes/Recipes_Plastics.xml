@@ -2,8 +2,80 @@
 <Defs>
 	
 	<RecipeDef>
-		<defName>PRF_MakeMixedPlastic</defName>
-		<label>make plastic</label>
+		<defName>PRF_MakeMixedPlasticOil</defName>
+		<label>make plastic from oil</label>
+		<description>Reform the hydrocarbons within oil to produce a solidified form that can be used in construction.</description>
+		<jobString>Making plastic.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>3</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Oil</li>
+					</thingDefs>
+				</filter>
+				<count>11</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_Oil</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_MixedPlastic>10</PRF_MixedPlastic>
+		</products>
+		<workAmount>600</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeMixedPlasticBulkOil</defName>
+		<label>make bulk plastic from oil</label>
+		<description>Reform the hydrocarbons within oil to produce a large solidified form that can be used in construction.</description>
+		<jobString>Making plastic.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>6</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Oil</li>
+					</thingDefs>
+				</filter>
+				<count>110</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_Oil</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PRF_MixedPlastic>100</PRF_MixedPlastic>
+		</products>
+		<workAmount>6000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_AdvPlastics</researchPrerequisite>
+	</RecipeDef>	
+	
+	<RecipeDef>
+		<defName>PRF_MakeMixedPlasticChem</defName>
+		<label>make plastic from chemfuel</label>
 		<description>Reform the hydrocarbons within chemfuel to produce a solidified form that can be used in construction.</description>
 		<jobString>Making plastic.</jobString>  
 		<allowMixingIngredients>false</allowMixingIngredients>
@@ -38,8 +110,8 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>PRF_MakeMixedPlasticBulk</defName>
-		<label>make bulk plastic</label>
+		<defName>PRF_MakeMixedPlasticBulkChem</defName>
+		<label>make bulk plastic from chemfuel</label>
 		<description>Reform the hydrocarbons within chemfuel to produce a large solidified form that can be used in construction.</description>
 		<jobString>Making plastic.</jobString>  
 		<allowMixingIngredients>false</allowMixingIngredients>
