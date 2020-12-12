@@ -37,6 +37,9 @@
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
+		<deepCommonality>0.1</deepCommonality>
+		<deepCountPerPortion>35</deepCountPerPortion>
+		<deepLumpSizeRange>20~50</deepLumpSizeRange>
 	</ThingDef>
 
  	<ThingDef ParentName="PRF_RawResourceBase">
@@ -71,6 +74,9 @@
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
+		<deepCommonality>0.1</deepCommonality>
+		<deepCountPerPortion>35</deepCountPerPortion>
+		<deepLumpSizeRange>20~50</deepLumpSizeRange>
 	</ThingDef>
 	
 </Defs>
