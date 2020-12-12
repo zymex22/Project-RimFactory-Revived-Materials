@@ -129,8 +129,8 @@
 					<xpath>/Defs</xpath>
 					<value>
 					  <ThingDef ParentName="PRF_FurnaceBase">
-						<defName>PRF_FurnaceIV</defName>
-						<label>Plasma Furnace</label>
+						<defName>PRF_FurnaceIV_Gas</defName>
+						<label>Plasma Furnace (Helixien)</label>
 						<thingClass>ProjectRimFactory.SAL3.Things.Assemblers.Building_SimpleAssembler</thingClass>
 						<graphicData>
 						  <texPath>Industry/t3_plasmaforge</texPath>
