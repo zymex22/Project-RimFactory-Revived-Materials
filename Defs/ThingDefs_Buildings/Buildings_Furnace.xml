@@ -98,6 +98,7 @@
       <Steel>200</Steel>
       <PRF_StainlessSteel>100</PRF_StainlessSteel>
       <Plasteel>300</Plasteel>
+      <PRF_quartz>50</PRF_quartz>
       <PRF_ElectronicChip_I>4</PRF_ElectronicChip_I>
       <PRF_ElectronicChip_II>1</PRF_ElectronicChip_II>
       <ComponentIndustrial>20</ComponentIndustrial>
