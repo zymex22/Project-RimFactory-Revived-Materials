@@ -65,6 +65,7 @@
         <doEffect>false</doEffect>
         <importRecipesFrom>
           <li>TableStonecutter</li>
+          <li>PRF_StoneWorks</li>
         </importRecipesFrom>
       </li>
       <li Class="ProjectRimFactory.Common.ModExtension_Skills">
