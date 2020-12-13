@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--================================ patches for beds ======================================-->
+
+	<!-- Universal Patch will make it link to anything a EndTable can connect to -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef/comps/li[@Class = "CompProperties_AffectedByFacilities" and linkableFacilities/li[text() = "EndTable"]]/linkableFacilities</xpath>
+				<value>
+					<li>PRF_QuartzPylon</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

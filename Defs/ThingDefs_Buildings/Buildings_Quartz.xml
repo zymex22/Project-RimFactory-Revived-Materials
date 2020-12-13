@@ -140,19 +140,23 @@
 	<ThingDef ParentName="LampBase">
 		<defName>PRF_QuartzPylon</defName>
 		<label>crystal pylon</label>
-		<description>A simple structure for lighting areas. For some reason, it never feels like enough have been built.</description>
+		<description>A simple pylon provide a small area with light. For some reason, it never feels like enough have been built.\nCan be placed on tables and Endtables for a nice decoration and natural light.</description>
 		<graphicData>
-			<texPath>Building/Pylon/Pylon</texPath>
-			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<texPath>Building/Pylon/PRF_Pylon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!-- <shaderType>CutoutComplex</shaderType> -->
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
 		</graphicData>
+		<clearBuildingArea>false</clearBuildingArea>
 		<size>(1,1)</size>
-		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<designationCategory>Furniture</designationCategory>
-		<pathCost>10</pathCost>
+		<pathCost>1</pathCost>
 		<statBases>
-			<Beauty>10</Beauty>
-			<WorkToBuild>120</WorkToBuild>
+			<MaxHitPoints>300</MaxHitPoints>			<!-- sc hp -->
+			<Beauty>5</Beauty>
+			<WorkToBuild>30</WorkToBuild>			<!-- build time -->
 			<Flammability>0.1</Flammability>
 			<Mass>1.5</Mass>
 		</statBases>
@@ -164,16 +168,16 @@
 		<costList>
 			<PRF_CrystalPowder>10</PRF_CrystalPowder>
 		</costList>
+		<rotatable>false</rotatable>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
 		<comps>
 			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
-				<glowRadius>10</glowRadius>
-				<glowColor>(252,199,139,0)</glowColor>
-				<key>PRF_Warm_White</key>
+				<glowRadius>8</glowRadius>				<!-- sc supported pop. -->
+				<glowColor>(140,200,250,0)</glowColor>
+				<key>PRF_Cool_White</key>
 				<moreColors>
-					<li>
-						<key>PRF_Cool_White</key>
-						<color>(140,200,250,0)</color>
-					</li>
 					<li>
 						<key>PRF_Blue</key>
 						<color>(80,80,217,0)</color>
@@ -183,12 +187,23 @@
 						<color>(10,245,245,0)</color>
 					</li>
 				</moreColors>
-				<prerequisites>
-					<li>ColoredLights</li>
-				</prerequisites>
+			</li>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<Comfort>0.05</Comfort>
+					<!-- <ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor> -->
+					<BedRestEffectiveness>0.08</BedRestEffectiveness>
+					<!-- <SurgerySuccessChanceFactor>0</SurgerySuccessChanceFactor> -->
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<maxDistance>6</maxDistance>				<!-- same as dresser -->
+				<mustBePlacedAdjacentCardinalToBedHead>false</mustBePlacedAdjacentCardinalToBedHead>
 			</li>
 		</comps>
-		<specialDisplayRadius>10</specialDisplayRadius>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<specialDisplayRadius>7</specialDisplayRadius>
 	</ThingDef>
 
 	<ThingDef ParentName="LampBase">
