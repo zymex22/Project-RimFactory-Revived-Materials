@@ -80,7 +80,7 @@
 	</RecipeDef>	
 	
 	<RecipeDef>
-		<defName>PRF_MakeMixedPlasticChem</defName>
+		<defName>PRF_MakeMixedPlasticOilChem</defName>
 		<label>make plastic from chemfuel</label>
 		<description>Reform the hydrocarbons within chemfuel to produce a solidified form that can be used in construction.</description>
 		<jobString>Making plastic.</jobString>  
@@ -119,7 +119,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>PRF_MakeMixedPlasticBulkChem</defName>
+		<defName>PRF_MakeMixedPlasticBulkOilChem</defName>
 		<label>make bulk plastic from chemfuel</label>
 		<description>Reform the hydrocarbons within chemfuel to produce a large solidified form that can be used in construction.</description>
 		<jobString>Making plastic.</jobString>  

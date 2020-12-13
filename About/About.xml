@@ -23,6 +23,11 @@
     <li>spdskatr.projectrimfactory</li>
   </loadAfter>
   <description>
+  Save comtability?
+  - safe to add to ongoing game, though will natural gen. not happen on old map
+  - remove midgame might cause problems to your safe, my most should be one time errors.
+
+
   A combination of Atlas's Materials+, Neceros Don't Burn Metal, and Argon's Expanded Materials using Project RimFactory mechanics.
 
   This mod is just another take on a Materials mod and is meant to be focused around Factory games like Factorio, satisfactory and more.

@@ -1,50 +1,143 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingBase" >
+	<!-- ==================== Quartz light base ==================== -->
+	<ThingDef Abstract="True" Name="PRF_QuartzLightBase" ParentName="BuildingBase">
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>Standable</passability>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>1</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<designationCategory>Furniture</designationCategory>
+		<rotatable>true</rotatable>
+		<selectable>true</selectable>
+		<pathCost>0</pathCost>
+	</ThingDef>
+
+	<!-- ==================== Quartz Torches ==================== -->
+	<ThingDef ParentName="PRF_QuartzLightBase">
 		<defName>PRF_QuartzTorch</defName>
 		<label>quartz torch</label>
-		<description>Not so much a torch as a glowing piece of rock strapped to a stick, but it's better than nothing.</description>
+		<description>Glowing quartz crystals attached to a stick, to provide some early lightning for your cavemens.\nI wonder what possible sideeffects this strange glowing crystal would do to me while i sleep next to it?</description>
 		<graphicData>
 			<texPath>Building/sconce</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		<size>(1,1)</size>
-		<designationCategory>Furniture</designationCategory>
-		<pathCost>0</pathCost>
 		<costList>
 			<WoodLog>1</WoodLog>
 			<PRF_quartz>1</PRF_quartz>
 		</costList>
 		<statBases>
 			<Beauty>5</Beauty>
-			<WorkToBuild>50</WorkToBuild>
+			<WorkToBuild>60</WorkToBuild>
 			<Flammability>0.0</Flammability>
 			<Mass>1.5</Mass>
 		</statBases>
 		<techLevel>Neolithic</techLevel>
-		<uiIconPath>Building/sconce_MenuIcon</uiIconPath>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<fillPercent>0</fillPercent>
 		<comps>
-		  <li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
-			<glowRadius>7</glowRadius>
-			<glowColor>(140,200,250,0)</glowColor>
-			<key>PRF_Cool_White</key>
-			<moreColors>
-				  <li>
-					<key>PRF_Blue</key>
-					<color>(80,80,217,0)</color>
-				  </li>
-			</moreColors>
-		  </li>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>8</glowRadius>
+				<glowColor>(140,200,250,0)</glowColor>
+				<key>PRF_Cool_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+				</moreColors>
+			</li>
 		</comps>
+		<constructEffect>ConstructMetal</constructEffect>
 		<specialDisplayRadius>7</specialDisplayRadius>
 		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
 	</ThingDef>
 
-	<ThingDef ParentName="LampBase" >
+	<!-- ==================== Quartz Wall lamp ==================== -->
+	<!-- We could make this electric later? and let it use small amount of electricity to light up cheaper and more bluish, purple, white tones. -->
+	<ThingDef ParentName="PRF_QuartzLightBase">
+		<defName>PRF_QuartzWallLamp</defName>
+		<label>quartz WallLamp</label>
+		<description>Quartz wall lamp, by putting electricity to theese strange quartz crystal, we managed to get it shine brighter and in a wider spectrum of light.</description>
+		<graphicData>
+			<texPath>Building/PRF_WallLight</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>MoteGlow</shaderType>
+			<drawSize>1.1,1.1</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<designationCategory>Furniture</designationCategory>
+		<pathCost>0</pathCost>
+		<costList>
+			<Steel>5</Steel>
+			<PRF_quartz>1</PRF_quartz>
+		</costList>
+		<statBases>
+			<Beauty>5</Beauty>
+			<WorkToBuild>60</WorkToBuild>
+			<Flammability>0.0</Flammability>
+			<Mass>1.5</Mass>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<placeWorkers>
+			<li>ProjectRimFactory.AutoMachineTool.PlaceWorker_WallEmbedded</li>
+		</placeWorkers>
+		<constructEffect>ConstructMetal</constructEffect>
+		<techLevel>Neolithic</techLevel>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0</fillPercent>
+		<comps>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>12</glowRadius>
+				<glowColor>(140,200,250,0)</glowColor>
+				<key>PRF_Cool_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Magenta</key>
+						<color>(245,10,245,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>5</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<specialDisplayRadius>11</specialDisplayRadius>
+	</ThingDef>
+
+
+
+
+	<!-- ==================== Quartz Pylon ==================== -->
+	<ThingDef ParentName="LampBase">
 		<defName>PRF_QuartzPylon</defName>
 		<label>crystal pylon</label>
 		<description>A simple structure for lighting areas. For some reason, it never feels like enough have been built.</description>
@@ -72,33 +165,33 @@
 			<PRF_CrystalPowder>10</PRF_CrystalPowder>
 		</costList>
 		<comps>
-		  <li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
-			<glowRadius>10</glowRadius>
-			<glowColor>(252,199,139,0)</glowColor>
-			<key>PRF_Warm_White</key>
-			<moreColors>
-				  <li>
-					<key>PRF_Cool_White</key>
-					<color>(140,200,250,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Blue</key>
-					<color>(80,80,217,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Cyan</key>
-					<color>(10,245,245,0)</color>
-				  </li>
-			</moreColors>
-			<prerequisites>
-				<li>ColoredLights</li>
-			</prerequisites>
-		  </li>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>10</glowRadius>
+				<glowColor>(252,199,139,0)</glowColor>
+				<key>PRF_Warm_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Cool_White</key>
+						<color>(140,200,250,0)</color>
+					</li>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+				<prerequisites>
+					<li>ColoredLights</li>
+				</prerequisites>
+			</li>
 		</comps>
 		<specialDisplayRadius>10</specialDisplayRadius>
 	</ThingDef>
 
-	<ThingDef ParentName="LampBase" >
+	<ThingDef ParentName="LampBase">
 		<defName>PRF_QuartzLamp</defName>
 		<label>crystal lamp</label>
 		<description>A lamp supporting two small crystals. Fits well in a bedroom or a workshop.</description>
@@ -126,36 +219,36 @@
 			<Mass>3.5</Mass>
 		</statBases>
 		<comps>
-		  <li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
-			<glowRadius>7</glowRadius>
-			<glowColor>(252,199,139,0)</glowColor>
-			<key>PRF_Warm_White</key>
-			<moreColors>
-				  <li>
-					<key>PRF_Cool_White</key>
-					<color>(140,200,250,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Blue</key>
-					<color>(80,80,217,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Cyan</key>
-					<color>(10,245,245,0)</color>
-				  </li>
-			</moreColors>
-			<prerequisites>
-				<li>ColoredLights</li>
-			</prerequisites>
-		  </li>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>7</glowRadius>
+				<glowColor>(252,199,139,0)</glowColor>
+				<key>PRF_Warm_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Cool_White</key>
+						<color>(140,200,250,0)</color>
+					</li>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+				<prerequisites>
+					<li>ColoredLights</li>
+				</prerequisites>
+			</li>
 		</comps>
 		<specialDisplayRadius>7</specialDisplayRadius>
-	</ThingDef>	
+	</ThingDef>
 
-	  <DesignatorDropdownGroupDef>
-    <defName>PRF_Chandelier</defName>
-	  </DesignatorDropdownGroupDef>
-	
+	<DesignatorDropdownGroupDef>
+		<defName>PRF_Chandelier</defName>
+	</DesignatorDropdownGroupDef>
+
 	<ThingDef Name="CrystalChandelierSmall" ParentName="FurnitureBase">
 		<defName>PRF_CrystalChandelierSmall</defName>
 		<label>small crystal chandelier</label>
@@ -166,6 +259,7 @@
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
 		<size>(1,1)</size>
+		<constructEffect>ConstructMetal</constructEffect>
 		<rotatable>false</rotatable>
 		<fillPercent>0</fillPercent>
 		<selectable>true</selectable>
@@ -188,35 +282,35 @@
 		</costList>
 		<tickerType>Rare</tickerType>
 		<comps>
-		  <li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
-			<glowRadius>15</glowRadius>
-			<glowColor>(252,199,139,0)</glowColor>
-			<key>PRF_Warm_White</key>
-			<moreColors>
-				  <li>
-					<key>PRF_Cool_White</key>
-					<color>(140,200,250,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Blue</key>
-					<color>(80,80,217,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Cyan</key>
-					<color>(10,245,245,0)</color>
-				  </li>
-			</moreColors>
-			<prerequisites>
-				<li>ColoredLights</li>
-			</prerequisites>
-		  </li>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>15</glowRadius>
+				<glowColor>(252,199,139,0)</glowColor>
+				<key>PRF_Warm_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Cool_White</key>
+						<color>(140,200,250,0)</color>
+					</li>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+				<prerequisites>
+					<li>ColoredLights</li>
+				</prerequisites>
+			</li>
 		</comps>
 		<building>
 			<isEdifice>false</isEdifice>
 		</building>
 		<specialDisplayRadius>15</specialDisplayRadius>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="FurnitureBase">
 		<defName>PRF_CrystalChandelierMedium</defName>
 		<label>medium crystal chandelier</label>
@@ -228,6 +322,7 @@
 		</graphicData>
 		<size>(2,2)</size>
 		<rotatable>false</rotatable>
+		<constructEffect>ConstructMetal</constructEffect>
 		<fillPercent>0</fillPercent>
 		<selectable>true</selectable>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -249,35 +344,35 @@
 		</costList>
 		<tickerType>Rare</tickerType>
 		<comps>
-		  <li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
-			<glowRadius>20</glowRadius>
-			<glowColor>(252,199,139,0)</glowColor>
-			<key>PRF_Warm_White</key>
-			<moreColors>
-				  <li>
-					<key>PRF_Cool_White</key>
-					<color>(140,200,250,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Blue</key>
-					<color>(80,80,217,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Cyan</key>
-					<color>(10,245,245,0)</color>
-				  </li>
-			</moreColors>
-			<prerequisites>
-				<li>ColoredLights</li>
-			</prerequisites>
-		  </li>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>20</glowRadius>
+				<glowColor>(252,199,139,0)</glowColor>
+				<key>PRF_Warm_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Cool_White</key>
+						<color>(140,200,250,0)</color>
+					</li>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+				<prerequisites>
+					<li>ColoredLights</li>
+				</prerequisites>
+			</li>
 		</comps>
 		<building>
 			<isEdifice>false</isEdifice>
 		</building>
 		<specialDisplayRadius>20</specialDisplayRadius>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="FurnitureBase">
 		<defName>PRF_CrystalChandelierLarge</defName>
 		<label>large crystal chandelier</label>
@@ -290,6 +385,7 @@
 		<size>(3,3)</size>
 		<rotatable>false</rotatable>
 		<fillPercent>0</fillPercent>
+		<constructEffect>ConstructMetal</constructEffect>
 		<selectable>true</selectable>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<altitudeLayer>Blueprint</altitudeLayer>
@@ -310,28 +406,28 @@
 		</costList>
 		<tickerType>Rare</tickerType>
 		<comps>
-		  <li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
-			<glowRadius>25</glowRadius>
-			<glowColor>(252,199,139,0)</glowColor>
-			<key>PRF_Warm_White</key>
-			<moreColors>
-				  <li>
-					<key>PRF_Cool_White</key>
-					<color>(140,200,250,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Blue</key>
-					<color>(80,80,217,0)</color>
-				  </li>
-				  <li>
-					<key>PRF_Cyan</key>
-					<color>(10,245,245,0)</color>
-				  </li>
-			</moreColors>
-			<prerequisites>
-				<li>ColoredLights</li>
-			</prerequisites>
-		  </li>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>25</glowRadius>
+				<glowColor>(252,199,139,0)</glowColor>
+				<key>PRF_Warm_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Cool_White</key>
+						<color>(140,200,250,0)</color>
+					</li>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+				<prerequisites>
+					<li>ColoredLights</li>
+				</prerequisites>
+			</li>
 		</comps>
 		<building>
 			<isEdifice>false</isEdifice>

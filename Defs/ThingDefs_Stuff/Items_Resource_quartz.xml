@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="ResourceBase">
-    <defName>PRF_quartz</defName>
-    <label>quartz crystals</label>
-    <description>Quartz crystals that have been exposed to everything that has happened to this rimworld.  Glows faintly, you probably do not want to think about it.</description>
-    <graphicData>
-      <texPath>Resources/PRF_CrystalOre</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <soundInteract>ChunkRock_Drop</soundInteract>
-    <soundDrop>ChunkRock_Drop</soundDrop>
-    <statBases>
-      <MarketValue>2.0</MarketValue>
-      <MaxHitPoints>110</MaxHitPoints>
-      <Mass>0.6</Mass>
-      <Flammability>0.0</Flammability>
-      <DeteriorationRate>0.0</DeteriorationRate>
-    </statBases>
-    <thingCategories>
-      <li>ResourcesRaw</li>
-    </thingCategories>
-    <healthAffectsPrice>false</healthAffectsPrice>
-    <deepCommonality>1.0</deepCommonality>
-    <deepCountPerPortion>35</deepCountPerPortion>
-    <deepLumpSizeRange>10~40</deepLumpSizeRange>
-	<comps>
-	<li Class="CompProperties_Glower">
-        <glowRadius>4</glowRadius>
-        <glowColor>(175,198,233,86)</glowColor>
-    </li>
-	</comps>
-	<stuffProps>
-		<categories>
-			<li>PRF_Glassy</li>
-		</categories>
-		<commonality>0</commonality>
-		<constructEffect>ConstructMetal</constructEffect>
-		<color>(175,238,238)</color>
-		<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-		<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-		<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-		<stuffAdjective>quartz</stuffAdjective>
-		<appearance>QuartzAM</appearance>
-		<statFactors>
-			<MaxHitPoints>1.5</MaxHitPoints>
-			<Beauty>1.15</Beauty>
-			<Flammability>0</Flammability>
-			<WorkToMake>2</WorkToMake>
-			<WorkToBuild>2</WorkToBuild>
-		</statFactors>		
-	</stuffProps>
-  </ThingDef>
+	<ThingDef ParentName="ResourceBase">
+		<defName>PRF_quartz</defName>
+		<label>quartz crystals</label>
+		<description>Quartz crystals that have been exposed to everything that has happened to this rimworld.  Glows faintly, you probably do not want to think about it.</description>
+		<graphicData>
+			<texPath>Resources/PRF_CrystalOre</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>ChunkRock_Drop</soundInteract>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>0.6</Mass>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<deepCommonality>1.0</deepCommonality>
+		<deepCountPerPortion>35</deepCountPerPortion>
+		<deepLumpSizeRange>10~40</deepLumpSizeRange>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(175,198,233,86)</glowColor>
+			</li>
+		</comps>
+		<stuffProps>
+			<categories>
+				<li>PRF_Glassy</li>
+			</categories>
+			<commonality>0</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(175,238,238)</color>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<stuffAdjective>quartz</stuffAdjective>
+			<appearance>QuartzAM</appearance>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>1.15</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>2</WorkToMake>
+				<WorkToBuild>2</WorkToBuild>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>PRF_CrystalPowder</defName>
@@ -83,13 +83,13 @@
 			<li>ResourcesRaw</li>
 		</thingCategories>
 		<comps>
-		<li Class="CompProperties_Glower">
-			<glowRadius>2</glowRadius>
-			<glowColor>(175,198,233,86)</glowColor>
-		</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(175,198,233,86)</glowColor>
+			</li>
 		</comps>
 		<burnableByRecipe>true</burnableByRecipe>
-		<smeltable>false</smeltable>	
+		<smeltable>false</smeltable>
 	</ThingDef>
 
 </Defs>

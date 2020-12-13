@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-    <ThingDef ParentName="RockBase">
+
+  <ThingDef ParentName="RockBase">
     <defName>PRF_MineableIron</defName>
     <label>iron ore</label>
     <description>Rock containing bits of iron.</description>
@@ -23,8 +23,8 @@
       <mineableScatterLumpSizeRange>15~25</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
-  
-    <ThingDef ParentName="RockBase">
+
+  <ThingDef ParentName="RockBase">
     <defName>PRF_MineableCopper</defName>
     <label>copper ore</label>
     <description>Rock containing bits of copper.</description>
@@ -79,7 +79,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(97,95,105)</color>
-      <colorTwo>(175,198,233)</colorTwo>
+      <colorTwo>(58,80,129)</colorTwo>
     </graphicData>
     <statBases>
       <MaxHitPoints>1000</MaxHitPoints>
@@ -91,12 +91,12 @@
       <mineableScatterCommonality>0.2</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
     </building>
-	<comps>
-	<li Class="CompProperties_Glower">
+    <comps>
+      <li Class="CompProperties_Glower">
         <glowRadius>4</glowRadius>
-        <glowColor>(175,198,233,86)</glowColor>
-    </li>
-	</comps>
+        <glowColor>(140,185,250,86)</glowColor>
+      </li>
+    </comps>
   </ThingDef>
 
   <ThingDef ParentName="RockBase">
@@ -108,7 +108,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(97,95,105)</color>
-      <colorTwo>(175,198,233)</colorTwo>
+      <colorTwo>(185,242,255)</colorTwo>
     </graphicData>
     <statBases>
       <MaxHitPoints>1000</MaxHitPoints>
@@ -121,8 +121,8 @@
       <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
-  
-  
+
+
   <ThingDef ParentName="RockBase">
     <defName>PRF_MineableSteelSlag</defName>
     <label>steel slags</label>
@@ -139,14 +139,14 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-	  <mineableThing>ChunkSlagSteel</mineableThing>
+      <mineableThing>ChunkSlagSteel</mineableThing>
       <mineableYield>1</mineableYield>
       <mineableScatterCommonality>0.15</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>50</min>
         <max>50</max>
       </mineableScatterLumpSizeRange>
-	</building>
+    </building>
   </ThingDef>
-  
+
 </Defs>

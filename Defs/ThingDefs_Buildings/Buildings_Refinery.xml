@@ -35,8 +35,10 @@
       <ComponentSpacer>6</ComponentSpacer>
     </costList>
     <recipes>
-      <li>PRF_MakeMixedPlastic</li>
-      <li>PRF_MakeMixedPlasticBulk</li>
+      <li>PRF_MakeMixedPlasticOil</li>
+      <li>PRF_MakeMixedPlasticBulkOil</li>
+      <li>PRF_MakeMixedPlasticOilChem</li>
+      <li>PRF_MakeMixedPlasticBulkOilChem</li>
       <li>PRF_MakeCarbonPlate</li>
       <li>PRF_MakeCarbonPlateBulk</li>
       <li>PRF_MakeConcrete</li>

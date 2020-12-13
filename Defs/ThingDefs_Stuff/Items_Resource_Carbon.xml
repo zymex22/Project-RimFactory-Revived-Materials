@@ -203,7 +203,7 @@
 		<description>Raw diamond, requires processing to produce usable material.</description>
 		<graphicData>
 			<texPath>Resources/PRF_RawDiamond</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Stackcount</graphicClass>
 		</graphicData>
 		<soundInteract>ChunkRock_Drop</soundInteract>
 		<soundDrop>ChunkRock_Drop</soundDrop>
