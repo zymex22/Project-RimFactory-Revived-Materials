@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
-	<ThingDef ParentName="ResourceBase">
-		<defName>PRF_MixedPlastic</defName>
-		<label>plastic</label>
-		<description>A rough solid mixture of plastic, flammable and weak but lightweight and easy to work. Can still be used in architecture and crafting but would be much better when refined.</description>
-		<graphicData>
-			<texPath>Resources/PRF_GeneralPlastic</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(180,180,180)</color>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Metal_Drop</soundDrop>
-		
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PRF_MixedPlastic</defName>
+    <label>plastic</label>
+    <description>A rough solid mixture of plastic, flammable and weak but lightweight and easy to work. Can still be used in architecture and crafting but would be much better when refined.</description>
+    <graphicData>
+      <texPath>Resources/PRF_GeneralPlastic</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(180,180,180)</color>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <MarketValue>4.5</MarketValue>
@@ -26,34 +26,34 @@
       <SharpDamageMultiplier>0.35</SharpDamageMultiplier>
       <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
     </statBases>
-		<thingCategories>
-			<li>ResourcesRaw</li>
-		</thingCategories>
-		<smeltable>true</smeltable>
-		<stuffProps>
-			<categories>
-				<li>Woody</li>
-			</categories>
-			<commonality>0.001</commonality>
-			<constructEffect>ConstructMetal</constructEffect>
-			<color>(180,180,180)</color>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-			<stuffAdjective>plastic</stuffAdjective>
-			<appearance>Smooth</appearance>
-			<statFactors>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <commonality>0.001</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(180,180,180)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <stuffAdjective>plastic</stuffAdjective>
+      <appearance>Smooth</appearance>
+      <statFactors>
         <MaxHitPoints>0.65</MaxHitPoints>
         <Beauty>1</Beauty>
         <Flammability>1</Flammability>
         <WorkToMake>0.6</WorkToMake>
-				<WorkToBuild>0.6</WorkToBuild>
+        <WorkToBuild>0.6</WorkToBuild>
         <DoorOpenSpeed>1.3</DoorOpenSpeed>
-			</statFactors>
-		</stuffProps>
-	</ThingDef>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
 
-	<!--Textiles-->
+  <!--Textiles-->
 
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_Polyester</defName>
@@ -73,7 +73,7 @@
       <MaxHitPoints>85</MaxHitPoints>
       <MarketValue>3.5</MarketValue>
       <Mass>0.020</Mass>
-      <Flammability>10.0</Flammability>      
+      <Flammability>10.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
     </statBases>
     <stuffProps>
@@ -123,7 +123,7 @@
     <label>Kevlar</label>
     <description>A highly durable cloth material made from weaved kelvar fibres, extremely tough and sharp resistant, able to stop anything from knives to bullets.</description>
     <graphicData>
-      <texPath>Resources/PRF_SyntheticTextile</texPath>
+      <texPath>Resources/PRF_Carbon_Kevlar</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <color>(172,172,110)</color>
     </graphicData>

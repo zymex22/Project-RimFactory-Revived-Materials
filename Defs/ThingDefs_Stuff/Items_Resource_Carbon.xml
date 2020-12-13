@@ -39,7 +39,7 @@
 		<label>carbon fiber</label>
 		<description>Carbon fiber is quite versatile, being both durable and light. Can dampen blunt strikes, but not that good against cutting and piercing.</description>
 		<graphicData>
-			<texPath>Resources/PRF_SyntheticWeave</texPath>
+			<texPath>Resources/PRF_Carbon_Kevlar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(50,50,50)</color>
 		</graphicData>
@@ -91,9 +91,9 @@
 		<label>carbon-kevlar composite</label>
 		<description>Carbon fiber interwoven with Kevlar, providing the best of both materials.  Rivals Hyperweave in most applications.</description>
 		<graphicData>
-			<texPath>Resources/PRF_SyntheticWeave</texPath>
+			<texPath>Resources/PRF_CarbonMix</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<color>(100,100,100)</color>
+			<!-- <color>(100,100,100)</color> -->
 		</graphicData>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
