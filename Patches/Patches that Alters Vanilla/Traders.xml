@@ -4,7 +4,6 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
 		<value>
-
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>PRF_Iron</thingDef>
 				<countRange>500~800</countRange>
@@ -18,8 +17,68 @@
 				<countRange>200~500</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Cement</thingDef>
+				<countRange>800~1000</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>PRF_Concrete</thingDef>
 				<countRange>600~800</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_RefConcrete</thingDef>
+				<countRange>200~500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_MixedPlastic</thingDef>
+				<countRange>200~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Polyester</thingDef>
+				<countRange>100~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Kevlar</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonFiber</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonKevlarComposite</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonPlate</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_SyntheticDiamond</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CrystalPowder</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Coal</thingDef>
+				<countRange>100~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Coke</thingDef>
+				<countRange>50~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Oil</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Glass</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_RGlass</thingDef>
+				<countRange>50~100</countRange>
 			</li>
 		</value>
 	</Operation>
@@ -29,25 +88,163 @@
 		<value>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>PRF_Iron</thingDef>
-				<countRange>300~400</countRange>
+				<countRange>500~800</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>PRF_Copper</thingDef>
-				<countRange>100~300</countRange>
-			</li>
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>PRF_Concrete</thingDef>
-				<countRange>200~300</countRange>
+				<countRange>600~900</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>PRF_StainlessSteel</thingDef>
+				<countRange>200~500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Cement</thingDef>
+				<countRange>800~1000</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Concrete</thingDef>
+				<countRange>600~800</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_RefConcrete</thingDef>
+				<countRange>200~500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_MixedPlastic</thingDef>
+				<countRange>200~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Polyester</thingDef>
+				<countRange>100~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Kevlar</thingDef>
 				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonFiber</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonKevlarComposite</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonPlate</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_SyntheticDiamond</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CrystalPowder</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Coal</thingDef>
+				<countRange>100~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Coke</thingDef>
+				<countRange>50~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Oil</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Glass</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_RGlass</thingDef>
+				<countRange>50~100</countRange>
 			</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_StainlessSteel</thingDef>
+				<countRange>200~500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Cement</thingDef>
+				<countRange>800~1000</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Polyester</thingDef>
+				<countRange>100~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Kevlar</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonFiber</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonKevlarComposite</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_SyntheticDiamond</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CrystalPowder</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_StainlessSteel</thingDef>
+				<countRange>200~500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Cement</thingDef>
+				<countRange>800~1000</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Polyester</thingDef>
+				<countRange>100~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Kevlar</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonFiber</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonKevlarComposite</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_SyntheticDiamond</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CrystalPowder</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+		</value>
+	</Operation>
+	
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[defName = "PRF_Factory_Supplier"]/stockGenerators</xpath>
 		<value>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>PRF_Iron</thingDef>
@@ -55,21 +252,75 @@
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>PRF_Copper</thingDef>
-				<countRange>200~400</countRange>
+				<countRange>600~900</countRange>
 			</li>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
-		<value>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>PRF_Iron</thingDef>
+				<thingDef>PRF_StainlessSteel</thingDef>
+				<countRange>200~500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Cement</thingDef>
+				<countRange>800~1000</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Concrete</thingDef>
+				<countRange>600~800</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_RefConcrete</thingDef>
+				<countRange>200~500</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_MixedPlastic</thingDef>
 				<countRange>200~300</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>PRF_Copper</thingDef>
+				<thingDef>PRF_Polyester</thingDef>
+				<countRange>100~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Kevlar</thingDef>
 				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonFiber</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonKevlarComposite</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CarbonPlate</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_SyntheticDiamond</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_CrystalPowder</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Coal</thingDef>
+				<countRange>100~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Coke</thingDef>
+				<countRange>50~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Oil</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_Glass</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>PRF_RGlass</thingDef>
+				<countRange>50~100</countRange>
 			</li>
 		</value>
 	</Operation>

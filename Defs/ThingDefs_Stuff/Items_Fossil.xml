@@ -36,7 +36,7 @@
   
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_Oil</defName>
-    <label> oil</label>
+    <label>oil</label>
     <description>A dark liquid found underground.\n\nA valuable precursor to chemfuel and plastics.</description>
     <tickerType>Normal</tickerType>
     <graphicData>
