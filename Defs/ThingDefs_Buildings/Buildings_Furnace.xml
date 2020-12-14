@@ -78,12 +78,12 @@
     <defName>PRF_FurnaceIV</defName>
     <label>Plasma Furnace</label>
     <thingClass>ProjectRimFactory.SAL3.Things.Assemblers.Building_SimpleAssembler</thingClass>
+    <designatorDropdown>PRF_FurnaceGroup</designatorDropdown>
     <graphicData>
       <texPath>Industry/t3_plasmaforge</texPath>
       <drawSize>(3,3)</drawSize>
     </graphicData>
     <size>(3,3)</size>
-    <designatorDropdown>furnace_gr</designatorDropdown>
     <inspectorTabs>
       <li>ProjectRimFactory.Common.ITab_PowerSupply</li>      <!-- Power boost -->
     </inspectorTabs>
