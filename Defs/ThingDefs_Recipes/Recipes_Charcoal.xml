@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- Make Charcoal -->
-<RecipeDef>
+  <!-- ===================================== Charcoal ======================================== -->
+  <RecipeDef>
     <defName>PRF_MakeCharcoal</defName>
     <label>make charcoal</label>
-    <description>Burn wood in order to obtain charcoal.</description>
+    <description>Burning wood to obtain Charcoal (this is same as normal coal)</description>
     <jobString>making charcoal.</jobString>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
     <workAmount>700</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>ElectricSmelter</li>
-	</recipeUsers>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -32,10 +32,10 @@
     <products>
       <PRF_Coal>10</PRF_Coal>
     </products>
-	<researchPrerequisite>Stonecutting</researchPrerequisite>
+    <researchPrerequisite>Stonecutting</researchPrerequisite>
   </RecipeDef>
-  
-  
+
+  <!-- ===================================== Coal to Chemfuel ======================================== -->
   <RecipeDef>
     <defName>PRF_ChemfuelFromCoal</defName>
     <label>make chemfuel from coal</label>
@@ -67,5 +67,5 @@
       <li>BiofuelRefinery</li>
     </recipeUsers>
   </RecipeDef>
-  
+
 </Defs>

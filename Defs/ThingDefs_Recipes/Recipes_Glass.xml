@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- ===================================== Basic Glass ======================================== -->
 	<RecipeDef>
 		<defName>PRF_MakeBasicGlass</defName>
 		<label>make glass</label>
@@ -27,6 +28,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -57,6 +61,9 @@
 		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
 	</RecipeDef>
 
+
+
+	<!-- ===================================== Reinforced Glass ======================================== -->
 	<RecipeDef>
 		<defName>PRF_MakeReinforcedGlass</defName>
 		<label>make reinforced glass</label>

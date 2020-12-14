@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+	<!-- ===================================== Carbon Weave/fabric ======================================== -->
 	<RecipeDef>
 		<defName>PRF_MakeCarbonFiber</defName>
 		<label>make carbon fiber from carbon</label>
 		<description>Synthesize carbon nanotubes and weave them into a fabric.</description>
-		<jobString>Making carbon fiber.</jobString>  
+		<jobString>Making carbon fiber.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>7</Crafting>
-        </skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -41,11 +41,11 @@
 		<defName>PRF_MakeCarbonFiberBulk</defName>
 		<label>make carbon fiber from carbon in bulk</label>
 		<description>Synthesize carbon nanotubes and weave them into a fabric.</description>
-		<jobString>Making carbon fiber.</jobString>  
+		<jobString>Making carbon fiber.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>9</Crafting>
-        </skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -73,15 +73,18 @@
 		<researchPrerequisite>PRF_CarbonFiber</researchPrerequisite>
 	</RecipeDef>
 
+
+
+	<!-- ===================================== Carbon Kevlar mix weave ======================================== -->
 	<RecipeDef>
 		<defName>PRF_MakeCarbonKevlar</defName>
 		<label>make carbon-kevlar composite</label>
 		<description>Interweave carbon fiber and kevlar.</description>
-		<jobString>Making carbon-kevlar composite.</jobString>  
+		<jobString>Making carbon-kevlar composite.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>16</Crafting>
-        </skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -122,11 +125,11 @@
 		<defName>PRF_MakeCarbonKevlarBulk</defName>
 		<label>make carbon-kevlar composite in bulk</label>
 		<description>Interweave carbon fiber and kevlar.</description>
-		<jobString>Making carbon-kevlar composite.</jobString>  
+		<jobString>Making carbon-kevlar composite.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>16</Crafting>
-        </skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -163,15 +166,18 @@
 		<researchPrerequisite>PRF_CarbonKevlar</researchPrerequisite>
 	</RecipeDef>
 
+
+
+	<!-- ===================================== Carbon Plates ======================================== -->
 	<RecipeDef>
 		<defName>PRF_MakeCarbonPlate</defName>
 		<label>make carbon fiber plate</label>
 		<description>laminating carbon fiber with plastic.</description>
-		<jobString>Making carbon fiber plate.</jobString>  
+		<jobString>Making carbon fiber plate.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>14</Crafting>
-        </skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -212,11 +218,11 @@
 		<defName>PRF_MakeCarbonPlateBulk</defName>
 		<label>make carbon fiber plate in bulk</label>
 		<description>laminate carbon fiber with plastic to produce a solid material.</description>
-		<jobString>Making carbon fiber plate.</jobString>  
+		<jobString>Making carbon fiber plate.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>14</Crafting>
-        </skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -253,15 +259,17 @@
 		<researchPrerequisite>PRF_CarbonPlating</researchPrerequisite>
 	</RecipeDef>
 
+
+	<!-- ===================================== Carbon into Diamonds ======================================== -->
 	<RecipeDef>
 		<defName>PRF_MakeSyntheticDiamond</defName>
 		<label>make synthetic diamond</label>
 		<description>make synthetic diamond by applying heat and shear force to carbon fiber.</description>
-		<jobString>Making synthetic diamond.</jobString>  
+		<jobString>Making synthetic diamond.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>16</Crafting>
-        </skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -293,11 +301,11 @@
 		<defName>PRF_MakeSyntheticDiamondBulk</defName>
 		<label>make synthetic diamond in bulk</label>
 		<description>make synthetic diamond by applying heat and shear force to carbon fiber.</description>
-		<jobString>Making synthetic diamond.</jobString>  
+		<jobString>Making synthetic diamond.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>16</Crafting>
-        </skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -325,15 +333,17 @@
 		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
 	</RecipeDef>
 
+
+	<!-- ===================================== Diamonds into diamonds? ======================================== -->
 	<RecipeDef>
 		<defName>PRF_ProcessRawDiamond</defName>
 		<label>process raw diamond</label>
 		<description>process raw diamond into a usable industrial material.</description>
-		<jobString>processing raw diamond.</jobString>  
+		<jobString>processing raw diamond.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>16</Crafting>
-        </skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -365,11 +375,11 @@
 		<defName>PRF_ProcessRawDiamondBulk</defName>
 		<label>process raw diamond in bulk</label>
 		<description>process raw diamond into a usable industrial material.</description>
-		<jobString>processing raw diamond.</jobString>  
+		<jobString>processing raw diamond.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-		<Crafting>16</Crafting>
-        </skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -396,5 +406,5 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
 	</RecipeDef>
-	
+
 </Defs>

@@ -1,10 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<Defs>
-	<DesignatorDropdownGroupDef>
-		<defName>PRF_SterileTileGroup</defName>
-	</DesignatorDropdownGroupDef>
+<!-- ===================================== Steril colored floors ======================================== -->
+<!-- !!NOTE!! This is taken from Hospital Extended, and should keep same Def names and base as it will not create conflict then and simple just merge if both mods are installed -->
+<!-- !!NOTE!! This idea is originally made by captain staky in colored sterile floor mod -->
 
+<Defs>
+  <DesignatorDropdownGroupDef>
+    <defName>PRF_SterileTileGroup</defName>
+  </DesignatorDropdownGroupDef>
+
+  <!-- ===================================== Base ======================================== -->
   <TerrainDef Name="ColourTileBase" ParentName="FloorBase" Abstract="True">
     <texturePath>Building/Floors/PRF_SterileFloor</texturePath>
     <designatorDropdown>PRF_SterileTileGroup</designatorDropdown>
@@ -13,7 +18,7 @@
       <WorkToBuild>1600</WorkToBuild>
     </statBases>
     <costList>
-		<PRF_StainlessSteel>7</PRF_StainlessSteel>
+      <PRF_StainlessSteel>7</PRF_StainlessSteel>
     </costList>
     <constructEffect>ConstructMetal</constructEffect>
     <designationHotKey>Misc4</designationHotKey>
@@ -24,6 +29,7 @@
     </researchPrerequisites>
   </TerrainDef>
 
+  <!-- ===================================== Steril colored floors ======================================== -->
   <TerrainDef ParentName="ColourTileBase">
     <defName>SterileTile</defName>
     <label>sterile tile</label>

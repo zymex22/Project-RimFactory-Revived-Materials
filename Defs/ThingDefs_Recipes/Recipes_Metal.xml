@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-	<RecipeDef>
+  <!-- ===================================== Refine Normal Steel ======================================== -->
+  <RecipeDef>
     <defName>PRF_MakeSteelCoal</defName>
     <label>Refine Steel with coal</label>
     <description>An alloy af iron and carbon, steel is more resistant to rust and stronger than iron.</description>
@@ -19,7 +19,7 @@
         </filter>
         <count>70</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>PRF_Coal</li>
@@ -37,10 +37,13 @@
     <products>
       <Steel>70</Steel>
     </products>
-	<researchPrerequisite>Smithing</researchPrerequisite>
+    <researchPrerequisite>Smithing</researchPrerequisite>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
-  
-	<RecipeDef>
+
+  <RecipeDef>
     <defName>PRF_MakeSteelCoke</defName>
     <label>Refine Steel with coke</label>
     <description>An alloy af iron and carbon, steel is more resistant to rust and stronger than iron. Coke usage increase efficiency.</description>
@@ -58,7 +61,7 @@
         </filter>
         <count>70</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>PRF_Coke</li>
@@ -76,11 +79,15 @@
     <products>
       <Steel>70</Steel>
     </products>
-	<researchPrerequisite>Smithing</researchPrerequisite>
+    <researchPrerequisite>Smithing</researchPrerequisite>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
-  
-  <!-- Steel Bulk Making -->
-	<RecipeDef>
+
+
+  <!-- ===================================== Steel Bulk making ======================================== -->
+  <RecipeDef>
     <defName>PRF_MakeSteelBulkCoal</defName>
     <label>Refine bulk Steel with coal</label>
     <description>An alloy af iron and carbon, steel is more resistant to rust and stronger than iron.</description>
@@ -98,7 +105,7 @@
         </filter>
         <count>250</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>PRF_Coal</li>
@@ -116,10 +123,10 @@
     <products>
       <Steel>280</Steel>
     </products>
-	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef>
-  
-	<RecipeDef>
+
+  <RecipeDef>
     <defName>PRF_MakeSteelBulkCoke</defName>
     <label>Refine bulk Steel with coke</label>
     <description>An alloy af iron and carbon, steel is more resistant to rust and stronger than iron. Coke usage increase efficiency.</description>
@@ -137,7 +144,7 @@
         </filter>
         <count>250</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>PRF_Coke</li>
@@ -155,11 +162,11 @@
     <products>
       <Steel>280</Steel>
     </products>
-	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef>
-  
-  <!-- Stainless Steel Making -->
-	<RecipeDef>
+
+  <!-- ===================================== Refine Stainless Steel ======================================== -->
+  <RecipeDef>
     <defName>PRF_MakeStainlessSteelChem</defName>
     <label>make stainless steel with chemfuel</label>
     <description>Alloy a special type of steel by mixing it with chromium and tungsten, this steel is used to make medical protheses, bionics and synthetic organs.</description>
@@ -177,7 +184,7 @@
         </filter>
         <count>70</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Silver</li>
@@ -185,7 +192,7 @@
         </filter>
         <count>10</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Chemfuel</li>
@@ -204,10 +211,13 @@
     <products>
       <PRF_StainlessSteel>70</PRF_StainlessSteel>
     </products>
-	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
-  
-	<RecipeDef>
+
+  <RecipeDef>
     <defName>PRF_MakeStainlessSteelCoke</defName>
     <label>make stainless steel with coked coal</label>
     <description>Alloy a special type of steel by mixing it with chromium and tungsten, this steel is used to make medical protheses, bionics and synthetic organs.</description>
@@ -225,7 +235,7 @@
         </filter>
         <count>70</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Silver</li>
@@ -233,7 +243,7 @@
         </filter>
         <count>10</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>PRF_Coke</li>
@@ -252,10 +262,14 @@
     <products>
       <PRF_StainlessSteel>70</PRF_StainlessSteel>
     </products>
-	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
-  
-	<RecipeDef>
+
+  <!-- ===================================== Bulk Stainless Steel ======================================== -->
+  <RecipeDef>
     <defName>PRF_MakeStainlessSteelChemBulk</defName>
     <label>make stainless steel in bulk with chemfuel</label>
     <description>Alloy a special type of steel by mixing it with chromium and tungsten, this steel is used to make medical protheses, bionics and synthetic organs.</description>
@@ -273,7 +287,7 @@
         </filter>
         <count>280</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Silver</li>
@@ -281,7 +295,7 @@
         </filter>
         <count>20</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Chemfuel</li>
@@ -300,10 +314,10 @@
     <products>
       <PRF_StainlessSteel>280</PRF_StainlessSteel>
     </products>
-	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef>
-  
-	<RecipeDef>
+
+  <RecipeDef>
     <defName>PRF_MakeStainlessSteelCokeBulk</defName>
     <label>make stainless steel in bulk with coke</label>
     <description>Alloy a special type of steel by mixing it with chromium and tungsten, this steel is used to make medical protheses, bionics and synthetic organs.</description>
@@ -321,7 +335,7 @@
         </filter>
         <count>280</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Silver</li>
@@ -329,7 +343,7 @@
         </filter>
         <count>20</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>PRF_Coke</li>
@@ -348,7 +362,7 @@
     <products>
       <PRF_StainlessSteel>280</PRF_StainlessSteel>
     </products>
-	<researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef>
 
 </Defs>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- ===================================== Fossils to Oil/Chemfuel ======================================== -->
 	<RecipeDef>
 		<defName>PRF_MakeOilFromFossil</defName>
 		<label>make oil from fossil</label>
@@ -14,25 +15,59 @@
 			<li>BiofuelRefinery</li>
 		</recipeUsers>
 		<ingredients>
-		  <li>
-			<filter>
-			  <thingDefs>
-				<li>PRF_Fossil</li>
-			  </thingDefs>
-			</filter>
-			<count>10</count>
-		  </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Fossil</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-		  <thingDefs>
-			<li>PRF_Fossil</li>
-		  </thingDefs>
+			<thingDefs>
+				<li>PRF_Fossil</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-		  <PRF_Oil>85</PRF_Oil>
+			<PRF_Oil>85</PRF_Oil>
 		</products>
 	</RecipeDef>
 
+	<RecipeDef>
+		<defName>PRF_MakeChemfuelFromFossil</defName>
+		<label>make chemfuel from fossil</label>
+		<description>A somewhat long proces that extracts huge amounts of chemfuel from fossils.</description>
+		<jobString>Refining chemfuel from fossils.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>5000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Fossil</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PRF_Fossil</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>75</Chemfuel>
+		</products>
+	</RecipeDef>
+
+
+	<!-- ===================================== CrudeOil to Chemfuel ======================================== -->
 	<RecipeDef>
 		<defName>PRF_MakeChemfuelFromOil</defName>
 		<label>make chemfuel from oil</label>
@@ -46,22 +81,22 @@
 			<li>BiofuelRefinery</li>
 		</recipeUsers>
 		<ingredients>
-		  <li>
-			<filter>
-			  <thingDefs>
-				<li>PRF_Oil</li>
-			  </thingDefs>
-			</filter>
-			<count>10</count>
-		  </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Oil</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-		  <thingDefs>
-			<li>PRF_Oil</li>
-		  </thingDefs>
+			<thingDefs>
+				<li>PRF_Oil</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-		  <Chemfuel>5</Chemfuel>
+			<Chemfuel>5</Chemfuel>
 		</products>
 	</RecipeDef>
 
@@ -78,55 +113,23 @@
 			<li>BiofuelRefinery</li>
 		</recipeUsers>
 		<ingredients>
-		  <li>
-			<filter>
-			  <thingDefs>
-				<li>PRF_Oil</li>
-			  </thingDefs>
-			</filter>
-			<count>100</count>
-		  </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Oil</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-		  <thingDefs>
-			<li>PRF_Oil</li>
-		  </thingDefs>
+			<thingDefs>
+				<li>PRF_Oil</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-		  <Chemfuel>50</Chemfuel>
+			<Chemfuel>50</Chemfuel>
 		</products>
 	</RecipeDef>
 
-	<RecipeDef>
-    <defName>PRF_MakeChemfuelFromFossil</defName>
-    <label>make chemfuel from fossil</label>
-    <description>A somewhat long proces that extracts huge amounts of chemfuel from fossils.</description>
-    <jobString>Refining chemfuel from fossils.</jobString>
-    <effectWorking>Cremate</effectWorking>
-    <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>5000</workAmount>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-	<recipeUsers>
-		<li>BiofuelRefinery</li>
-	</recipeUsers>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PRF_Fossil</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>PRF_Fossil</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <Chemfuel>75</Chemfuel>
-    </products>
-  </RecipeDef>
-	
 </Defs>

@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+	<!-- ===================================== Coal Coke ======================================== -->
 	<RecipeDef>
 		<defName>PRF_MakeCoke</defName>
 		<label>make coke coal</label>
 		<description>By burning coal anaerobically it can be turned into a pure carbon based fuel that has little to no impurities.</description>
-		<jobString>Making coke.</jobString>  
+		<jobString>Making coke.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
 			<Crafting>5</Crafting>
@@ -31,12 +33,12 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_CokeProduction</researchPrerequisite>
 	</RecipeDef>
-	
+
 	<RecipeDef>
 		<defName>PRF_MakeCokeBulk</defName>
 		<label>make bulk coke coal</label>
 		<description>Thanks to the retractable airtight door and larger interior space, more coke coal can be made inside the electric kiln.</description>
-		<jobString>Making coke.</jobString>  
+		<jobString>Making coke.</jobString>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
 			<Crafting>10</Crafting>
@@ -62,5 +64,5 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_CokeProduction</researchPrerequisite>
 	</RecipeDef>
-	
+
 </Defs>
