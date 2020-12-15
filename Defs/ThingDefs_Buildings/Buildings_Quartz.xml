@@ -44,7 +44,7 @@
 		</statBases>
 		<building>
 			<isEdifice>false</isEdifice>
-			  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<techLevel>Neolithic</techLevel>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -147,17 +147,17 @@
 	<ThingDef ParentName="LampBase">
 		<defName>PRF_QuartzPylon</defName>
 		<label>crystal pylon</label>
-		<description>A simple pylon provide a small area with light. For some reason, it never feels like enough have been built.\nCan be placed on tables and Endtables for a nice decoration and natural light.</description>
+		<description>A simple pylon provide a small area with light. For some reason, it never feels like enough have been built.\nGood decoration for endtables and drawers and other places where it can be placed on top.</description>
 		<graphicData>
 			<texPath>Building/Pylon/PRF_Pylon</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<!-- <shaderType>CutoutComplex</shaderType> -->
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(1,1)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
 		<uiIconPath>Building/Pylon/Pylon_MenuIcon</uiIconPath>
 		<uiIconScale>0.90</uiIconScale>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<clearBuildingArea>false</clearBuildingArea>
 		<size>(1,1)</size>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -170,17 +170,13 @@
 			<Flammability>0.1</Flammability>
 			<Mass>1.5</Mass>
 		</statBases>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Stony</li>
-		</stuffCategories>
-		<costStuffCount>10</costStuffCount>
 		<costList>
+			<Steel>10</Steel>
 			<PRF_CrystalPowder>10</PRF_CrystalPowder>
 		</costList>
 		<building>
 			<isEdifice>false</isEdifice>
-			  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<comps>
 			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
@@ -202,7 +198,7 @@
 				<statOffsets>
 					<Comfort>0.05</Comfort>
 					<!-- <ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor> -->
-					<BedRestEffectiveness>0.08</BedRestEffectiveness>
+					<BedRestEffectiveness>0.1</BedRestEffectiveness>
 					<!-- <SurgerySuccessChanceFactor>0</SurgerySuccessChanceFactor> -->
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
