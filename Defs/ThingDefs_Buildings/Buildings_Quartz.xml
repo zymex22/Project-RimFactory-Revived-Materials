@@ -26,7 +26,7 @@
 	<ThingDef ParentName="PRF_QuartzLightBase">
 		<defName>PRF_QuartzTorch</defName>
 		<label>quartz torch</label>
-		<description>Glowing quartz crystals attached to a stick, to provide some early lightning for your cavemens.\nI wonder what possible sideeffects this strange glowing crystal would do to me while i sleep next to it?</description>
+		<description>Glowing quartz crystals attached to a stick, to provide some early lighting for your cavemens.\nI wonder what possible sideeffects this strange glowing crystal would do to me while i sleep next to it?</description>
 		<graphicData>
 			<texPath>Building/sconce</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -275,7 +275,7 @@
 		<defName>PRF_Chandelier</defName>
 	</DesignatorDropdownGroupDef>
 
-	<ThingDef Name="CrystalChandelierSmall" ParentName="FurnitureBase">
+	<ThingDef ParentName="FurnitureBase">
 		<defName>PRF_CrystalChandelierSmall</defName>
 		<label>small crystal chandelier</label>
 		<graphicData>
@@ -404,6 +404,192 @@
 		<label>large crystal chandelier</label>
 		<graphicData>
 			<texPath>Building/CrystalChandelier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<constructEffect>ConstructMetal</constructEffect>
+		<selectable>true</selectable>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<passability>Standable</passability>
+		<designationCategory>Furniture</designationCategory>
+		<statBases>
+			<Flammability>0</Flammability>
+			<WorkToBuild>500</WorkToBuild>
+			<Mass>6</Mass>
+			<Beauty>10</Beauty>
+		</statBases>
+		<clearBuildingArea>false</clearBuildingArea>
+		<designatorDropdown>PRF_Chandelier</designatorDropdown>
+		<costList>
+			<PRF_CrystalPowder>20</PRF_CrystalPowder>
+			<WoodLog>20</WoodLog>
+			<PRF_Iron>5</PRF_Iron>
+		</costList>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>25</glowRadius>
+				<glowColor>(252,199,139,0)</glowColor>
+				<key>PRF_Warm_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Cool_White</key>
+						<color>(140,200,250,0)</color>
+					</li>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+				<prerequisites>
+					<li>ColoredLights</li>
+				</prerequisites>
+			</li>
+		</comps>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<specialDisplayRadius>25</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>PRF_CrystalChandelierShadowSmall</defName>
+		<label>small crystal chandelier (shadow)</label>
+		<graphicData>
+			<texPath>Building/CrystalChandelier_Shadow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<constructEffect>ConstructMetal</constructEffect>
+		<rotatable>false</rotatable>
+		<fillPercent>0</fillPercent>
+		<selectable>true</selectable>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<passability>Standable</passability>
+		<designationCategory>Furniture</designationCategory>
+		<statBases>
+			<Flammability>0</Flammability>
+			<WorkToBuild>300</WorkToBuild>
+			<Mass>2</Mass>
+			<Beauty>10</Beauty>
+		</statBases>
+		<clearBuildingArea>false</clearBuildingArea>
+		<designatorDropdown>PRF_Chandelier</designatorDropdown>
+		<costList>
+			<PRF_CrystalPowder>10</PRF_CrystalPowder>
+			<WoodLog>10</WoodLog>
+			<PRF_Iron>5</PRF_Iron>
+		</costList>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>15</glowRadius>
+				<glowColor>(252,199,139,0)</glowColor>
+				<key>PRF_Warm_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Cool_White</key>
+						<color>(140,200,250,0)</color>
+					</li>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+				<prerequisites>
+					<li>ColoredLights</li>
+				</prerequisites>
+			</li>
+		</comps>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<specialDisplayRadius>15</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>PRF_CrystalChandelierShadowMedium</defName>
+		<label>medium crystal chandelier (shadow)</label>
+		<graphicData>
+			<texPath>Building/CrystalChandelier_Shadow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<constructEffect>ConstructMetal</constructEffect>
+		<fillPercent>0</fillPercent>
+		<selectable>true</selectable>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<passability>Standable</passability>
+		<designationCategory>Furniture</designationCategory>
+		<statBases>
+			<Flammability>0</Flammability>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>4</Mass>
+			<Beauty>10</Beauty>
+		</statBases>
+		<clearBuildingArea>false</clearBuildingArea>
+		<designatorDropdown>PRF_Chandelier</designatorDropdown>
+		<costList>
+			<PRF_CrystalPowder>15</PRF_CrystalPowder>
+			<WoodLog>15</WoodLog>
+			<PRF_Iron>5</PRF_Iron>
+		</costList>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>20</glowRadius>
+				<glowColor>(252,199,139,0)</glowColor>
+				<key>PRF_Warm_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Cool_White</key>
+						<color>(140,200,250,0)</color>
+					</li>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+				<prerequisites>
+					<li>ColoredLights</li>
+				</prerequisites>
+			</li>
+		</comps>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<specialDisplayRadius>20</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>PRF_CrystalChandelierShadowLarge</defName>
+		<label>large crystal chandelier (shadow)</label>
+		<graphicData>
+			<texPath>Building/CrystalChandelier_Shadow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,3)</drawSize>

@@ -115,7 +115,7 @@
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>reinforced concrete</stuffAdjective>
-			<appearance>SmoothAM</appearance>
+			<appearance>RefConcreteAM</appearance>
 			<statOffsets>
 				<WorkToBuild>160</WorkToBuild>
 			</statOffsets>

@@ -28,6 +28,10 @@
   <StuffAppearanceDef>
     <defName>RustyAM</defName>
   </StuffAppearanceDef>
+  
+  <StuffAppearanceDef>
+    <defName>RefConcreteAM</defName>
+  </StuffAppearanceDef>
 
 </Defs>
 
