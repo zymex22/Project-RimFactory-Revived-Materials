@@ -9,10 +9,10 @@
       <texPath>Resources/PRF_GeneralPlastic</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(180,180,180)</color>
+      <drawSize>(1.2,1.2)</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
-
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <MarketValue>4.5</MarketValue>
@@ -63,6 +63,7 @@
       <texPath>Resources/PRF_SyntheticTextile</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <color>(152,152,172)</color>
+      <drawSize>(0.8,0.8)</drawSize>
     </graphicData>
     <statBases>
       <StuffPower_Armor_Sharp>0.41</StuffPower_Armor_Sharp>
@@ -126,6 +127,7 @@
       <texPath>Resources/PRF_Carbon_Kevlar</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <color>(172,172,110)</color>
+      <drawSize>(0.9,0.9)</drawSize>
     </graphicData>
     <statBases>
       <StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>

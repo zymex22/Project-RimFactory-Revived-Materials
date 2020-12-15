@@ -8,6 +8,7 @@
 		<graphicData>
 			<texPath>Resources/PRF_CarbonPowder</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.8,0.8)</drawSize>
 		</graphicData>
 		<soundInteract>ChunkRock_Drop</soundInteract>
 		<soundDrop>ChunkRock_Drop</soundDrop>
@@ -42,6 +43,7 @@
 			<texPath>Resources/PRF_Carbon_Kevlar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(50,50,50)</color>
+			<drawSize>(0.9,0.9)</drawSize>
 		</graphicData>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
@@ -94,6 +96,7 @@
 			<texPath>Resources/PRF_CarbonMix</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<!-- <color>(100,100,100)</color> -->
+			<drawSize>(0.9,0.9)</drawSize>
 		</graphicData>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
@@ -146,6 +149,7 @@
 			<texPath>Resources/PRF_CarbonPlate</texPath>
 			<graphicClass>Graphic_Stackcount</graphicClass>
 			<!-- <color>(75,75,75)</color> -->
+			<drawSize>(0.8,0.8)</drawSize>
 		</graphicData>
 		<soundInteract>ChunkRock_Drop</soundInteract>
 		<soundDrop>ChunkRock_Drop</soundDrop>
@@ -204,6 +208,7 @@
 		<graphicData>
 			<texPath>Resources/PRF_RawDiamond</texPath>
 			<graphicClass>Graphic_Stackcount</graphicClass>
+			<drawSize>(0.8,0.8)</drawSize>
 		</graphicData>
 		<soundInteract>ChunkRock_Drop</soundInteract>
 		<soundDrop>ChunkRock_Drop</soundDrop>
