@@ -8,8 +8,8 @@
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>PRF_Materials</tab>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>0.00</researchViewY>
+  <researchViewX>1.00</researchViewX>
+  <researchViewY>0.00</researchViewY>
     <prerequisites>
       <li>Smithing</li>
     </prerequisites>

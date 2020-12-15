@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcreteBlack</defName>
+    <label>concrete black</label>
+    <texturePath>Misc/Concrete</texturePath>
+    <color>(42, 42, 42)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcreteDarkGrey</defName>
+    <label>concrete dark grey</label>
+    <texturePath>Misc/Concrete</texturePath>
+    <color>(87, 87, 87)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcreteWhite</defName>
+    <label>concrete white</label>
+    <texturePath>Misc/Concrete</texturePath>
+    <color>(240, 240, 240)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcreteCream</defName>
+    <label>concrete Cream</label>
+    <texturePath>Misc/Concrete</texturePath>
+    <color>(186, 184, 173)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcreteBlue</defName>
+    <label>concrete Blue</label>
+    <texturePath>Misc/Concrete</texturePath>
+    <color>(114, 149, 166)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcreteGreen</defName>
+    <label>concrete Green</label>
+    <texturePath>Misc/Concrete</texturePath>
+    <color>(139, 173, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcreteRed</defName>
+    <label>concrete Red</label>
+    <texturePath>Misc/Concrete</texturePath>
+    <color>(173, 121, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcreteBrown</defName>
+    <label>concrete Brown</label>
+    <texturePath>Misc/Concrete</texturePath>
+    <color>(159, 102, 45)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcretePurple</defName>
+    <label>concrete Purple</label>
+    <texturePath>Misc/Concrete</texturePath>
+    <color>(139, 121, 173)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteFloorBase">
+    <defName>PRF_ConcreteReinforced</defName>
+    <label>reinforced concrete</label>
+    <texturePath>Misc/Concrete</texturePath>
+	<color>(130,130,150)</color>
+  </TerrainDef>
+
+</Defs>

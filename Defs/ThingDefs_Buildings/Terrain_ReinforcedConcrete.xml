@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>PRF_ReinforcedConcreteGroup</defName>
+	</DesignatorDropdownGroupDef>
+
+  <TerrainDef Name="PRF_ReinforcedConcreteBase" ParentName="FloorBase" Abstract="True">
+	<texturePath>Building/Floors/PRF_ReinforcedConcrete</texturePath>
+	<designatorDropdown>PRF_ReinforcedConcreteGroup</designatorDropdown>
+	<description>Concrete that has been reinforced to create a more durable surface.</description>
+	<statBases>
+		<Beauty>2</Beauty>
+		<WorkToBuild>220</WorkToBuild>
+	</statBases>
+	<costList>
+		<PRF_RefConcrete>1</PRF_RefConcrete>
+	</costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <renderPrecedence>243</renderPrecedence>
+    <researchPrerequisites>
+      <li>PRF_AdvancedConcrete</li>
+    </researchPrerequisites>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcrete</defName>
+    <label>reinforced concrete</label>
+	<description>Concrete that has been reinforced to create a more durable surface.</description>
+	<color>(140,140,140)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcreteBlack</defName>
+    <label>reinforced concrete black</label>
+	<description>Concrete that has been reinforced to create a more durable black surface.</description>
+    <color>(42, 42, 42)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcreteDarkGrey</defName>
+    <label>reinforced concrete dark grey</label>
+	<description>Concrete that has been reinforced to create a more durable dark grey surface.</description>
+    <color>(87, 87, 87)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcreteWhite</defName>
+    <label>reinforced concrete white</label>
+	<description>Concrete that has been reinforced to create a more durable white surface.</description>
+    <color>(240, 240, 240)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcreteCream</defName>
+    <label>reinforced concrete Cream</label>
+	<description>Concrete that has been reinforced to create a more durable Cream surface.</description>
+    <color>(186, 184, 173)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcreteBlue</defName>
+    <label>reinforced concrete Blue</label>
+	<description>Concrete that has been reinforced to create a more durable Blue surface.</description>
+    <color>(114, 149, 166)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcreteGreen</defName>
+    <label>reinforced concrete Green</label>
+	<description>Concrete that has been reinforced to create a more durable Green surface.</description>
+    <color>(139, 173, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcreteRed</defName>
+    <label>reinforced concrete Red</label>
+	<description>Concrete that has been reinforced to create a more durable Red surface.</description>
+    <color>(173, 121, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcreteBrown</defName>
+    <label>reinforced concrete Brown</label>
+	<description>Concrete that has been reinforced to create a more durable Brown surface.</description>
+    <color>(159, 102, 45)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcretePurple</defName>
+    <label>reinforced concrete Purple</label>
+	<description>Concrete that has been reinforced to create a more durable Purple surface.</description>
+    <color>(139, 121, 173)</color>
+  </TerrainDef>
+  
+    <TerrainDef ParentName="PRF_ReinforcedConcreteBase">
+    <defName>PRF_ReinforcedConcreteYellow</defName>
+    <label>reinforced concrete Yellow</label>
+	<description>Concrete that has been reinforced to create a more durable Yellow surface.</description>
+    <color>(173, 165, 121)</color>
+  </TerrainDef>
+
+</Defs>

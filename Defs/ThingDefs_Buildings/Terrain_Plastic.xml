@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<DesignatorDropdownGroupDef>
+		<defName>PRF_PlasticTileGroup</defName>
+	</DesignatorDropdownGroupDef>
+
+  <TerrainDef Name="PlasticTileBase" ParentName="FloorBase" Abstract="True">
+	<texturePath>Building/Floors/PRF_PlasticFloor</texturePath>
+    <designatorDropdown>PRF_PlasticTileGroup</designatorDropdown>
+    <statBases>
+		<Beauty>-2</Beauty>
+		<WorkToBuild>160</WorkToBuild>
+    </statBases>
+    <costList>
+			<PRF_MixedPlastic>1</PRF_MixedPlastic>
+    </costList>
+	<edgeType>Hard</edgeType>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc4</designationHotKey>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <renderPrecedence>243</renderPrecedence>
+    <researchPrerequisites>
+      <li>PRF_BasicPlastics</li>
+      <li>PRF_AdvancedFlooring</li>
+    </researchPrerequisites>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_PlasticFloor</defName>
+    <label>Plastic tile</label>
+    <description>Cheap plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(180, 180, 182)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_GrayPlasticTile</defName>
+    <label>gray Plastic tile</label>
+    <description>Cheap gray plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(87, 87, 85)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_WhitePlasticTile</defName>
+    <label>White Plastic tile</label>
+    <description>Cheap Whiteplastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(240, 240, 240)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_BlackPlasticTile</defName>
+    <label>black Plastic tile</label>
+    <description>Cheap black plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(35, 35, 35)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_CreamPlasticTile</defName>
+    <label>Cream Plastic tile</label>
+    <description>Cheap Cream plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(186, 184, 173)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_BluePlasticTile</defName>
+    <label>Blue Plastic tile</label>
+    <description>Cheap Blue plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(114, 149, 166)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_GreenPlasticTile</defName>
+    <label>Green Plastic tile</label>
+    <description>Cheap Green plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(139, 173, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_RedPlasticTile</defName>
+    <label>Red Plastic tile</label>
+    <description>Cheap Red plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(173, 121, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_BrownPlasticTile</defName>
+    <label>Brown Plastic tile</label>
+    <description>Cheap Brown plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(159, 102, 45)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_PurplePlasticTile</defName>
+    <label>Purple Plastic tile</label>
+    <description>Cheap Purple plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(139, 121, 173)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PlasticTileBase">
+    <defName>PRF_YellowPlasticTile</defName>
+    <label>Yellow Plastic tile</label>
+    <description>Cheap Yellow plastic flooring. Cheap, easy to build, not very pretty, it is a good solution if you need to pave a large area.</description>
+    <color>(173, 165, 121)</color>
+  </TerrainDef>
+
+</Defs>

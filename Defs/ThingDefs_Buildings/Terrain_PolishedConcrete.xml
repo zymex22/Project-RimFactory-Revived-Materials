@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>PRF_PolishedConcreteGroup</defName>
+	</DesignatorDropdownGroupDef>
+
+  <TerrainDef Name="PRF_PolishedConcreteBase" ParentName="FloorBase" Abstract="True">
+	<texturePath>Building/Floors/PRF_PolishedFlooring</texturePath>
+	<designatorDropdown>PRF_PolishedConcreteGroup</designatorDropdown>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective finish.</description>
+	<statBases>
+		<Beauty>2</Beauty>
+		<WorkToBuild>140</WorkToBuild>
+	</statBases>
+	<costList>
+		<PRF_Concrete>1</PRF_Concrete>
+	</costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <renderPrecedence>243</renderPrecedence>
+    <researchPrerequisites>
+      <li>PRF_AdvancedConcrete</li>
+      <li>PRF_AdvancedFlooring</li>
+    </researchPrerequisites>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcrete</defName>
+    <label>polished concrete</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective finish.</description>
+	<color>(140,140,140)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcreteBlack</defName>
+    <label>polished concrete black</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective black finish.</description>
+    <color>(42, 42, 42)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcreteDarkGrey</defName>
+    <label>polished concrete dark grey</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective dark grey finish.</description>
+    <color>(87, 87, 87)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcreteWhite</defName>
+    <label>polished concrete white</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective white finish.</description>
+    <color>(240, 240, 240)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcreteCream</defName>
+    <label>polished concrete Cream</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective Cream finish.</description>
+    <color>(186, 184, 173)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcreteBlue</defName>
+    <label>polished concrete Blue</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective Blue finish.</description>
+    <color>(114, 149, 166)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcreteGreen</defName>
+    <label>polished concrete Green</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective Green finish.</description>
+    <color>(139, 173, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcreteRed</defName>
+    <label>polished concrete Red</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective Red finish.</description>
+    <color>(173, 121, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcreteBrown</defName>
+    <label>polished concrete Brown</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective Brown finish.</description>
+    <color>(159, 102, 45)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcretePurple</defName>
+    <label>polished concrete Purple</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective Purple finish.</description>
+    <color>(139, 121, 173)</color>
+  </TerrainDef>
+  
+    <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedConcreteYellow</defName>
+    <label>polished concrete Yellow</label>
+	<description>Concrete that has been buffed over, leaving a smooth and slightly reflective Yellow finish.</description>
+    <color>(173, 165, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolishedConcreteBase">
+    <defName>PRF_PolishedReinforcedConcrete</defName>
+		<label>polished reinforced concrete</label>
+	<description>Reinforced Concrete that has been buffed over, leaving a smooth and slightly reflective finish.</description>
+	<statBases>
+		<Beauty>3</Beauty>
+		<WorkToBuild>160</WorkToBuild>
+	</statBases>
+	<costList>
+		<PRF_RefConcrete>1</PRF_RefConcrete>
+	</costList>
+	<color>(130,130,150)</color>
+  </TerrainDef>
+
+</Defs>

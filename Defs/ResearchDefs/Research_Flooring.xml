@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>PRF_AdvancedFlooring</defName>
+    <label>Advanced Flooring</label>
+    <description>Unlock use of industrial/post-industrial materials in flooring.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>PRF_Materials</tab>
+  <researchViewX>1.00</researchViewX>
+  <researchViewY>3.50</researchViewY>
+    <prerequisites>
+      <li>CarpetMaking</li>
+      <li>PRF_CoreTierI</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

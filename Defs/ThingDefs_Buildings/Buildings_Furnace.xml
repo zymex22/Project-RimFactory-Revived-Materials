@@ -3,10 +3,10 @@
 
   <!--==================== T0 Smelter ====================-->
 
-  <ThingDef ParentName="PRF_FurnaceBase">
+  <ThingDef ParentName="BenchBase">
     <defName>PRF_FueledStoneSmelter</defName>
     <label>primitive smelter</label>
-    <thingClass>ProjectRimFactory.SAL3.Things.Assemblers.Building_SimpleAssembler</thingClass>
+    <thingClass>Building_WorkTable</thingClass>
     <altitudeLayer>Building</altitudeLayer>
     <constructEffect></constructEffect>
     <graphicData>
@@ -47,7 +47,7 @@
             <li>WoodLog</li>
           </thingDefs>
         </fuelFilter>
-        <consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <!--<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>-->
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
@@ -55,22 +55,29 @@
         <glowRadius>8</glowRadius>
         <glowColor>(217,112,33,0)</glowColor>
       </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
     </comps>
-    <modExtensions>
-      <li Class="ProjectRimFactory.SAL3.Exposables.AssemblerDefModExtension">
-        <workSpeedBaseFactor>0.05</workSpeedBaseFactor>
-        <doEffect>false</doEffect>
-        <drawStatus>true</drawStatus>
-      </li>
-      <li Class="ProjectRimFactory.Common.ModExtension_Skills">
-        <SkillUsage>ThisOverrides</SkillUsage>
-        <BaseSkill>10</BaseSkill>
-      </li>
-    </modExtensions>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
     <researchPrerequisites>
       <li>PRF_CoreTierO</li>
     </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
   </ThingDef>
 
   <!--==================== T3 Plasma Furnace ====================-->

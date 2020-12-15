@@ -88,7 +88,7 @@
 	<ResearchProjectDef>
 		<defName>PRF_BulkConcrete</defName>
 		<label>bulk concrete</label>
-		<description>Develop techniques on the mass production of concrete and reinforced concrete that take less time and less wasted materials as its being made in large batches to save resources and time.\nThis just unlock Bulk recipes for 2 types.</description>
+		<description>Develop techniques on the mass production of concrete products that take less time and less materials to produce in the long term.</description>
 		<baseCost>800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
