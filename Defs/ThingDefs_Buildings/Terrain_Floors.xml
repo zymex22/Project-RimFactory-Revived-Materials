@@ -83,28 +83,6 @@
 	  </DesignatorDropdownGroupDef>
 
 	<TerrainDef ParentName="FloorBase">
-		<defName>PRF_PolyesterCarpet</defName>
-		<label>polyester</label>
-		<description>Polyester carpet, to complete That 70's Show look.</description>
-		<texturePath>Building/Floors/PRF_Polyester</texturePath>
-        <color>(188,188,162)</color>
-		<edgeType>Hard</edgeType>
-		<renderPrecedence>150</renderPrecedence>
-		<designatorDropdown>PRF_Floor_Carpet</designatorDropdown>
-		<statBases>
-			<Beauty>-2</Beauty>
-			<WorkToBuild>120</WorkToBuild>
-		</statBases>
-		<costList>
-			<PRF_Polyester>1</PRF_Polyester>
-		</costList>
-    <researchPrerequisites>
-      <li>PRF_BasicPlasticTextiles</li>
-      <li>PRF_AdvancedFlooring</li>
-    </researchPrerequisites>
-	</TerrainDef>
-
-	<TerrainDef ParentName="FloorBase">
 		<defName>PRF_KevlarCarpet</defName>
 		<label>kevlar</label>
 		<description>Kevlar weave, for when you need your floors to stop bullets.</description>

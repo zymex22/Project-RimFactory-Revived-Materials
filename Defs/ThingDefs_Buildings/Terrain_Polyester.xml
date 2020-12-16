@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>PRF_PolyesterCarpetGroup</defName>
+	</DesignatorDropdownGroupDef>
+	
+	
+	<TerrainDef Name="PRF_PolyesterBase" ParentName="FloorBase" Abstract="True">
+		<label>polyester carpet</label>
+		<description>Polyester carpet, to complete That 70's Show look.</description>
+		<texturePath>Terrain/Surfaces/Carpet</texturePath>
+        <color>(188,188,162)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_PolyesterCarpetGroup</designatorDropdown>
+		<statBases>
+			<Beauty>0</Beauty>
+			<WorkToBuild>120</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_Polyester>1</PRF_Polyester>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_AdvPlastics</li>
+    </researchPrerequisites>
+	</TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetBlack</defName>
+    <label>black polyester carpet</label>
+	<description>Black polyester carpet, to complete That 70's Show look.</description>
+    <color>(42, 42, 42)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetDarkGrey</defName>
+    <label>dark grey polyester carpet</label>
+	<description>dark grey polyester carpet, to complete That 70's Show look.</description>
+    <color>(87, 87, 87)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetWhite</defName>
+    <label>white polyester carpet</label>
+	<description>white polyester carpet, to complete That 70's Show look.</description>
+    <color>(240, 240, 240)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetCream</defName>
+    <label>Cream polyester carpet</label>
+	<description>Cream polyester carpet, to complete That 70's Show look.</description>
+    <color>(186, 184, 173)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetBlue</defName>
+    <label>Blue polyester carpet</label>
+	<description>Blue polyester carpet, to complete That 70's Show look.</description>
+    <color>(114, 149, 166)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetGreen</defName>
+    <label>Green polyester carpet</label>
+	<description>Green polyester carpet, to complete That 70's Show look.</description>
+    <color>(139, 173, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetRed</defName>
+    <label>Red polyester carpet</label>
+	<description>Red polyester carpet, to complete That 70's Show look.</description>
+    <color>(173, 121, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetBrown</defName>
+    <label>Brown polyester carpet</label>
+	<description>Brown polyester carpet, to complete That 70's Show look.</description>
+    <color>(159, 102, 45)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetPurple</defName>
+    <label>Purple polyester carpet</label>
+	<description>Purple polyester carpet, to complete That 70's Show look.</description>
+    <color>(139, 121, 173)</color>
+  </TerrainDef>
+  
+    <TerrainDef ParentName="PRF_PolyesterBase">
+    <defName>PRF_PolyesterCarpetYellow</defName>
+    <label>Yellow polyester carpet</label>
+	<description>Yellow polyester carpet, to complete That 70's Show look.</description>
+    <color>(173, 165, 121)</color>
+  </TerrainDef>
+
+</Defs>

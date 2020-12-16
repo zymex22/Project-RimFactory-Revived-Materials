@@ -4,7 +4,7 @@
 	<ResearchProjectDef>
 		<defName>PRF_BasicPlastics</defName>
 		<label>basic plastics</label>
-		<description>Learn how to extract crude oil from oil shale and convert it to chemfuel and mixed plastic material, which can be later used to create laminated wood.</description>
+		<description>Learn how to convert oil/chemfuel to a usable mixed plastic material</description>
 		<baseCost>250</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -17,8 +17,8 @@
 
 	<ResearchProjectDef>
 		<defName>PRF_AdvPlastics</defName>
-		<label>advanced plastics</label>
-		<description>Learn how to extract crude oil from oil shale and convert it to chemfuel and mixed plastic material, which can be later used to create laminated wood.</description>
+		<label>polymerization</label>
+		<description>Learn how to produce plastic polymers that have wider uses, including fabric that can replace cloth in some applications.</description>
 		<baseCost>750</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -31,12 +31,12 @@
 
 	<ResearchProjectDef>
 		<defName>PRF_BasicPlasticTextiles</defName>
-		<label>polyester production</label>
-		<description>Develop methods of polyester production from refined oil; a wind-proof, water-proof textile that has some insulative properties to it.</description>
+		<label>kevlar production</label>
+		<description>Learn how to produce kevlar from plastic: a tough textile that has a high resistance to weapons.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>PRF_BasicPlastics</li>
+			<li>PRF_AdvPlastics</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
 		<researchViewX>1.00</researchViewX>
@@ -45,16 +45,29 @@
 
 	<ResearchProjectDef>
 		<defName>PRF_AdvPlasticTextiles</defName>
-		<label>kevlar production</label>
-		<description>Learn how to produce kevlar from plastic: a tough textile that has a high resistance to weapons.</description>
+		<label>synthread production</label>
+		<description>Learn how to produce synthread from plastic: a strong textile with multiple uses from medical to clothing.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>PRF_BasicPlasticTextiles</li>
-			<li>PRF_AdvPlastics</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
 		<researchViewX>2.00</researchViewX>
+		<researchViewY>2.50</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>PRF_GlitterPlasticTextiles</defName>
+		<label>hyperweave production</label>
+		<description>Learn how to produce hyperweave from other advanced textiles, or at least something indistinguishable from hyperweave.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PRF_AdvPlasticTextiles</li>
+		</prerequisites>
+		<tab>PRF_Materials</tab>
+		<researchViewX>2.20</researchViewX>
 		<researchViewY>2.50</researchViewY>
 	</ResearchProjectDef>
 

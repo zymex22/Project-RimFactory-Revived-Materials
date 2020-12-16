@@ -44,7 +44,7 @@
 		</statBases>
 		<building>
 			<isEdifice>false</isEdifice>
-			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<techLevel>Neolithic</techLevel>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -215,7 +215,7 @@
 	<ThingDef ParentName="LampBase">
 		<defName>PRF_QuartzLamp</defName>
 		<label>crystal lamp</label>
-		<description>A light pole designed for outdoor use.  Does not need power, but maybe you don't want to loiter next to it.</description>
+		<description>A light pole designed for outdoor use.  Basically a glowy rock on a big stick.  Does not need power, but maybe you don't want to loiter next to it.</description>
 		<graphicData>
 			<texPath>Building/Lamp/CrystalLamp</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -235,7 +235,7 @@
 			<PRF_quartz>10</PRF_quartz>
 		</costList>
 		<statBases>
-			<Beauty>15</Beauty>
+			<Beauty>10</Beauty>
 			<WorkToBuild>200</WorkToBuild>
 			<Flammability>0.1</Flammability>
 			<Mass>3.5</Mass>
@@ -265,6 +265,67 @@
 			</li>
 		</comps>
 		<specialDisplayRadius>9</specialDisplayRadius>
+	</ThingDef>
+
+	<ThingDef ParentName="LampBase">
+		<defName>PRF_QuartzElectricLamp</defName>
+		<label>electric crystal lamp</label>
+		<description>An electrically augmented light pole designed for outdoor use. You still maybe don't want to loiter next to it.</description>
+		<graphicData>
+			<texPath>Building/Lamp/ElectricLamp</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,6)</drawSize>
+		</graphicData>
+		<uiIconPath>Building/Lamp/ElectricLamp_MenuIcon</uiIconPath>
+		<rotatable>false</rotatable>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<designationCategory>Furniture</designationCategory>
+		<pathCost>30</pathCost>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<costList>
+			<PRF_CrystalPowder>20</PRF_CrystalPowder>
+		</costList>
+		<statBases>
+			<Beauty>15</Beauty>
+			<WorkToBuild>275</WorkToBuild>
+			<Flammability>0.1</Flammability>
+			<Mass>3.6</Mass>
+		</statBases>
+		<comps>
+			<li Class="ProjectRimFactory.Misc.CompProperties_Glower_ColorPick">
+				<glowRadius>16</glowRadius>
+				<glowColor>(252,199,139,0)</glowColor>
+				<key>PRF_Warm_White</key>
+				<moreColors>
+					<li>
+						<key>PRF_Cool_White</key>
+						<color>(140,200,250,0)</color>
+					</li>
+					<li>
+						<key>PRF_Blue</key>
+						<color>(80,80,217,0)</color>
+					</li>
+					<li>
+						<key>PRF_Cyan</key>
+						<color>(10,245,245,0)</color>
+					</li>
+				</moreColors>
+				<prerequisites>
+					<li>ColoredLights</li>
+				</prerequisites>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>15</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+		<specialDisplayRadius>16</specialDisplayRadius>
 	</ThingDef>
 
 	<DesignatorDropdownGroupDef>

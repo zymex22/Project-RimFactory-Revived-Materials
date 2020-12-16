@@ -36,6 +36,7 @@
 		<recipes>
 			<li>PRF_CrushSand</li>
 			<li>PRF_MakeCement</li>
+			<li>PRF_CrushQuartz</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>

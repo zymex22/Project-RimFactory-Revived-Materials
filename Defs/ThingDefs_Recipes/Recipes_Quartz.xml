@@ -32,7 +32,6 @@
 		<workSkill>Mining</workSkill>
 		<recipeUsers>
 			<li>TableStonecutter</li>
-			<li>PRF_GrindStone</li>
 		</recipeUsers>
 	</RecipeDef>
 

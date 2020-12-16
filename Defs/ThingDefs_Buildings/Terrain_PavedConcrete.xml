@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>PRF_PavedConcreteGroup</defName>
+	</DesignatorDropdownGroupDef>
+
+  <TerrainDef Name="PRF_ConcreteTileBase" ParentName="FloorBase" Abstract="True">
+    <label>paved tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <texturePath>Building/Floors/PavedTileLight</texturePath>
+	<designatorDropdown>PRF_PavedConcreteGroup</designatorDropdown>
+	<statBases>
+		<Beauty>0</Beauty>
+		<WorkToBuild>300</WorkToBuild>
+	</statBases>
+	<costList>
+		<PRF_Concrete>2</PRF_Concrete>
+	</costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <renderPrecedence>230</renderPrecedence>
+    <researchPrerequisites>
+      <li>PRF_AdvancedConcrete</li>
+    </researchPrerequisites>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTileBlack</defName>
+    <label>black tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(42, 42, 42)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTileDarkGrey</defName>
+    <label>dark grey tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(87, 87, 87)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTileWhite</defName>
+    <label>white tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(240, 240, 240)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTileCream</defName>
+    <label>Cream tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(186, 184, 173)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTileBlue</defName>
+    <label>Blue tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(114, 149, 166)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTileGreen</defName>
+    <label>Green tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(139, 173, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTileRed</defName>
+    <label>Red tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(173, 121, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTileBrown</defName>
+    <label>Brown tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(159, 102, 45)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTilePurple</defName>
+    <label>Purple tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(139, 121, 173)</color>
+  </TerrainDef>
+  
+    <TerrainDef ParentName="PRF_ConcreteTileBase">
+    <defName>PRF_ConcreteTileYellow</defName>
+    <label>Yellow tile</label>
+    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+    <color>(173, 165, 121)</color>
+  </TerrainDef>
+
+</Defs>

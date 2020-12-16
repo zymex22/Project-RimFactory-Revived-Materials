@@ -58,7 +58,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_Polyester</defName>
     <label>polyester</label>
-    <description>Polyester sheet that has been woven from artificially created plastic fibres. Quite insulative but not very strong.</description>
+    <description>Polyester sheet that has been woven from artificially created plastic fibres. Cheap alternative for cloth, makes good carpet and passable apparel.</description>
     <graphicData>
       <texPath>Resources/PRF_SyntheticTextile</texPath>
       <graphicClass>Graphic_Single</graphicClass>

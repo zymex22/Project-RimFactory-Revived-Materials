@@ -45,6 +45,10 @@
       <li>PRF_MakeRConcrete</li>
       <li>PRF_MakeConcreteBulk</li>
       <li>PRF_MakeRConcreteBulk</li>
+      <li>PRF_MakeSynthread</li>
+      <li>PRF_MakeSynthreadBulk</li>
+      <li>PRF_MakeHyperweave</li>
+      <li>PRF_MakeHyperweaveBulk</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Power">
