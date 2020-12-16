@@ -165,11 +165,11 @@
 		<defName>PRF_MakePolyesterFibre</defName>
 		<label>make polyester fibre</label>
 		<description>By denaturing and reforming plastics through the process of polycondensation, small fibres of polyester can be made, however they will require further work at a tailor bench to be made into a usable fabric.</description>
-		<jobString>Making polyester fibre.</jobString>
+		<jobString>Making polyester fibre.</jobString>  
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-			<Crafting>3</Crafting>
-		</skillRequirements>
+		<Crafting>3</Crafting>
+        </skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -197,18 +197,18 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_BasicPlasticTextiles</researchPrerequisite>
+		<researchPrerequisite>PRF_AdvPlastics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef>
 		<defName>PRF_MakePolyesterFibreBulk</defName>
 		<label>make bulk polyester fibre</label>
 		<description>By denaturing and reforming lots of plastics through the process of polycondensation,lots of small fibres of polyester can be made, however they will require further work at a tailor bench to be made into a usable fabric.</description>
-		<jobString>Making polyester fibre.</jobString>
+		<jobString>Making polyester fibre.</jobString>  
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-			<Crafting>6</Crafting>
-		</skillRequirements>
+		<Crafting>6</Crafting>
+        </skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -245,12 +245,12 @@
 	<RecipeDef>
 		<defName>PRF_MakeKevlarFibre</defName>
 		<label>make kevlar fibre</label>
-		<description>Produce a batch of extremely sharp resistant fibres for use in clothing, however they will require further work at a tailor bench to be made into a usable fabric.</description>
-		<jobString>Making kevlar fibre.</jobString>
+		<description>Produce an extremely sharp resistant fibres for use in clothing.</description>
+		<jobString>Making kevlar fibre.</jobString>  
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-			<Crafting>8</Crafting>
-		</skillRequirements>
+		<Crafting>8</Crafting>
+        </skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -278,18 +278,18 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_AdvPlasticTextiles</researchPrerequisite>
+		<researchPrerequisite>PRF_BasicPlasticTextiles</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef>
 		<defName>PRF_MakeKevlarFibreBulk</defName>
 		<label>make bulk kevlar fibre</label>
-		<description>Produce a large batch of extremely sharp resistant fibres for use in clothing, however they will require further work at a tailor bench to be made into a usable fabric.</description>
-		<jobString>Making kevlar fibre.</jobString>
+		<description>Produce a large batch of extremely sharp resistant fibres for use in clothing.</description>
+		<jobString>Making kevlar fibre.</jobString>  
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<skillRequirements>
-			<Crafting>12</Crafting>
-		</skillRequirements>
+		<Crafting>12</Crafting>
+        </skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -319,5 +319,185 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_AdvPlasticTextiles</researchPrerequisite>
 	</RecipeDef>
+	
 
+	<!-- ===================================== Synthread ======================================== -->
+	
+	<RecipeDef>
+		<defName>PRF_MakeSynthread</defName>
+		<label>make synthread</label>
+		<description>Produce synthread, an urbworld material with multiple uses.</description>
+		<jobString>Making synthread.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>12</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Kevlar</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<Synthread>20</Synthread>
+		</products>
+		<workAmount>1200</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_AdvPlasticTextiles</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeSynthreadBulk</defName>
+		<label>make synthread in bulk</label>
+		<description>Produce a batch of synthread, an urbworld material with multiple uses.</description>
+		<jobString>Making synthread.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>13</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Kevlar</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+		</ingredients>
+		<products>
+			<Synthread>200</Synthread>
+		</products>
+		<workAmount>10000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_GlitterPlasticTextiles</researchPrerequisite>
+	</RecipeDef>
+	
+	
+
+	<!-- ===================================== Hyperweave ======================================== -->
+
+	<RecipeDef>
+		<defName>PRF_MakeHyperweave</defName>
+		<label>make hyperweave</label>
+		<description>Produce hyperweave (or at least a close copy), a glitterworld material with multiple uses.</description>
+		<jobString>Making hyperweave.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>14</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Kevlar</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_CarbonFiber</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Hyperweave>10</Hyperweave>
+		</products>
+		<workAmount>1500</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_AdvPlasticTextiles</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>PRF_MakeHyperweaveBulk</defName>
+		<label>make hyperweave in bulk</label>
+		<description>Produce a batch of hyperweave (or at least a close copy), a glitterworld material with multiple uses.</description>
+		<jobString>Making hyperweave.</jobString>  
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<skillRequirements>
+		<Crafting>16</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_Kevlar</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_CarbonFiber</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PRF_MixedPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<Hyperweave>110</Hyperweave>
+		</products>
+		<workAmount>12000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.75</workSkillLearnFactor>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<researchPrerequisite>PRF_AdvPlasticTextiles</researchPrerequisite>
+	</RecipeDef>
+	
+	
 </Defs>
