@@ -1,4 +1,4 @@
-# Project-RimFactory-Revived-Materials
+# Project RimFactory - Materials
   A combination of Atlas's Materials+, Neceros Don't Burn Metal, and Argon's Expanded Materials using Project RimFactory mechanics.
 
   This mod is just another take on a Materials mod and is meant to be focused around Factory games like Factorio, satisfactory and more.
@@ -15,11 +15,11 @@
   - Neceros Vanilla Iron and Steel
   Used with their permission for licensing go to their modpage.
 
-New Production:
+## New Production:
 	Digging Spot: Place this spot on light terrain to dig up clay and sand.
 	Materials Refinery: Replaces Metal Refinery if PRF-Materials is installed.
 		
-New raw materials:
+## New raw materials:
 	clay: Used for Bricks.
 	sand: Used for Bricks and Concrete.
 	cement: Used for concrete.
@@ -29,7 +29,7 @@ New raw materials:
 	Coke: coal processed under high temperatures to produce a more efficient fuel source
 	Carbon: crude building material and precursor to better things.
 
-New Manufactured materials:
+## New Manufactured materials:
 	copper ingots: refined copper, ready for use in wiring and electronics
 	stainless steel: Stronger and more sterile than steel
 	plastic: Lightweight with many uses
@@ -46,10 +46,34 @@ New Manufactured materials:
 	carbon plate: plates of carbon fiber laminated with plastic for use in construction.
 	synthetic diamond: not as pretty as what you could dig up, but just as strong.
 	
-Credits:
+## Credits:
 Atlas
 Neceros17
 Zymex
 Becris
 Argon
 ** Without their wonderful mods, this would not exist **
+
+## Links:
+Project RimFactory - Core
+https://github.com/zymex22/Project-RimFactory-Revived
+https://steamcommunity.com/sharedfiles/filedetails/?id=2033979700
+
+Project RimFactory - Insanity
+https://github.com/zymex22/Project-RimFactory-Revived-Insanity 
+https://steamcommunity.com/sharedfiles/filedetails/?id=2037492036
+
+Project RimFactory - Drones
+https://github.com/zymex22/Project-RimFactory-Revived-drones
+https://steamcommunity.com/sharedfiles/filedetails/?id=2037491557
+
+Project RimFactory - Materials
+https://github.com/zymex22/Project-RimFactory-Revived-Materials
+
+
+Project RimFactory - Lite (This is not compatible with Materials atm.)
+https://github.com/zymex22/PRF-Lite
+
+Discord
+Our Augmented Turtle Squad discord channel:
+https://discord.gg/QBr7Wby
