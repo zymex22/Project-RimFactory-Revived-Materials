@@ -38,6 +38,7 @@
 			<li>PRF_MakeBasicGlass</li>
 			<li>PRF_MakeSteelCoal</li>
 			<li>PRF_MakeSteelCoke</li>
+			<li>PRF_BakeBrickBulk</li>
 			<!-- <li>PRF_MakeCopperCoal</li> -->
 			<!-- <li>PRF_MakeCopperCoke</li> -->
 		</value>
