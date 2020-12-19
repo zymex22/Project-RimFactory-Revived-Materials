@@ -114,6 +114,10 @@
 				<key>PRF_Cool_White</key>
 				<moreColors>
 					<li>
+						<key>PRF_Bright_White</key>
+						<color>(245,245,245,0)</color>
+					</li>
+					<li>
 						<key>PRF_Blue</key>
 						<color>(80,80,217,0)</color>
 					</li>
@@ -302,6 +306,10 @@
 				<key>PRF_Warm_White</key>
 				<moreColors>
 					<li>
+						<key>PRF_Bright_White</key>
+						<color>(245,245,245,0)</color>
+					</li>
+					<li>
 						<key>PRF_Cool_White</key>
 						<color>(140,200,250,0)</color>
 					</li>
@@ -371,6 +379,10 @@
 				<key>PRF_Warm_White</key>
 				<moreColors>
 					<li>
+						<key>PRF_Bright_White</key>
+						<color>(245,245,245,0)</color>
+					</li>
+					<li>
 						<key>PRF_Cool_White</key>
 						<color>(140,200,250,0)</color>
 					</li>
@@ -432,6 +444,10 @@
 				<glowColor>(252,199,139,0)</glowColor>
 				<key>PRF_Warm_White</key>
 				<moreColors>
+					<li>
+						<key>PRF_Bright_White</key>
+						<color>(245,245,245,0)</color>
+					</li>
 					<li>
 						<key>PRF_Cool_White</key>
 						<color>(140,200,250,0)</color>
@@ -495,6 +511,10 @@
 				<key>PRF_Warm_White</key>
 				<moreColors>
 					<li>
+						<key>PRF_Bright_White</key>
+						<color>(245,245,245,0)</color>
+					</li>
+					<li>
 						<key>PRF_Cool_White</key>
 						<color>(140,200,250,0)</color>
 					</li>
@@ -556,6 +576,10 @@
 				<glowColor>(252,199,139,0)</glowColor>
 				<key>PRF_Warm_White</key>
 				<moreColors>
+					<li>
+						<key>PRF_Bright_White</key>
+						<color>(245,245,245,0)</color>
+					</li>
 					<li>
 						<key>PRF_Cool_White</key>
 						<color>(140,200,250,0)</color>
@@ -619,6 +643,10 @@
 				<key>PRF_Warm_White</key>
 				<moreColors>
 					<li>
+						<key>PRF_Bright_White</key>
+						<color>(245,245,245,0)</color>
+					</li>
+					<li>
 						<key>PRF_Cool_White</key>
 						<color>(140,200,250,0)</color>
 					</li>
@@ -680,6 +708,10 @@
 				<glowColor>(252,199,139,0)</glowColor>
 				<key>PRF_Warm_White</key>
 				<moreColors>
+					<li>
+						<key>PRF_Bright_White</key>
+						<color>(245,245,245,0)</color>
+					</li>
 					<li>
 						<key>PRF_Cool_White</key>
 						<color>(140,200,250,0)</color>
