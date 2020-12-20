@@ -30,6 +30,7 @@
 		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
+			<li>PRF_FueledStoneSmelter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -100,6 +101,9 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
 		<researchPrerequisite>PRF_ReinforcedGlass</researchPrerequisite>
 	</RecipeDef>
 
