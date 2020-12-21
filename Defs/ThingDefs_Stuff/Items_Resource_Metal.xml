@@ -91,6 +91,7 @@
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+		<appearance>CopperAM</appearance>
       <statOffsets>
         <Beauty>0</Beauty>
       </statOffsets>
