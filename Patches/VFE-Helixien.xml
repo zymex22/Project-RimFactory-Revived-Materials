@@ -46,16 +46,6 @@
 								<ComponentSpacer>6</ComponentSpacer>
 							</costList>
 							<recipes>
-								<li>PRF_MakeMixedPlasticOil</li>
-								<li>PRF_MakeMixedPlasticBulkOil</li>
-								<li>PRF_MakeMixedPlasticOilChem</li>
-								<li>PRF_MakeMixedPlasticBulkOilChem</li>
-								<li>PRF_MakeCarbonPlate</li>
-								<li>PRF_MakeCarbonPlateBulk</li>
-								<li>PRF_MakeConcrete</li>
-								<li>PRF_MakeRConcrete</li>
-								<li>PRF_MakeConcreteBulk</li>
-								<li>PRF_MakeRConcreteBulk</li>
 							</recipes>
 							<comps>
 								<li Class="CompProperties_Power">
@@ -105,6 +95,7 @@
 										<drawSize>(3,3)</drawSize>
 									</workingGraphicData>
 									<importRecipesFrom>
+										<li>PRF_MaterialsRefinery</li>
 										<li>BiofuelRefinery</li>
 									</importRecipesFrom>
 								</li>
@@ -161,21 +152,6 @@
 								<PRF_MachineFrame_III>1</PRF_MachineFrame_III>
 							</costList>
 							<recipes>
-								<li>PRF_BakeBrickBulk</li>
-								<li>PRF_MakeCokeBulk</li>
-								<li>PRF_MakeBasicGlassBulk</li>
-								<li>PRF_MakeReinforcedGlassBulk</li>
-								<li>PRF_MakeSteelBulkCoal</li>
-								<li>PRF_MakeSteelBulkCoke</li>
-								<!-- <li>PRF_MakeCopperBulkCoal</li> -->
-								<!-- <li>PRF_MakeCopperBulkCoke</li> -->
-								<li>PRF_MakeStainlessSteelChemBulk</li>
-								<li>PRF_MakeStainlessSteelCokeBulk</li>
-								<li>PRF_MakeSyntheticDiamondBulk</li>
-								<li>PRF_MakeCarbonPowder_Coke</li>
-								<li>PRF_MakeCarbonPowder_Wood</li>
-								<li>PRF_MakeCarbonPowder_Coal</li>
-								<li>PRF_MakeCarbonPowder_Chemfuel</li>
 							</recipes>
 							<comps>
 								<li Class="CompProperties_Power">
@@ -213,7 +189,9 @@
 								<li Class="ProjectRimFactory.SAL3.Exposables.AssemblerDefModExtension">
 									<workSpeedBaseFactor>10</workSpeedBaseFactor>
 									<importRecipesFrom>
-										<li>PRF_FurnaceIII</li>
+										<li>PRF_FurnaceIV</li>
+										  <li>PRF_FurnaceIII</li>
+										  <li>ElectricCrematorium</li>
 									</importRecipesFrom>
 									<doEffect>false</doEffect>
 									<drawStatus>true</drawStatus>

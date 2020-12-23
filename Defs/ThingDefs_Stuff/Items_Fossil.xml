@@ -55,6 +55,10 @@
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
+    <deepCommonality>5</deepCommonality>
+    <deepCountPerPortion>45</deepCountPerPortion>
+    <deepLumpSizeRange>20~30</deepLumpSizeRange>
+    <burnableByRecipe>true</burnableByRecipe>
     <comps>
       <li Class="CompProperties_Explosive">
         <explosiveRadius>0.95</explosiveRadius>

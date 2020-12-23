@@ -161,6 +161,7 @@
         <workSpeedBaseFactor>10</workSpeedBaseFactor>
         <importRecipesFrom>
           <li>PRF_FurnaceIII</li>
+          <li>ElectricCrematorium</li>
         </importRecipesFrom>
         <doEffect>false</doEffect>
         <drawStatus>true</drawStatus>

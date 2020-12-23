@@ -32,6 +32,10 @@
   <StuffAppearanceDef>
     <defName>RefConcreteAM</defName>
   </StuffAppearanceDef>
-
+  
+  <StuffAppearanceDef>
+    <defName>CopperAM</defName>
+  </StuffAppearanceDef>
+  
 </Defs>
 

@@ -75,7 +75,7 @@
     <label>quartz</label>
     <description>Quartz is a natural crystalline material with many uses.  For some reason the quartz here glows,, you probably don't want to know why.</description>
     <graphicData>
-      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <texPath>Things/Building/Linked/CrystalFlecked_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(97,95,105)</color>
@@ -104,7 +104,7 @@
     <label>raw diamond</label>
     <description>Diamond is a natural crystalline material with many uses once it is processed.</description>
     <graphicData>
-      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <texPath>Things/Building/Linked/CrystalFlecked_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(97,95,105)</color>
