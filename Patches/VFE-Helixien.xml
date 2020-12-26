@@ -50,7 +50,7 @@
 							<comps>
 								<li Class="CompProperties_Power">
 									<compClass>CompPowerTrader</compClass>
-									<basePowerConsumption>0</basePowerConsumption>
+									<basePowerConsumption>300</basePowerConsumption>
 								</li>
 								<li Class="GasNetwork.CompProperties_GasTrader">
 									<compClass>GasNetwork.CompGasTrader</compClass>
@@ -65,18 +65,13 @@
 									<heatPerSecond>5</heatPerSecond>
 								</li>
 								<li Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting">
-									<!-- speed settings -->
-									<speedSetting>true</speedSetting>
-									<minPowerForSpeed>300</minPowerForSpeed>
-									<minSpeedFactor>2</minSpeedFactor>
-									<maxPowerForSpeed>1000</maxPowerForSpeed>
-									<maxSpeedFactor>7</maxSpeedFactor>
-									<!-- range settings -->
-									<rangeSetting>true</rangeSetting>
-									<minPowerForRange>0</minPowerForRange>
-									<minRange>1</minRange>
-									<maxPowerForRange>500</maxPowerForRange>
-									<maxRange>5</maxRange>
+									<!-- Speed Settings -->
+									<floatrange_SpeedFactor>2~7</floatrange_SpeedFactor>
+									<powerPerStepSpeed>200</powerPerStepSpeed>
+									<powerStepFactor>1</powerStepFactor>
+									<!-- Range Settings -->
+									<floatrange_Range>1~5</floatrange_Range>
+									<powerPerStepRange>100</powerPerStepRange>
 									<allowManualRangeTypeChange>true</allowManualRangeTypeChange>
 									<rangeType>ProjectRimFactory.Common.RectRange</rangeType>
 								</li>
@@ -156,7 +151,7 @@
 							<comps>
 								<li Class="CompProperties_Power">
 									<compClass>CompPowerTrader</compClass>
-									<basePowerConsumption>0</basePowerConsumption>
+									<basePowerConsumption>100</basePowerConsumption>
 								</li>
 								<li Class="GasNetwork.CompProperties_GasTrader">
 									<compClass>GasNetwork.CompGasTrader</compClass>
@@ -164,18 +159,13 @@
 									<gasConsumptionWhenUsed>250</gasConsumptionWhenUsed>
 								</li>
 								<li Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting">
-									<!-- speed settings -->
-									<speedSetting>true</speedSetting>
-									<minPowerForSpeed>100</minPowerForSpeed>
-									<minSpeedFactor>2</minSpeedFactor>
-									<maxPowerForSpeed>1000</maxPowerForSpeed>
-									<maxSpeedFactor>5</maxSpeedFactor>
-									<!-- range settings -->
-									<rangeSetting>true</rangeSetting>
-									<minPowerForRange>0</minPowerForRange>
-									<minRange>1</minRange>
-									<maxPowerForRange>500</maxPowerForRange>
-									<maxRange>5</maxRange>
+									<!-- Speed Settings -->
+									<floatrange_SpeedFactor>2~5</floatrange_SpeedFactor>
+									<powerPerStepSpeed>250</powerPerStepSpeed>
+									<powerStepFactor>1</powerStepFactor>
+									<!-- Range Settings -->
+									<floatrange_Range>1~5</floatrange_Range>
+									<powerPerStepRange>100</powerPerStepRange>
 									<allowManualRangeTypeChange>true</allowManualRangeTypeChange>
 									<rangeType>ProjectRimFactory.Common.RectRange</rangeType>
 								</li>
@@ -190,8 +180,8 @@
 									<workSpeedBaseFactor>10</workSpeedBaseFactor>
 									<importRecipesFrom>
 										<li>PRF_FurnaceIV</li>
-										  <li>PRF_FurnaceIII</li>
-										  <li>ElectricCrematorium</li>
+										<li>PRF_FurnaceIII</li>
+										<li>ElectricCrematorium</li>
 									</importRecipesFrom>
 									<doEffect>false</doEffect>
 									<drawStatus>true</drawStatus>

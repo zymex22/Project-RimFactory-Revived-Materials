@@ -132,21 +132,16 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>0</basePowerConsumption>
+        <basePowerConsumption>1000</basePowerConsumption>
       </li>
       <li Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting">
-        <!-- speed settings -->
-        <speedSetting>true</speedSetting>
-        <minPowerForSpeed>1000</minPowerForSpeed>
-        <minSpeedFactor>2</minSpeedFactor>
-        <maxPowerForSpeed>10000</maxPowerForSpeed>
-        <maxSpeedFactor>5</maxSpeedFactor>
-        <!-- range settings -->
-        <rangeSetting>true</rangeSetting>
-        <minPowerForRange>0</minPowerForRange>
-        <minRange>1</minRange>
-        <maxPowerForRange>500</maxPowerForRange>
-        <maxRange>5</maxRange>
+        <!-- Speed Settings -->
+        <floatrange_SpeedFactor>2~5</floatrange_SpeedFactor>
+        <powerPerStepSpeed>3300</powerPerStepSpeed>
+        <powerStepFactor>1</powerStepFactor>
+        <!-- Range Settings -->
+        <floatrange_Range>1~5</floatrange_Range>
+        <powerPerStepRange>100</powerPerStepRange>
         <allowManualRangeTypeChange>true</allowManualRangeTypeChange>
         <rangeType>ProjectRimFactory.Common.RectRange</rangeType>
       </li>
