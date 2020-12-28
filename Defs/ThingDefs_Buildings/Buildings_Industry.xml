@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
- <!-- This File uses PRF thingclasses to create automated machines like most thing in core. -->
+  <!-- This File uses PRF thingclasses to create automated machines like most thing in core. -->
 
   <!--==================== T3 Plasma Furnace ====================-->
   <ThingDef ParentName="PRF_FurnaceBase">
@@ -41,8 +41,6 @@
       <li>PRF_MakeReinforcedGlassBulk</li>
       <li>PRF_MakeSteelBulkCoal</li>
       <li>PRF_MakeSteelBulkCoke</li>
-      <!-- <li>PRF_MakeCopperBulkCoal</li> -->
-      <!-- <li>PRF_MakeCopperBulkCoke</li> -->
       <li>PRF_MakeStainlessSteelChemBulk</li>
       <li>PRF_MakeStainlessSteelCokeBulk</li>
       <li>PRF_MakeSyntheticDiamondBulk</li>

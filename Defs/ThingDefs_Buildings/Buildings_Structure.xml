@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+  <!-- ==================== Glass Wall ==================== -->
   <ThingDef ParentName="BuildingBase" Name="GlassWall">
     <defName>PRF_GlassWall</defName>
     <label>transparent wall</label>
@@ -36,7 +38,7 @@
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
-	<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
     <researchPrerequisites>
       <li>PRF_BasicGlass</li>
     </researchPrerequisites>
@@ -72,9 +74,9 @@
       </li>
     </damageMultipliers>
   </ThingDef>
-  
-  
 
+
+  <!-- ==================== Glass Door ==================== -->
   <ThingDef ParentName="DoorBase">
     <defName>PRF_GlassDoor</defName>
     <label>transparent door</label>
@@ -86,7 +88,7 @@
       <texPath>Building/Autodoor_Mover</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
-      <!--  no damage marks because they don't move with the door
+        <!--  no damage marks because they don't move with the door
         <rect>(0,0.12,1,0.76)</rect>-->
         <enabled>false</enabled>
       </damageData>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!-- This file is used where automated dont fit and we wanna use Vanilla bench like system -->
+	<!-- This file is used where automated dont fit and we wanna use Vanilla bench like system -->
 
 	<!-- Base concept borrowed from VGP Gourmet, updated to prf - materials fit -->
 	<ThingDef ParentName="PRF_BenchLikeBase">
@@ -137,6 +137,39 @@
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
+	</ThingDef>
+
+	<!--==================== Dig Spot ====================-->
+	<ThingDef ParentName="BuildingBase">
+		<defName>PRF_DigSpot</defName>
+		<label>digging spot</label>
+		<description>Place this spot on light terrain to dig up clay and sand.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Building/PRF_MudDigSpot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>False</useHitPoints>
+		<size>(2,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Standable</passability>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+		</building>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 
 </Defs>

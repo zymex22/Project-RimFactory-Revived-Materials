@@ -353,7 +353,7 @@
 			<texPath>Building/CrystalChandelier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(0.75,0.75)</drawSize>
 		</graphicData>
 		<size>(1,1)</size>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -419,7 +419,7 @@
 			<texPath>Building/CrystalChandelier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
 		<rotatable>false</rotatable>
@@ -485,7 +485,7 @@
 			<texPath>Building/CrystalChandelier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(3,3)</drawSize>
+			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>false</rotatable>
@@ -551,7 +551,7 @@
 			<texPath>Building/CrystalChandelier_Shadow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(0.75,0.75)</drawSize>
 		</graphicData>
 		<size>(1,1)</size>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -617,7 +617,7 @@
 			<texPath>Building/CrystalChandelier_Shadow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
 		<rotatable>false</rotatable>
@@ -683,7 +683,7 @@
 			<texPath>Building/CrystalChandelier_Shadow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(3,3)</drawSize>
+			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(3,3)</size>
 		<rotatable>false</rotatable>

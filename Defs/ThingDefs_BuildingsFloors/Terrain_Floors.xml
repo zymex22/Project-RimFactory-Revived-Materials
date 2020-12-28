@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	  <DesignatorDropdownGroupDef>
+    <defName>PRF_Floor_Materials</defName>
+	  </DesignatorDropdownGroupDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_CarbonPlateFloor</defName>
+		<label>carbon plate</label>
+		<description>Carbon fiber plating for that sci-fi look.</description>
+		<texturePath>Building/Floors/PRF_HardWeaveFloor</texturePath>
+		<color>(200,200,200)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Materials</designatorDropdown>
+		<statBases>
+			<Beauty>5</Beauty>
+			<WorkToBuild>350</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_CarbonPlate>1</PRF_CarbonPlate>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_CarbonFiber</li>
+      <li>PRF_AdvancedFlooring</li>
+    </researchPrerequisites>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_QuartzFloor</defName>
+		<label>rough crystal flooring</label>
+		<description>Reinforced concrete that has been buffed over, leaving a smooth and slightly reflective finish with a deep blue hue.</description>
+		<texturePath>Building/Floors/PRF_TileStone</texturePath>
+		<color>(44,90,160)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Materials</designatorDropdown>
+		<statBases>
+			<Beauty>3</Beauty>
+			<WorkToBuild>200</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_quartz>1</PRF_quartz>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_AdvancedFlooring</li>
+    </researchPrerequisites>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_QuartzFineFloor</defName>
+		<label>polished crystal flooring</label>
+		<description>Reinforced concrete that has been buffed over, leaving a smooth and slightly reflective finish with a deep blue hue.</description>
+		<texturePath>Building/Floors/PRF_GlitterFloor</texturePath>
+		<color>(175,198,233)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Materials</designatorDropdown>
+		<statBases>
+			<Beauty>6</Beauty>
+			<WorkToBuild>200</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_CrystalPowder>1</PRF_CrystalPowder>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_AdvancedFlooring</li>
+    </researchPrerequisites>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+	</TerrainDef>	
+
+
+<!--
+	  <DesignatorDropdownGroupDef>
+    <defName>PRF_Floor_Carpet</defName>
+	  </DesignatorDropdownGroupDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_KevlarCarpet</defName>
+		<label>kevlar</label>
+		<description>Kevlar weave, for when you need your floors to stop bullets.</description>
+		<texturePath>Building/Floors/PRF_KevlarFloor</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Carpet</designatorDropdown>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<WorkToBuild>160</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_Kevlar>1</PRF_Kevlar>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_AdvPlasticTextiles</li>
+      <li>PRF_AdvancedFlooring</li>
+    </researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_CarbonFiberCarpet</defName>
+		<label>carbon fiber</label>
+		<description>Pretty, but really itchy if you roll around on it.</description>
+		<texturePath>Building/Floors/PRF_CarbonFiberFloor</texturePath>
+		<color>(100,100,100)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Carpet</designatorDropdown>
+		<statBases>
+			<Beauty>1</Beauty>
+			<WorkToBuild>200</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_CarbonFiber>1</PRF_CarbonFiber>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_CarbonFiber</li>
+      <li>PRF_AdvancedFlooring</li>
+    </researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_CarbonKevlarCarpet</defName>
+		<label>carbon kevlar weave</label>
+		<description>Carbon Fiber/Kevlar composite.  Really?  does your floor need to stop anti-tank rounds?</description>
+		<texturePath>Building/Floors/PRF_CarbonKevlarFloor</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Carpet</designatorDropdown>
+		<statBases>
+			<Beauty>3</Beauty>
+			<WorkToBuild>200</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_CarbonKevlarComposite>1</PRF_CarbonKevlarComposite>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_CarbonKevlar</li>
+      <li>PRF_AdvancedFlooring</li>
+    </researchPrerequisites>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+	</TerrainDef> -->
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_SyntheticDiamondFloor</defName>
+		<label>synthetic diamond</label>
+		<description>Synthetic diamond - durable, OK to look at, slippery when wet.</description>
+		<texturePath>Building/Floors/PRF_TilesDiagonal</texturePath>
+		<color>(148,176,180)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Materials</designatorDropdown>
+		<statBases>
+			<Beauty>0</Beauty>
+			<WorkToBuild>250</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_SyntheticDiamond>1</PRF_SyntheticDiamond>
+		</costList>
+    <researchPrerequisites>
+      <li>PRF_SyntheticDiamond</li>
+      <li>PRF_AdvancedFlooring</li>
+    </researchPrerequisites>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+	</TerrainDef>
+	
+
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>IronTile</defName>
+    <label>iron tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>iron tiles, for that primitive fortress look. Not very pretty and not very clean, but better than dirt.</description>
+    <color>(200,183,183)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-0.1</Cleanliness>
+    </statBases>
+    <costList>
+      <PRF_Iron>7</PRF_Iron>
+    </costList>
+    <designationHotKey>Misc7</designationHotKey>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>CopperTile</defName>
+    <label>copper tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Copper tiles, for that steampunk look. They are pretty and almost as clean as sterile tile.</description>
+    <color>(175,73,27)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>2</Beauty>
+      <Cleanliness>0.5</Cleanliness>
+    </statBases>
+    <costList>
+      <PRF_Copper>7</PRF_Copper>
+    </costList>
+    <designationHotKey>Misc7</designationHotKey>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+  </TerrainDef>
+
+</Defs>
