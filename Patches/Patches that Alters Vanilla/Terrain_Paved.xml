@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--Add Paved Tile to PRF_PavedConcreteGroup  -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TerrainDef[defName = "PavedTile"]</xpath>
+		<value>
+			<designatorDropdown>PRF_PavedConcreteGroup</designatorDropdown>
+		</value>
+	</Operation>
+	
+</Patch>

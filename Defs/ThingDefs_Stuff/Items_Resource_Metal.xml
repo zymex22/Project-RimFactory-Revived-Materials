@@ -56,7 +56,7 @@
   <!-- Copper -->
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_Copper</defName>
-    <label>copper ore</label>
+    <label>copper</label>
     <description>An orange-brownish colored metal highly useful for electrical systems. If exposed to weather for extended period of time it will corrode and turn a stylish green color.</description>
     <graphicData>
       <texPath>Resources/PRF_CopperOre</texPath>
