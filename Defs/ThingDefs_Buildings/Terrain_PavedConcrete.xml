@@ -9,9 +9,7 @@
 
 
   <!-- This one is vanilla type and overwritten with our base values, its also parent for our sub colors. -->
-  <TerrainDef Name="PRF_ConcreteTileBase" ParentName="FloorBase">
-    <defName>PavedTile</defName>    <!-- We use this way to be less impactfull in patching -->
-    <!-- We simply overwriting vanilla values because we are loaded after core and use exactly same name, this means everyone can patch into it same way as vanilla, without conflict our patches. -->
+  <TerrainDef Name="PRF_ConcreteTileBase" ParentName="FloorBase" Abstract="True">
     <label>paved tile normal</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <texturePath>Terrain/Surfaces/PavedTile</texturePath>    <!-- Dark texture -->
@@ -33,7 +31,7 @@
   </TerrainDef>
 
   <!-- for those who have a light color so color cant overwrite properly -->
-  <TerrainDef Name="PRF_ConcreteTileBase_Light" ParentName="PRF_ConcreteTileBase">
+  <TerrainDef Name="PRF_ConcreteTileBase_Light" ParentName="PRF_ConcreteTileBase" Abstract="True">
     <texturePath>Building/Floors/PavedTileLight</texturePath>    <!-- special light one for light colors -->
   </TerrainDef>
 
