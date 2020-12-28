@@ -77,7 +77,9 @@
       <li>FineFloor</li>
     </tags>
 	</TerrainDef>	
-	
+
+
+<!--
 	  <DesignatorDropdownGroupDef>
     <defName>PRF_Floor_Carpet</defName>
 	  </DesignatorDropdownGroupDef>
@@ -147,7 +149,7 @@
     <tags>
       <li>FineFloor</li>
     </tags>
-	</TerrainDef>
+	</TerrainDef> -->
 
 	<TerrainDef ParentName="FloorBase">
 		<defName>PRF_SyntheticDiamondFloor</defName>

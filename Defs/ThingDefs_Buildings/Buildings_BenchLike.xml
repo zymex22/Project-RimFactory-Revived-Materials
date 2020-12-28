@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<!-- This file is used where automated dont fit and we wanna use Vanilla bench like system -->
 
 	<!-- Base concept borrowed from VGP Gourmet, updated to prf - materials fit -->
 	<ThingDef ParentName="PRF_BenchLikeBase">
@@ -56,6 +57,86 @@
 		<researchPrerequisites>
 			<li>Stonecutting</li>
 		</researchPrerequisites>
+	</ThingDef>
+
+	<!--==================== T0 Smelter ====================-->
+
+	<ThingDef ParentName="BenchBase">
+		<defName>PRF_FueledStoneSmelter</defName>
+		<label>primitive smelter</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<constructEffect></constructEffect>
+		<uiIconScale>0.75</uiIconScale>
+		<graphicData>
+			<texPath>Industry/PRF_Kiln</texPath>
+			<drawSize>(4,4)</drawSize>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<size>(2,2)</size>
+		<statBases>
+			<Cleanliness>-5</Cleanliness>
+			<Beauty>2</Beauty>
+			<MarketValue>750</MarketValue>
+		</statBases>
+		<description>A simple furnace of rock and clay, the most basic level of metal refining technology. Ideal for getting your base industry started and is actually nice to look at.</description>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<PRF_RawClay>30</PRF_RawClay>
+		</costList>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipes>
+			<li>BurnApparel</li>
+			<li>CremateCorpse</li>
+			<li>ExtractMetalFromSlag</li>
+			<li>PRF_MakeCharcoal</li>
+			<li>PRF_BakeBrick</li>
+			<li>PRF_MakeConcrete</li>
+			<li>PRF_MakeSteelCoal</li>
+		</recipes>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>40.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<!--<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>-->
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>PRF_CoreTierO</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
 	</ThingDef>
 
 </Defs>

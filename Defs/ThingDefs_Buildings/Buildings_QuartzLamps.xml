@@ -44,7 +44,7 @@
 		</statBases>
 		<building>
 			<isEdifice>false</isEdifice>
-			  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<techLevel>Neolithic</techLevel>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -216,7 +216,9 @@
 		<specialDisplayRadius>7</specialDisplayRadius>
 	</ThingDef>
 
-	<ThingDef ParentName="LampBase">
+
+	<!-- ==================== Quartz street light 1 ==================== -->
+	<!-- <ThingDef ParentName="LampBase">
 		<defName>PRF_QuartzLamp</defName>
 		<label>crystal lamp</label>
 		<description>A light pole designed for outdoor use.  Basically a glowy rock on a big stick.  Does not need power, but maybe you don't want to loiter next to it.</description>
@@ -269,9 +271,11 @@
 			</li>
 		</comps>
 		<specialDisplayRadius>9</specialDisplayRadius>
-	</ThingDef>
+	</ThingDef> -->
 
-	<ThingDef ParentName="LampBase">
+
+	<!-- ==================== Quartz street light 2 ==================== -->
+	<!-- <ThingDef ParentName="LampBase">
 		<defName>PRF_QuartzElectricLamp</defName>
 		<label>electric crystal lamp</label>
 		<description>An electrically augmented light pole designed for outdoor use. You still maybe don't want to loiter next to it.</description>
@@ -334,8 +338,10 @@
 			<li Class="CompProperties_Flickable" />
 		</comps>
 		<specialDisplayRadius>16</specialDisplayRadius>
-	</ThingDef>
+	</ThingDef> -->
 
+
+<!-- ==================== Crystal chandelier ==================== -->
 	<DesignatorDropdownGroupDef>
 		<defName>PRF_Chandelier</defName>
 	</DesignatorDropdownGroupDef>

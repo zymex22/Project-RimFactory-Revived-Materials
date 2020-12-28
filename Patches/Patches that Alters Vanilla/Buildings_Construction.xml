@@ -43,7 +43,7 @@
 
 	<!-- Concrete needs concrete -->
 
-	<Operation Class="PatchOperationReplace">
+	<!-- <Operation Class="PatchOperationReplace">
 		<xpath>/Defs/TerrainDef[defName = "PavedTile"]/costList</xpath>
 		<value>
 			<costList>
@@ -59,7 +59,7 @@
 				<li>PRF_BasicConcrete</li>
 			</researchPrerequisites>
 		</value>
-	</Operation>
+	</Operation> -->
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/TerrainDef[defName = "Concrete"]/costList</xpath>

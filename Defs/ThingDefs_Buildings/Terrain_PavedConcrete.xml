@@ -36,75 +36,74 @@
   </TerrainDef>
 
   <!-- Here start all our sub colors, some of them have alternative light texture for them, as there cant color else -->
-  <TerrainDef ParentName="PRF_ConcreteTileBase">
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase">
     <defName>PRF_ConcreteTileBlack</defName>
     <label>paved tile black</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(42, 42, 42)</color>
-  </TerrainDef>
+  </TerrainDef> -->
 
-  <TerrainDef ParentName="PRF_ConcreteTileBase">
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase">
     <defName>PRF_ConcreteTileDarkGrey</defName>
     <label>paved tile dark grey</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(87, 87, 87)</color>
-  </TerrainDef>
+  </TerrainDef> -->
 
-  <TerrainDef ParentName="PRF_ConcreteTileBase_Light">    <!-- light one-->
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase_Light">
     <defName>PRF_ConcreteTileWhite</defName>
     <label>paved tile white</label>
-
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(240, 240, 240)</color>
-  </TerrainDef>
+  </TerrainDef>  -->
 
-  <TerrainDef ParentName="PRF_ConcreteTileBase_Light">    <!-- light one-->
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase_Light">
     <defName>PRF_ConcreteTileCream</defName>
     <label>paved tile Creame</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(186, 184, 173)</color>
-  </TerrainDef>
+  </TerrainDef>  -->
 
-  <TerrainDef ParentName="PRF_ConcreteTileBase">
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase">
     <defName>PRF_ConcreteTileBlue</defName>
     <label>paved tile Blue</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(114, 149, 166)</color>
-  </TerrainDef>
+  </TerrainDef>  -->
 
-  <TerrainDef ParentName="PRF_ConcreteTileBase">
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase">
     <defName>PRF_ConcreteTileGreen</defName>
     <label>paved tile Green</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(139, 173, 121)</color>
-  </TerrainDef>
+  </TerrainDef>  -->
 
-  <TerrainDef ParentName="PRF_ConcreteTileBase">
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase">
     <defName>PRF_ConcreteTileRed</defName>
     <label>paved tile Red</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(173, 121, 121)</color>
-  </TerrainDef>
+  </TerrainDef>  -->
 
-  <TerrainDef ParentName="PRF_ConcreteTileBase">
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase">
     <defName>PRF_ConcreteTileBrown</defName>
     <label>paved tile Brown</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(159, 102, 45)</color>
-  </TerrainDef>
+  </TerrainDef>  -->
 
-  <TerrainDef ParentName="PRF_ConcreteTileBase">
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase">
     <defName>PRF_ConcreteTilePurple</defName>
     <label>paved tile Purple</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(139, 121, 173)</color>
-  </TerrainDef>
+  </TerrainDef>  -->
 
-  <TerrainDef ParentName="PRF_ConcreteTileBase_Light">    <!-- light one-->
+  <!-- <TerrainDef ParentName="PRF_ConcreteTileBase_Light">
     <defName>PRF_ConcreteTileYellow</defName>
     <label>paved tile Yellow</label>
     <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
     <color>(173, 165, 121)</color>
-  </TerrainDef>
+  </TerrainDef>  -->
 
 </Defs>

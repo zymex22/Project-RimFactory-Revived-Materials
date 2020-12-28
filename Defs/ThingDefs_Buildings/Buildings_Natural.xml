@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- ============================== Iron Ore ================================ -->
   <ThingDef ParentName="RockBase">
     <defName>PRF_MineableIron</defName>
     <label>iron ore</label>
@@ -47,6 +48,7 @@
     </building>
   </ThingDef>
 
+<!-- ============================== Coal Ore ================================ -->
   <ThingDef ParentName="RockBase">
     <defName>PRF_MineableCoal</defName>
     <label>coal</label>
@@ -70,6 +72,7 @@
     </building>
   </ThingDef>
 
+<!-- ============================== Quartz Ore ================================ -->
   <ThingDef ParentName="RockBase">
     <defName>PRF_MineableQuartz</defName>
     <label>quartz</label>
@@ -99,6 +102,7 @@
     </comps>
   </ThingDef>
 
+<!-- ============================== Natural Diamond Ore ================================ -->
   <ThingDef ParentName="RockBase">
     <defName>PRF_MineableDiamond</defName>
     <label>raw diamond</label>
@@ -122,7 +126,7 @@
     </building>
   </ThingDef>
 
-
+<!-- ============================== Steel Slag Ore ================================ -->
   <ThingDef ParentName="RockBase">
     <defName>PRF_MineableSteelSlag</defName>
     <label>steel slags</label>
