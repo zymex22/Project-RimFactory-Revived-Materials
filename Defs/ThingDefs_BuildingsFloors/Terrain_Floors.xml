@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
-	  <DesignatorDropdownGroupDef>
-    <defName>PRF_Floor_Materials</defName>
-	  </DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>PRF_Floor_Materials</defName>
+	</DesignatorDropdownGroupDef>
 
 	<TerrainDef ParentName="FloorBase">
 		<defName>PRF_CarbonPlateFloor</defName>
@@ -21,13 +21,13 @@
 		<costList>
 			<PRF_CarbonPlate>1</PRF_CarbonPlate>
 		</costList>
-    <researchPrerequisites>
-      <li>PRF_CarbonFiber</li>
-      <li>PRF_AdvancedFlooring</li>
-    </researchPrerequisites>
-    <tags>
-      <li>FineFloor</li>
-    </tags>
+		<researchPrerequisites>
+			<li>PRF_CarbonFiber</li>
+			<li>PRF_AdvancedFlooring</li>
+		</researchPrerequisites>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef ParentName="FloorBase">
@@ -46,12 +46,12 @@
 		<costList>
 			<PRF_quartz>1</PRF_quartz>
 		</costList>
-    <researchPrerequisites>
-      <li>PRF_AdvancedFlooring</li>
-    </researchPrerequisites>
-    <tags>
-      <li>FineFloor</li>
-    </tags>
+		<researchPrerequisites>
+			<li>PRF_AdvancedFlooring</li>
+		</researchPrerequisites>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef ParentName="FloorBase">
@@ -70,16 +70,40 @@
 		<costList>
 			<PRF_CrystalPowder>1</PRF_CrystalPowder>
 		</costList>
-    <researchPrerequisites>
-      <li>PRF_AdvancedFlooring</li>
-    </researchPrerequisites>
-    <tags>
-      <li>FineFloor</li>
-    </tags>
-	</TerrainDef>	
+		<researchPrerequisites>
+			<li>PRF_AdvancedFlooring</li>
+		</researchPrerequisites>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
 
+	<TerrainDef ParentName="FloorBase">
+		<defName>PRF_SyntheticDiamondFloor</defName>
+		<label>synthetic diamond</label>
+		<description>Synthetic diamond - durable, OK to look at, slippery when wet.</description>
+		<texturePath>Building/Floors/PRF_TilesDiagonal</texturePath>
+		<color>(148,176,180)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>150</renderPrecedence>
+		<designatorDropdown>PRF_Floor_Materials</designatorDropdown>
+		<statBases>
+			<Beauty>0</Beauty>
+			<WorkToBuild>250</WorkToBuild>
+		</statBases>
+		<costList>
+			<PRF_SyntheticDiamond>1</PRF_SyntheticDiamond>
+		</costList>
+		<researchPrerequisites>
+			<li>PRF_SyntheticDiamond</li>
+			<li>PRF_AdvancedFlooring</li>
+		</researchPrerequisites>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
 
-<!--
+	<!--
 	  <DesignatorDropdownGroupDef>
     <defName>PRF_Floor_Carpet</defName>
 	  </DesignatorDropdownGroupDef>
@@ -151,67 +175,42 @@
     </tags>
 	</TerrainDef> -->
 
-	<TerrainDef ParentName="FloorBase">
-		<defName>PRF_SyntheticDiamondFloor</defName>
-		<label>synthetic diamond</label>
-		<description>Synthetic diamond - durable, OK to look at, slippery when wet.</description>
-		<texturePath>Building/Floors/PRF_TilesDiagonal</texturePath>
-		<color>(148,176,180)</color>
-		<edgeType>Hard</edgeType>
-		<renderPrecedence>150</renderPrecedence>
-		<designatorDropdown>PRF_Floor_Materials</designatorDropdown>
+	<!--========================= Metal Floors ========================-->
+	<TerrainDef ParentName="TileMetalBase">
+		<defName>IronTile</defName>
+		<label>iron tile</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>iron tiles, for that primitive fortress look. Not very pretty and not very clean, but better than dirt.</description>
+		<color>(200,183,183)</color>
 		<statBases>
-			<Beauty>0</Beauty>
-			<WorkToBuild>250</WorkToBuild>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>-1</Beauty>
+			<Cleanliness>-0.1</Cleanliness>
 		</statBases>
 		<costList>
-			<PRF_SyntheticDiamond>1</PRF_SyntheticDiamond>
+			<PRF_Iron>7</PRF_Iron>
 		</costList>
-    <researchPrerequisites>
-      <li>PRF_SyntheticDiamond</li>
-      <li>PRF_AdvancedFlooring</li>
-    </researchPrerequisites>
-    <tags>
-      <li>FineFloor</li>
-    </tags>
+		<designationHotKey>Misc7</designationHotKey>
 	</TerrainDef>
-	
 
-  <TerrainDef ParentName="TileMetalBase">
-    <defName>IronTile</defName>
-    <label>iron tile</label>
-    <renderPrecedence>240</renderPrecedence>
-    <description>iron tiles, for that primitive fortress look. Not very pretty and not very clean, but better than dirt.</description>
-    <color>(200,183,183)</color>
-    <statBases>
-      <WorkToBuild>800</WorkToBuild>
-      <Beauty>-1</Beauty>
-      <Cleanliness>-0.1</Cleanliness>
-    </statBases>
-    <costList>
-      <PRF_Iron>7</PRF_Iron>
-    </costList>
-    <designationHotKey>Misc7</designationHotKey>
-  </TerrainDef>
-  
-  <TerrainDef ParentName="TileMetalBase">
-    <defName>CopperTile</defName>
-    <label>copper tile</label>
-    <renderPrecedence>240</renderPrecedence>
-    <description>Copper tiles, for that steampunk look. They are pretty and almost as clean as sterile tile.</description>
-    <color>(175,73,27)</color>
-    <statBases>
-      <WorkToBuild>800</WorkToBuild>
-      <Beauty>2</Beauty>
-      <Cleanliness>0.5</Cleanliness>
-    </statBases>
-    <costList>
-      <PRF_Copper>7</PRF_Copper>
-    </costList>
-    <designationHotKey>Misc7</designationHotKey>
-    <tags>
-      <li>FineFloor</li>
-    </tags>
-  </TerrainDef>
+	<TerrainDef ParentName="TileMetalBase">
+		<defName>CopperTile</defName>
+		<label>copper tile</label>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Copper tiles, for that steampunk look. They are pretty and almost as clean as sterile tile.</description>
+		<color>(175,73,27)</color>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Cleanliness>0.5</Cleanliness>
+		</statBases>
+		<costList>
+			<PRF_Copper>7</PRF_Copper>
+		</costList>
+		<designationHotKey>Misc7</designationHotKey>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+	</TerrainDef>
 
 </Defs>

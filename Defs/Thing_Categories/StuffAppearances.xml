@@ -5,37 +5,37 @@
     <defName>SmoothAM</defName>
   </StuffAppearanceDef>
 
-    <StuffAppearanceDef>
+  <StuffAppearanceDef>
     <defName>BricksAM</defName>
   </StuffAppearanceDef>
-  
+
   <StuffAppearanceDef>
     <defName>GlassAM</defName>
   </StuffAppearanceDef>
-  
+
   <StuffAppearanceDef>
     <defName>FiberAM</defName>
   </StuffAppearanceDef>
-  
+
   <StuffAppearanceDef>
     <defName>QuartzAM</defName>
   </StuffAppearanceDef>
-  
+
   <StuffAppearanceDef>
     <defName>ReinforceAM</defName>
   </StuffAppearanceDef>
-  
+
   <StuffAppearanceDef>
     <defName>RustyAM</defName>
   </StuffAppearanceDef>
-  
+
   <StuffAppearanceDef>
     <defName>RefConcreteAM</defName>
   </StuffAppearanceDef>
-  
+
   <StuffAppearanceDef>
     <defName>CopperAM</defName>
   </StuffAppearanceDef>
-  
+
 </Defs>
 

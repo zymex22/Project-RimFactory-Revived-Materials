@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-<!-- Iron -->
-<ThingDef ParentName="ResourceBase">
+
+  <!-- Iron -->
+  <ThingDef ParentName="ResourceBase">
     <defName>PRF_Iron</defName>
     <label>iron</label>
     <description>A primary metal used for crafting all sorts of items, wedely used among medieval civilizations.\n\nCombining this metal with some chemicals allows the creation of steel, a harder version of it.</description>
@@ -43,7 +43,7 @@
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-		<appearance>RustyAM</appearance>
+      <appearance>RustyAM</appearance>
       <statFactors>
         <MaxHitPoints>0.9</MaxHitPoints>
         <Beauty>1</Beauty>
@@ -52,12 +52,12 @@
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
-  
-	<!-- Copper -->
+
+  <!-- Copper -->
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_Copper</defName>
     <label>copper ore</label>
-    <description>An orange-brownish colored metal highly useful for electrical systems.</description>
+    <description>An orange-brownish colored metal highly useful for electrical systems. If exposed to weather for extended period of time it will corrode and turn a stylish green color.</description>
     <graphicData>
       <texPath>Resources/PRF_CopperOre</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -91,7 +91,7 @@
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-		<appearance>CopperAM</appearance>
+      <appearance>CopperAM</appearance>
       <statOffsets>
         <Beauty>0</Beauty>
       </statOffsets>
@@ -102,7 +102,7 @@
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-<!--     <statBases>
+    <!--     <statBases>
       <MarketValue>1</MarketValue>
       <Mass>0.008</Mass>
     </statBases>
@@ -118,8 +118,8 @@
     <smeltable>true</smeltable>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded> -->
   </ThingDef>
-  
-<!--   <ThingDef ParentName="ResourceBase">
+
+  <!--   <ThingDef ParentName="ResourceBase">
     <defName>PRF_CopperIngot</defName>
     <label>copper</label>
     <description>An orange-brownish colored metal, great electricity conductor.\n\nThis metal is not so strong, but it is a main ingredient in the making of electrical devices and components, that makes it highly valuable for traders.</description>
@@ -168,7 +168,7 @@
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef> -->
-  
+
   <!-- Stainless Steel -->
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_StainlessSteel</defName>
@@ -220,5 +220,5 @@
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
-  
- </Defs>
+
+</Defs>
