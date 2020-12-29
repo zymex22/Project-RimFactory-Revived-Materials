@@ -1,18 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Project RimFactory - Materials</name>
-  <author>Daemon976</author>
+  <author>zymex</author>
   <supportedVersions>
     <li>1.2</li>
   </supportedVersions>
   <packageId>PRF.Materials</packageId>
+  <url>https://github.com/zymex22/Project-RimFactory-Revived-Materials</url>
   <modDependencies>
-    <li>
-      <packageId>brrainz.harmony</packageId>
-      <displayName>Harmony</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-    </li>
     <li>
       <packageId>spdskatr.projectrimfactory</packageId>
       <displayName>Project RimFactory Revived</displayName>
