@@ -18,6 +18,23 @@
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>GrindingBench</defName>
+    <label>grind materials at grindstone</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>20</priorityInType>
+    <fixedBillGiverDefs>
+      <li>PRF_GrindStone</li>
+    </fixedBillGiverDefs>
+        <verb>grind</verb>
+    <gerund>grinding</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
   
 </Defs>
 

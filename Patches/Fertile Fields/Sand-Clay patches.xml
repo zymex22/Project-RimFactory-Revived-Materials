@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fertile Fields [1.1]</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="PRF_RawClay"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="PRF_RawSand"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/RecipeDef[defName="PRF_DigClay"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/RecipeDef[defName="PRF_DigSand"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/RecipeDef[defName="PRF_CrushSand"]</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeBasicGlass"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>10</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeBasicGlass"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>SandPile</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeBasicGlassBulk"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>90</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeBasicGlassBulk"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>SandPile</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeReinforcedGlass"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>10</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Plasteel</li>
+										</thingDefs>
+									</filter>
+									<count>2</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeReinforcedGlass"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>SandPile</li>
+									<li>Plasteel</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeReinforcedGlass"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>90</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Plasteel</li>
+										</thingDefs>
+									</filter>
+									<count>18</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeReinforcedGlassBulk"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>SandPile</li>
+									<li>Plasteel</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_BakeBrick"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RFFClay</li>
+										</thingDefs>
+									</filter>
+									<count>10</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>2</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_BakeBrick"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RFFClay</li>
+									<li>SandPile</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_BakeBrickBulk"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RFFClay</li>
+										</thingDefs>
+									</filter>
+									<count>90</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>18</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_BakeBrickBulk"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RFFClay</li>
+									<li>SandPile</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeConcrete"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RFFClay</li>
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>PRF_Cement</li>
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeConcrete"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RFFClay</li>
+									<li>SandPile</li>
+									<li>PRF_Cement</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeConcreteBulk"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>40</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RFFClay</li>
+										</thingDefs>
+									</filter>
+									<count>40</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>PRF_Cement</li>
+										</thingDefs>
+									</filter>
+									<count>40</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeConcreteBulk"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RFFClay</li>
+									<li>SandPile</li>
+									<li>PRF_Cement</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeRConcrete"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RFFClay</li>
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>PRF_Cement</li>
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Steel</li>
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeRConcrete"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RFFClay</li>
+									<li>SandPile</li>
+									<li>PRF_Cement</li>
+									<li>Steel</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeRConcreteBulk"] /ingredients</xpath>
+						<value>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>SandPile</li>
+										</thingDefs>
+									</filter>
+									<count>18</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RFFClay</li>
+										</thingDefs>
+									</filter>
+									<count>40</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>PRF_Cement</li>
+										</thingDefs>
+									</filter>
+									<count>40</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Steel</li>
+										</thingDefs>
+									</filter>
+									<count>40</count>
+								</li>
+							</ingredients>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef [defName = "PRF_MakeRConcreteBulk"] /fixedIngredientFilter</xpath>
+						<value>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RFFClay</li>
+									<li>SandPile</li>
+									<li>PRF_Cement</li>
+									<li>Steel</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+						</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry_mkI"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_ModifyProduct"]/bonusYields</xpath>
+						<value>
+							<RFFClay Weight="0.04" Count="10" />
+							<SandPile Weight="0.02" Count="20" />
+						</value>
+				</li>
+				<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry_mkII"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_ModifyProduct"]/bonusYields</xpath>
+						<value>
+							<RFFClay Weight="0.04" Count="20" />
+							<SandPile Weight="0.02" Count="40" />
+						</value>
+				</li>
+				<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry_mkIII"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_ModifyProduct"]/bonusYields</xpath>
+						<value>
+							<RFFClay Weight="0.04" Count="40" />
+							<SandPile Weight="0.02" Count="50" />
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef [defName = "PRF_GrindStone"] /recipes</xpath>
+						<value>
+							<recipes>
+								<li>PRF_MakeCement</li>
+								<li>PRF_CrushQuartz</li>
+							</recipes>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef [defName = "PRF_FueledStoneSmelter"] /costList</xpath>
+						<value>
+							<costList>
+								<RFFClay>30</RFFClay>
+							</costList>
+						</value>
+				</li>
+			</operations>
+		</match>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry_mkI"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_ModifyProduct"]/bonusYields</xpath>
+						<value>
+							<PRF_RawSand Weight="0.02" Count="10" />
+							<PRF_RawClay Weight="0.04" Count="20" />
+						</value>
+				</li>
+				<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry_mkII"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_ModifyProduct"]/bonusYields</xpath>
+						<value>
+							<PRF_RawSand Weight="0.02" Count="20" />
+							<PRF_RawClay Weight="0.04" Count="40" />
+						</value>
+				</li>
+				<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="PRF_DeepQuarry_mkIII"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_ModifyProduct"]/bonusYields</xpath>
+						<value>
+							<PRF_RawSand Weight="0.02" Count="40" />
+							<PRF_RawClay Weight="0.04" Count="50" />
+						</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "PRF_MineShaft"]/recipes</xpath>
+					<value>
+						<li>PRF_DigClay</li>
+						<li>PRF_DigSand</li>
+					</value>
+				</li>
+			</operations>	
+		</nomatch>
+	</Operation>
+
+</Patch>
