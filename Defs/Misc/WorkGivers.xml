@@ -36,5 +36,22 @@
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
   
+  <WorkGiverDef>
+    <defName>FueledStoneSmelter</defName>
+    <label>smelt materials at stone smelter</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smelting</workType>
+    <priorityInType>20</priorityInType>
+    <fixedBillGiverDefs>
+      <li>PRF_FueledStoneSmelter</li>
+    </fixedBillGiverDefs>
+        <verb>smelt</verb>
+    <gerund>smelting</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
 </Defs>
 
