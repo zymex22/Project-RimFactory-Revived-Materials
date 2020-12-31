@@ -40,7 +40,7 @@
     <defName>FueledStoneSmelter</defName>
     <label>smelt materials at stone smelter</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Smelting</workType>
+    <workType>Smithing</workType>
     <priorityInType>20</priorityInType>
     <fixedBillGiverDefs>
       <li>PRF_FueledStoneSmelter</li>
