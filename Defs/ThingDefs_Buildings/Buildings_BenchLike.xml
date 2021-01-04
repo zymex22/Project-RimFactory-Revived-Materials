@@ -165,6 +165,27 @@
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
+		<!-- Here is where magic starts: -->
+		<modExtensions>
+			<li Class="ProjectRimFactory.Common.ModExtension_ModifyProduct">				<!-- see info: Source/ProjectRimFactory/Common/ModExtension_ModifyProduct.txt -->
+				<replaceOrigProduct>true</replaceOrigProduct>
+				<bonusYields Chance="0.10">					<!-- this apply to ALL bills on T0 miner (10% chance) -->
+					<!-- Rare ore Bonus: -->
+					<ChunkSlagSteel Weight="1" Count="1" />
+					<Gold Weight="0.0001" Count="5" />
+					<Jade Weight="0.0001" Count="5" />
+					<Silver Weight="0.00015" Count="10" />
+					<PRF_Copper Weight="0.001" Count="5" />
+					<PRF_Iron Weight="0.001" Count="5" />
+					<!-- Junk Bonus -->
+					<Steel Weight="0.001" Count="10" />
+					<ComponentIndustrial Weight="0.0002" Count="5" />
+					<PRF_MixedPlastic Weight="0.001" Count="5" />
+					<PRF_Glass Weight="0.001" Count="5" />
+					<PRF_Fossil Weight="0.01" Count="5" />
+				</bonusYields>
+			</li>
+		</modExtensions>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
