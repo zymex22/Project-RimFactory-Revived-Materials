@@ -6,5 +6,10 @@
     <label>unused</label>
   </StuffCategoryDef>
 
-  
+  <StuffCategoryDef>
+    <defName>Gemstones</defName>
+    <label>Gemstones</label>
+  </StuffCategoryDef>
+
+
 </Defs>

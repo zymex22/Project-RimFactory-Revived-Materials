@@ -243,6 +243,9 @@
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
+		<tradeTags>
+			<li>Gemstones</li>
+		</tradeTags>
 	</ThingDef>
 
 
