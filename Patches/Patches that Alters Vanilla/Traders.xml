@@ -346,15 +346,17 @@
 						<li>Jewelry</li>
 					</mods>
 					<nomatch Class="PatchOperationSequence">
-						<!-- Update trader to accept Gemstones trade tag -->
-						<li Class="PatchOperationAdd">
-							<xpath>/Defs/TraderKindDef[defName="Empire_Caravan_TributeCollector"]/stockGenerators</xpath>
-							<value>
-								<li Class="StockGenerator_BuyTradeTag">
-									<tag>Gemstones</tag>
-								</li>
-							</value>
-						</li>
+						<operations>
+							<!-- Update trader to accept Gemstones trade tag -->
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/TraderKindDef[defName="Empire_Caravan_TributeCollector"]/stockGenerators</xpath>
+								<value>
+									<li Class="StockGenerator_BuyTradeTag">
+										<tag>Gemstones</tag>
+									</li>
+								</value>
+							</li>
+						</operations>
 					</nomatch>
 				</li>
 			</operations>
