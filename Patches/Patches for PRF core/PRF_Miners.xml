@@ -28,12 +28,28 @@
 		</value>
 	</Operation>
 
+	<!--===================== T0 Mine Shaft ======================-->
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "PRF_MineShaft"]/recipes</xpath>
 		<value>
 			<li>PRF_Excavate_Iron</li>
 			<li>PRF_Excavate_Coal</li>
 			<li>PRF_Excavate_Copper</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PRF_MineShaft"]/modExtensions/li[@Class="ProjectRimFactory.Common.ModExtension_ModifyProduct"]/bonusYields</xpath>
+		<value>
+			<!-- Rare ore Bonus: -->
+			<PRF_Copper Weight="0.01" Count="5" />
+			<PRF_Iron Weight="0.01" Count="5" />
+			<PRF_quartz Weight="0.001" Count="5" />
+			<PRF_RawDiamond Weight="0.001" Count="5" />
+			<!-- Junk Bonus -->
+			<PRF_MixedPlastic Weight="0.01" Count="5" />
+			<PRF_Glass Weight="0.01" Count="5" />
+			<PRF_Fossil Weight="0.01" Count="5" />
 		</value>
 	</Operation>
 
