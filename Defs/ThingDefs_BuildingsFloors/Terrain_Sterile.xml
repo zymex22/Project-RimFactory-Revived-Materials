@@ -34,70 +34,70 @@
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>GraySterileTile</defName>
-    <label>gray sterile tile</label>
+    <label>sterile tile gray</label>
     <description>Sterile tiles in an all-round neutral grey. Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(87, 87, 85)</color>
   </TerrainDef>
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>WhiteSterileTile</defName>
-    <label>White sterile tile</label>
+    <label>sterile tile White</label>
     <description>White Sterile Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(240, 240, 240)</color>
   </TerrainDef>
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>BlackSterileTile</defName>
-    <label>black sterile tile</label>
+    <label>sterile tile black</label>
     <description>Black Sterile Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(35, 35, 35)</color>
   </TerrainDef>
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>CreamSterileTile</defName>
-    <label>Cream sterile tile</label>
+    <label>sterile tile Cream</label>
     <description>Cream Sterile Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(186, 184, 173)</color>
   </TerrainDef>
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>BlueSterileTile</defName>
-    <label>Blue sterile tile</label>
+    <label>sterile tile Blue</label>
     <description>Blue Sterile Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(114, 149, 166)</color>
   </TerrainDef>
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>GreenSterileTile</defName>
-    <label>Green sterile tile</label>
+    <label>sterile tile Green</label>
     <description>Green Sterile Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(139, 173, 121)</color>
   </TerrainDef>
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>RedSterileTile</defName>
-    <label>Red sterile tile</label>
+    <label>sterile tile Red</label>
     <description>Red Sterile Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(173, 121, 121)</color>
   </TerrainDef>
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>BrownSterileTile</defName>
-    <label>Brown sterile tile</label>
+    <label>sterile tile Brown</label>
     <description>Brown Sterile Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(159, 102, 45)</color>
   </TerrainDef>
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>PurpleSterileTile</defName>
-    <label>Purple sterile tile</label>
+    <label>sterile tile Purple</label>
     <description>Purple Sterile Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(139, 121, 173)</color>
   </TerrainDef>
 
   <TerrainDef ParentName="ColourTileBase">
     <defName>YellowSterileTile</defName>
-    <label>Yellow sterile tile</label>
+    <label>sterile tile Yellow</label>
     <description>Yellow Sterile Tiles with special cleanliness-enhancing properties. useful for hospitals to prevent various infections. Neutral looking, slow to build.</description>
     <color>(173, 165, 121)</color>
   </TerrainDef>
