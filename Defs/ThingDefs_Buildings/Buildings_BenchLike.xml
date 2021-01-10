@@ -2,8 +2,30 @@
 <Defs>
 	<!-- This file is used where automated dont fit and we wanna use Vanilla bench like system -->
 
+	<!-- Base -->
+	<ThingDef Name="PRF_MaterialsBenchBase" ParentName="BuildingBase" Abstract="True">
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<designationCategory>Production</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellIcon>DiningChair</interactionCellIcon>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<size>(2,2)</size>
+		<useHitPoints>True</useHitPoints>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</ThingDef>
+
+
+
+	<!--==================== GrindStone ====================-->
 	<!-- Base concept borrowed from VGP Gourmet, updated to prf - materials fit -->
-	<ThingDef ParentName="PRF_BenchLikeBase">
+	<ThingDef ParentName="PRF_MaterialsBenchBase">
 		<defName>PRF_GrindStone</defName>
 		<label>GrindStone</label>
 		<thingClass>Building_WorkTable</thingClass>
@@ -20,32 +42,20 @@
 		<costList>
 			<WoodLog>20</WoodLog>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>500</WorkToBuild>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-		<passability>PassThroughOnly</passability>
-		<pathCost>60</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
 		<recipes>
 			<li>PRF_CrushSand</li>
 			<li>PRF_MakeCement</li>
 			<li>PRF_CrushQuartz</li>
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<designationCategory>Production</designationCategory>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-			<isMealSource>true</isMealSource>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -59,15 +69,12 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<!--==================== T0 Smelter ====================-->
-
-	<ThingDef ParentName="BuildingBase">
+	<!--==================== T0 Kiln ====================-->
+	<ThingDef ParentName="PRF_MaterialsBenchBase">
 		<defName>PRF_FueledStoneSmelter</defName>
 		<thingClass>Building_WorkTable_HeatPush</thingClass>
 		<label>primitive kiln</label>
 		<description>A stone kiln that heats up to immense temperatures. Used to bake clay and other masonry items.</description>
-		<altitudeLayer>Building</altitudeLayer>
-		<constructEffect></constructEffect>
 		<uiIconScale>0.75</uiIconScale>
 		<graphicData>
 			<texPath>Industry/PRF_Kiln</texPath>
@@ -81,8 +88,6 @@
 				<rect>(0.3,0.1,2.4,1.8)</rect>
 			</damageData>
 		</graphicData>
-		<size>(2,2)</size>
-		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>2500</WorkToBuild>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -123,23 +128,10 @@
 				<heatPerSecond>16</heatPerSecond>
 			</li>
 		</comps>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<fillPercent>1</fillPercent>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<interactionCellIcon>DiningChair</interactionCellIcon>
-		<surfaceType>Item</surfaceType>
-		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
-		<researchPrerequisites>
-			<li>PRF_CoreTierO</li>
-		</researchPrerequisites>
+
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
@@ -147,10 +139,13 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.52</heatPerTickWhileWorking>
 		</building>
+		<researchPrerequisites>
+			<li>PRF_CoreTierO</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<!--==================== Dig Spot ====================-->
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="PRF_MaterialsBenchBase">
 		<defName>PRF_DigSpot</defName>
 		<label>digging spot</label>
 		<description>Place this spot on light terrain to dig up clay and sand.</description>
@@ -166,15 +161,7 @@
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<useHitPoints>False</useHitPoints>
-		<size>(2,2)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>Standable</passability>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<!-- Here is where magic starts: -->
 		<modExtensions>
 			<li Class="ProjectRimFactory.Common.ModExtension_ModifyProduct">				<!-- see info: Source/ProjectRimFactory/Common/ModExtension_ModifyProduct.txt -->
@@ -200,7 +187,6 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 		</building>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 
 </Defs>
