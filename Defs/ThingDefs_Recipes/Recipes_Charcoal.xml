@@ -5,15 +5,12 @@
   <RecipeDef>
     <defName>PRF_MakeCharcoal</defName>
     <label>make charcoal</label>
-    <description>Burning wood to obtain Charcoal (this is same as normal coal)</description>
+    <description>By burning wood anaerobically it can be turned into almost pure carbon. This is charcoal.</description>
     <jobString>making charcoal.</jobString>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
     <workAmount>700</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <recipeUsers>
-      <li>ElectricSmelter</li>
-    </recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -33,6 +30,10 @@
       <PRF_Coal>10</PRF_Coal>
     </products>
     <researchPrerequisite>Stonecutting</researchPrerequisite>
+    <recipeUsers>
+      <li>PRF_FueledStoneSmelter</li>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
 
   <!-- ===================================== Coal to Chemfuel ======================================== -->

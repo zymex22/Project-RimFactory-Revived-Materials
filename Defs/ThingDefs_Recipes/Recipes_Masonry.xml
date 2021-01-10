@@ -118,6 +118,8 @@
 		<researchPrerequisite>PRF_Cement</researchPrerequisite>
 		<recipeUsers>
 			<li>TableStonecutter</li>
+			<li>PRF_FueledStoneSmelter</li>
+			<li>ElectricSmelter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -159,6 +161,8 @@
 		<researchPrerequisite>PRF_Cement</researchPrerequisite>
 		<recipeUsers>
 			<li>TableStonecutter</li>
+			<li>PRF_FueledStoneSmelter</li>
+			<li>ElectricSmelter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -198,6 +202,10 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Brick</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FueledStoneSmelter</li>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -234,6 +242,10 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Brick</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FueledStoneSmelter</li>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
 	</RecipeDef>
 
 
@@ -291,6 +303,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicConcrete</researchPrerequisite>
 		<recipeUsers>
+			<li>PRF_FueledStoneSmelter</li>
 			<li>ElectricSmelter</li>
 		</recipeUsers>
 	</RecipeDef>

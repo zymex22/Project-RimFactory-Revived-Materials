@@ -11,7 +11,7 @@
     <fixedBillGiverDefs>
       <li>PRF_DigSpot</li>
     </fixedBillGiverDefs>
-        <verb>dig</verb>
+    <verb>dig</verb>
     <gerund>digging</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
@@ -28,14 +28,14 @@
     <fixedBillGiverDefs>
       <li>PRF_GrindStone</li>
     </fixedBillGiverDefs>
-        <verb>grind</verb>
+    <verb>grind</verb>
     <gerund>grinding</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
-  
+
   <WorkGiverDef>
     <defName>FueledStoneSmelter</defName>
     <label>smelt materials at stone smelter</label>
@@ -45,13 +45,13 @@
     <fixedBillGiverDefs>
       <li>PRF_FueledStoneSmelter</li>
     </fixedBillGiverDefs>
-        <verb>smelt</verb>
+    <verb>smelt</verb>
     <gerund>smelting</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
-  
+
 </Defs>
 

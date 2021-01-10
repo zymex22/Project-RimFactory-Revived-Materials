@@ -39,6 +39,7 @@
     </products>
     <researchPrerequisite>Smithing</researchPrerequisite>
     <recipeUsers>
+      <li>PRF_FueledStoneSmelter</li>
       <li>ElectricSmelter</li>
     </recipeUsers>
   </RecipeDef>
@@ -81,6 +82,7 @@
     </products>
     <researchPrerequisite>Smithing</researchPrerequisite>
     <recipeUsers>
+      <li>PRF_FueledStoneSmelter</li>
       <li>ElectricSmelter</li>
     </recipeUsers>
   </RecipeDef>
