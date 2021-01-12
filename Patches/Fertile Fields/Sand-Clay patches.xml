@@ -9,10 +9,10 @@
 			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDef[defName="PRF_RawClay"]</xpath>
+					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_RawClay"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDef[defName="PRF_RawSand"]</xpath>
+					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_RawSand"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/RecipeDef[defName="PRF_DigClay"]</xpath>
