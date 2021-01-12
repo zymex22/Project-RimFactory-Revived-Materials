@@ -9,19 +9,19 @@
 			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDef[defName="PRF_RawClay"]</xpath>
+					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_RawClay"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDef[defName="PRF_RawSand"]</xpath>
+					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_RawSand"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/RecipeDef[defName="PRF_DigClay"]</xpath>
+					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_DigClay"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/RecipeDef[defName="PRF_DigSand"]</xpath>
+					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_DigSand"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/RecipeDef[defName="PRF_CrushSand"]</xpath>
+					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_CrushSand"]</xpath>
 				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/RecipeDef [defName = "PRF_MakeBasicGlass"] /ingredients</xpath>
