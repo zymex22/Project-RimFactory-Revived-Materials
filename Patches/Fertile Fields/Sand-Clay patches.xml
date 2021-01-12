@@ -15,13 +15,13 @@
 					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_RawSand"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_DigClay"]</xpath>
+					<xpath>/Defs/RecipeDef[defName="PRF_DigClay"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_DigSand"]</xpath>
+					<xpath>/Defs/RecipeDef[defName="PRF_DigSand"]</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDefs_Stuff[defName="PRF_CrushSand"]</xpath>
+					<xpath>/Defs/RecipeDef[defName="PRF_CrushSand"]</xpath>
 				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/RecipeDef [defName = "PRF_MakeBasicGlass"] /ingredients</xpath>
