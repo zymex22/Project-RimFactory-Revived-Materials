@@ -74,6 +74,7 @@
 		<workSkill>Mining</workSkill>
 		<recipeUsers>
 			<li>TableStonecutter</li>
+			<li>PRF_GrindStone</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -120,6 +121,7 @@
 			<li>TableStonecutter</li>
 			<li>PRF_FueledStoneSmelter</li>
 			<li>ElectricSmelter</li>
+			<li>PRF_GrindStone</li>
 		</recipeUsers>
 	</RecipeDef>
 
