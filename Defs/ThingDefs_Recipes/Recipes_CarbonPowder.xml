@@ -113,6 +113,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>

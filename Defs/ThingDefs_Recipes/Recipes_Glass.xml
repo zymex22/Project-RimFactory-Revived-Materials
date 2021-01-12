@@ -60,6 +60,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
 	</RecipeDef>
 
 
