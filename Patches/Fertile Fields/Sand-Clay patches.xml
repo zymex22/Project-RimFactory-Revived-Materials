@@ -55,16 +55,8 @@
 							<li>SandPile</li>
 						</value>
 					</li>
-					<!-- Remove PRF ores and use ff ones instead. -->
-					<li Class="PatchOperationRemove">
-						<xpath>/Defs/ThingDef[defName="PRF_RawClay"]</xpath>
-					</li>
-					<li Class="PatchOperationRemove">
-						<xpath>/Defs/ThingDef[defName="PRF_RawSand"]</xpath>
-
-					</li>
 					<!-- Use prf textures -->
-					<li Class="PatchOperationReplace">
+					<!-- <li Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[@Name="RFFClay"]/graphicData</xpath>
 						<value>
 							<graphicData>
@@ -77,11 +69,18 @@
 						<xpath>/Defs/ThingDef[@Name="SandPile"]/graphicData</xpath>
 						<value>
 							<graphicData>
-								<texPath>Resources/PRF_Sand</texPath>
+								<texPath>Resources/PRF_Cement</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
 								<drawSize>(0.9,0.9)</drawSize>
 							</graphicData>
 						</value>
+					</li> -->
+					<!-- Remove PRF ores and use ff ones instead. -->
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[defName="PRF_RawClay"]</xpath>
+					</li>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[defName="PRF_RawSand"]</xpath>
 					</li>
 				</operations>
 			</match>
