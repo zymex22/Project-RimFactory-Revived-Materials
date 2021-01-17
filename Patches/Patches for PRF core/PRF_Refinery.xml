@@ -2,6 +2,15 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PRF_Recycler"]/recipes</xpath>
+		<value>
+			<li>PRF_CrushSand</li>
+			<li>PRF_CrushQuartz</li>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "PRF_MetalRefinery"]/recipes</xpath>
 		<value>
 			<li>PRF_MakePolyesterFibre</li>
