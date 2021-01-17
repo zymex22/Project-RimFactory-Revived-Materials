@@ -35,18 +35,33 @@
       <PRF_MachineFrame_III>1</PRF_MachineFrame_III>
     </costList>
     <recipes>
-      <li>PRF_BakeBrickBulk</li>
       <li>PRF_MakeCokeBulk</li>
-      <li>PRF_MakeBasicGlassBulk</li>
-      <li>PRF_MakeReinforcedGlassBulk</li>
       <li>PRF_MakeSteelBulkCoal</li>
       <li>PRF_MakeSteelBulkCoke</li>
       <li>PRF_MakeStainlessSteelChemBulk</li>
       <li>PRF_MakeStainlessSteelCokeBulk</li>
       <li>PRF_MakeSyntheticDiamondBulk</li>
-      <li>PRF_MakeCarbonPowder_Coke</li>
+      <li>PRF_MakeCement</li>
+      <li>PRF_MakeRConcrete</li>
+      <li>PRF_MakeCementBulk</li>
+      <li>PRF_MakeRConcreteBulk</li>
+      <li>PRF_MakeReinforcedGlass</li>
+      <li>PRF_MakeReinforcedGlassBulk</li>
+      <li>PRF_MakeStainlessSteelChem</li>
+      <li>PRF_MakeStainlessSteelCoke</li>
+      <li>PRF_MakeSyntheticDiamond</li>
+      <li>PRF_MakeCharcoal</li>
+      <li>PRF_MakeCoke</li>
+      <li>PRF_MakeConcrete</li>
+      <li>PRF_MakeConcreteBulk</li>
+      <li>PRF_MakeBasicGlass</li>
+      <li>PRF_MakeBasicGlassBulk</li>
+      <li>PRF_MakeSteelCoal</li>
+      <li>PRF_MakeSteelCoke</li>
+      <li>PRF_BakeBrickBulk</li>
       <li>PRF_MakeCarbonPowder_Wood</li>
       <li>PRF_MakeCarbonPowder_Coal</li>
+      <li>PRF_MakeCarbonPowder_Coke</li>
       <li>PRF_MakeCarbonPowder_Chemfuel</li>
     </recipes>
     <comps>

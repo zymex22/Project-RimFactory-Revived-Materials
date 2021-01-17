@@ -102,7 +102,7 @@
 	<ResearchProjectDef>
 		<defName>PRF_AdvancedConcrete</defName>
 		<label>reinforced concrete</label>
-		<description>Mixing concrete with small plasteel fibres will increase overall structure strength two-fold. Making the final material stronger than plasteel or concrete alone.</description>
+		<description>Mixing concrete with steel will increase overall structure strength two-fold. Making the final material stronger than plasteel or concrete alone.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>

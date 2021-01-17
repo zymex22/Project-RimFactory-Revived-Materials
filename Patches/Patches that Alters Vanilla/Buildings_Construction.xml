@@ -183,6 +183,29 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "OrbitalTradeBeacon"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>35</Steel>
+				<PRF_Copper>5</PRF_Copper>
+				<PRF_CrystalPowder>1</PRF_CrystalPowder>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "CommsConsole"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>100</Steel>
+				<ComponentIndustrial>2</ComponentIndustrial>
+				<PRF_Copper>20</PRF_Copper>
+				<PRF_CrystalPowder>5</PRF_CrystalPowder>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/costList</xpath>
 		<value>
 			<costList>

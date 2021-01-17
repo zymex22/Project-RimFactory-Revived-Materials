@@ -25,8 +25,8 @@
 			<li>PRF_BasicPlastics</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>1.00</researchViewX>
-  <researchViewY>2.25</researchViewY>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -39,8 +39,12 @@
 			<li>PRF_AdvPlastics</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>2.00</researchViewX>
-  <researchViewY>2.65</researchViewY>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+			<li>PRF_ResearchTerminal</li>
+		</requiredResearchFacilities>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>2.65</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -53,8 +57,12 @@
 			<li>PRF_BasicPlasticTextiles</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>2.00</researchViewX>
-  <researchViewY>1.95</researchViewY>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+			<li>PRF_ResearchTerminal</li>
+		</requiredResearchFacilities>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>1.95</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -67,8 +75,12 @@
 			<li>PRF_AdvPlasticTextiles</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
-  <researchViewX>3.00</researchViewX>
-  <researchViewY>2.25</researchViewY>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+			<li>PRF_ResearchTerminal</li>
+		</requiredResearchFacilities>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>2.25</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>
