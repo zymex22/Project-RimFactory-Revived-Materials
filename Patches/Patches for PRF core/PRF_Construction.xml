@@ -11,4 +11,48 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "PRF_WallLight"]/costList</xpath>
+		<value>
+			<costList>
+				<PRF_Glass>1</PRF_Glass>
+				<PRF_Copper>5</PRF_Copper>
+				<Steel>15</Steel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "PRF_SunWallLight"]/costList</xpath>
+		<value>
+			<costList>
+				<PRF_Glass>1</PRF_Glass>
+				<PRF_Copper>10</PRF_Copper>
+				<Steel>30</Steel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "PRF_Floorspotlight"]/costList</xpath>
+		<value>
+			<costList>
+				<PRF_Glass>1</PRF_Glass>
+				<PRF_Copper>5</PRF_Copper>
+				<Steel>15</Steel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "PRF_IndustrialLamp"]/costList</xpath>
+		<value>
+			<costList>
+				<PRF_Glass>5</PRF_Glass>
+				<PRF_Copper>10</PRF_Copper>
+				<Steel>30</Steel>
+			</costList>
+		</value>
+	</Operation>
+
 </Patch>
