@@ -34,7 +34,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_Carbon</researchPrerequisite>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
 		</recipeUsers>
@@ -73,7 +73,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_Carbon</researchPrerequisite>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
 		</recipeUsers>
@@ -112,7 +112,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_Carbon</researchPrerequisite>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
 		</recipeUsers>
@@ -151,7 +151,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_Carbon</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_Carbon</researchPrerequisite>
 		<recipeUsers>
 			<li>BiofuelRefinery</li>
 		</recipeUsers>

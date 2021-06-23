@@ -2,7 +2,7 @@
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>PRF_BasicPlastics</defName>
+		<defName>PRF_Research_BasicPlastics</defName>
 		<label>basic plastics</label>
 		<description>Learn how to convert oil/chemfuel to a usable mixed plastic material</description>
 		<baseCost>250</baseCost>
@@ -16,13 +16,13 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>PRF_AdvPlastics</defName>
+		<defName>PRF_Research_AdvPlastics</defName>
 		<label>polymerization</label>
 		<description>Learn how to produce plastic polymers that have wider uses, including fabric that can replace cloth in some applications.</description>
 		<baseCost>750</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>PRF_BasicPlastics</li>
+			<li>PRF_Research_BasicPlastics</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
 		<researchViewX>1.00</researchViewX>
@@ -30,13 +30,13 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>PRF_BasicPlasticTextiles</defName>
+		<defName>PRF_Research_BasicPlasticTextiles</defName>
 		<label>kevlar production</label>
 		<description>Learn how to produce kevlar from plastic: a tough textile that has a high resistance to weapons.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>PRF_AdvPlastics</li>
+			<li>PRF_Research_AdvPlastics</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
 		<requiredResearchFacilities>
@@ -48,13 +48,13 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>PRF_AdvPlasticTextiles</defName>
+		<defName>PRF_Research_AdvPlasticTextiles</defName>
 		<label>synthread production</label>
 		<description>Learn how to produce synthread from plastic: a strong textile with multiple uses from medical to clothing.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>PRF_BasicPlasticTextiles</li>
+			<li>PRF_Research_BasicPlasticTextiles</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
 		<requiredResearchFacilities>
@@ -66,13 +66,13 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>PRF_GlitterPlasticTextiles</defName>
+		<defName>PRF_Research_GlitterPlasticTextiles</defName>
 		<label>hyperweave production</label>
 		<description>Learn how to produce hyperweave from other advanced textiles, or at least something indistinguishable from hyperweave.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>PRF_AdvPlasticTextiles</li>
+			<li>PRF_Research_AdvPlasticTextiles</li>
 		</prerequisites>
 		<tab>PRF_Materials</tab>
 		<requiredResearchFacilities>

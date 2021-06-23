@@ -23,7 +23,7 @@
 			<PRF_Polyester>1</PRF_Polyester>
 		</costList>
     <researchPrerequisites>
-      <li>PRF_AdvPlastics</li>
+      <li>PRF_Research_AdvPlastics</li>
     </researchPrerequisites>
 	</TerrainDef>
 

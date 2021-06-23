@@ -31,7 +31,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_CokeProduction</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_CokeProduction</researchPrerequisite>
 		<recipeUsers>
 			<li>PRF_FueledStoneSmelter</li>
 		</recipeUsers>
@@ -65,7 +65,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_CokeProduction</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_CokeProduction</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

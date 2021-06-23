@@ -2,7 +2,7 @@
 <Defs>
 
   <ResearchProjectDef>
-    <defName>PRF_AdvancedFlooring</defName>
+    <defName>PRF_Research_AdvancedFlooring</defName>
     <label>Advanced Flooring</label>
     <description>Unlock use of industrial/post-industrial materials in flooring.</description>
     <baseCost>700</baseCost>

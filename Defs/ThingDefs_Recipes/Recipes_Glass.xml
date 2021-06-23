@@ -27,7 +27,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_BasicGlass</researchPrerequisite>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
 			<li>PRF_FueledStoneSmelter</li>
@@ -59,7 +59,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_BasicGlass</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_BasicGlass</researchPrerequisite>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
 		</recipeUsers>
@@ -107,7 +107,7 @@
 		<recipeUsers>
 			<li>ElectricSmelter</li>
 		</recipeUsers>
-		<researchPrerequisite>PRF_ReinforcedGlass</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_ReinforcedGlass</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -146,7 +146,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_ReinforcedGlass</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_ReinforcedGlass</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

@@ -34,7 +34,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_CarbonFiber</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_CarbonFiber</researchPrerequisite>
 		<recipeUsers>
 			<li>HandTailoringBench</li>
 			<li>ElectricTailoringBench</li>
@@ -74,7 +74,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_CarbonFiber</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_CarbonFiber</researchPrerequisite>
 		<recipeUsers>
 			<li>HandTailoringBench</li>
 			<li>ElectricTailoringBench</li>
@@ -126,7 +126,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_CarbonKevlar</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_CarbonKevlar</researchPrerequisite>
 		<recipeUsers>
 			<li>HandTailoringBench</li>
 			<li>ElectricTailoringBench</li>
@@ -175,7 +175,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_CarbonKevlar</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_CarbonKevlar</researchPrerequisite>
 		<recipeUsers>
 			<li>ElectricTailoringBench</li>
 		</recipeUsers>
@@ -226,7 +226,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_CarbonPlating</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_CarbonPlating</researchPrerequisite>
 		<recipeUsers>
 			<li>FabricationBench</li>
 		</recipeUsers>
@@ -274,7 +274,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_CarbonPlating</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_CarbonPlating</researchPrerequisite>
 		<recipeUsers>
 			<li>FabricationBench</li>
 		</recipeUsers>
@@ -315,7 +315,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_BasicPlastics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -351,7 +351,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_BasicPlastics</researchPrerequisite>
 	</RecipeDef>
 
 
@@ -389,7 +389,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_BasicPlastics</researchPrerequisite>
 		<recipeUsers>
 			<li>FabricationBench</li>
 		</recipeUsers>
@@ -428,7 +428,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<researchPrerequisite>PRF_BasicPlastics</researchPrerequisite>
+		<researchPrerequisite>PRF_Research_BasicPlastics</researchPrerequisite>
 		<recipeUsers>
 			<li>FabricationBench</li>
 		</recipeUsers>

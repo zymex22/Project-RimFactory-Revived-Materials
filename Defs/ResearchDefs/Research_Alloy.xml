@@ -2,7 +2,7 @@
 <Defs>
 
   <ResearchProjectDef>
-    <defName>PRF_StainlessSteelAlloying</defName>
+    <defName>PRF_Research_StainlessSteelAlloying</defName>
     <label>Alloying</label>
     <description>Alloy materials to create materials for industrial applications.</description>
     <baseCost>700</baseCost>
