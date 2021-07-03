@@ -40,7 +40,7 @@
     <passability>Impassable</passability>
     <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
     <researchPrerequisites>
-      <li>PRF_BasicGlass</li>
+      <li>PRF_Research_BasicGlass</li>
     </researchPrerequisites>
     <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
@@ -111,7 +111,7 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
-      <li>PRF_BasicGlass</li>
+      <li>PRF_Research_BasicGlass</li>
       <li>Autodoors</li>
     </researchPrerequisites>
     <damageMultipliers>

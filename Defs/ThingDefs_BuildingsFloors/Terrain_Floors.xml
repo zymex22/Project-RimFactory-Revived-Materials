@@ -22,8 +22,8 @@
 			<PRF_CarbonPlate>1</PRF_CarbonPlate>
 		</costList>
 		<researchPrerequisites>
-			<li>PRF_CarbonFiber</li>
-			<li>PRF_AdvancedFlooring</li>
+			<li>PRF_Research_CarbonFiber</li>
+			<li>PRF_Research_AdvancedFlooring</li>
 		</researchPrerequisites>
 		<tags>
 			<li>FineFloor</li>
@@ -47,7 +47,7 @@
 			<PRF_quartz>1</PRF_quartz>
 		</costList>
 		<researchPrerequisites>
-			<li>PRF_AdvancedFlooring</li>
+			<li>PRF_Research_AdvancedFlooring</li>
 		</researchPrerequisites>
 		<tags>
 			<li>FineFloor</li>
@@ -71,7 +71,7 @@
 			<PRF_CrystalPowder>1</PRF_CrystalPowder>
 		</costList>
 		<researchPrerequisites>
-			<li>PRF_AdvancedFlooring</li>
+			<li>PRF_Research_AdvancedFlooring</li>
 		</researchPrerequisites>
 		<tags>
 			<li>FineFloor</li>
@@ -95,8 +95,8 @@
 			<PRF_SyntheticDiamond>1</PRF_SyntheticDiamond>
 		</costList>
 		<researchPrerequisites>
-			<li>PRF_SyntheticDiamond</li>
-			<li>PRF_AdvancedFlooring</li>
+			<li>PRF_Research_SyntheticDiamond</li>
+			<li>PRF_Research_AdvancedFlooring</li>
 		</researchPrerequisites>
 		<tags>
 			<li>FineFloor</li>
@@ -124,8 +124,8 @@
 			<PRF_Kevlar>1</PRF_Kevlar>
 		</costList>
     <researchPrerequisites>
-      <li>PRF_AdvPlasticTextiles</li>
-      <li>PRF_AdvancedFlooring</li>
+      <li>PRF_Research_AdvPlasticTextiles</li>
+      <li>PRF_Research_AdvancedFlooring</li>
     </researchPrerequisites>
 	</TerrainDef>
 
@@ -147,7 +147,7 @@
 		</costList>
     <researchPrerequisites>
       <li>PRF_CarbonFiber</li>
-      <li>PRF_AdvancedFlooring</li>
+      <li>PRF_Research_AdvancedFlooring</li>
     </researchPrerequisites>
 	</TerrainDef>
 
@@ -167,8 +167,8 @@
 			<PRF_CarbonKevlarComposite>1</PRF_CarbonKevlarComposite>
 		</costList>
     <researchPrerequisites>
-      <li>PRF_CarbonKevlar</li>
-      <li>PRF_AdvancedFlooring</li>
+      <li>PRF_Research_CarbonKevlar</li>
+      <li>PRF_Research_AdvancedFlooring</li>
     </researchPrerequisites>
     <tags>
       <li>FineFloor</li>

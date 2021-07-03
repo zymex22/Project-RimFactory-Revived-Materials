@@ -125,7 +125,7 @@
     <products>
       <Steel>280</Steel>
     </products>
-    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_Research_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef>
@@ -164,7 +164,7 @@
     <products>
       <Steel>280</Steel>
     </products>
-    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_Research_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef>
 
   <!-- ===================================== Refine Stainless Steel ======================================== -->
@@ -213,7 +213,7 @@
     <products>
       <PRF_StainlessSteel>70</PRF_StainlessSteel>
     </products>
-    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_Research_StainlessSteelAlloying</researchPrerequisite>
     <recipeUsers>
       <li>ElectricSmelter</li>
     </recipeUsers>
@@ -264,7 +264,7 @@
     <products>
       <PRF_StainlessSteel>70</PRF_StainlessSteel>
     </products>
-    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_Research_StainlessSteelAlloying</researchPrerequisite>
     <recipeUsers>
       <li>ElectricSmelter</li>
     </recipeUsers>
@@ -316,7 +316,7 @@
     <products>
       <PRF_StainlessSteel>280</PRF_StainlessSteel>
     </products>
-    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_Research_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef>
@@ -364,7 +364,7 @@
     <products>
       <PRF_StainlessSteel>280</PRF_StainlessSteel>
     </products>
-    <researchPrerequisite>PRF_StainlessSteelAlloying</researchPrerequisite>
+    <researchPrerequisite>PRF_Research_StainlessSteelAlloying</researchPrerequisite>
   </RecipeDef>
 
 </Defs>

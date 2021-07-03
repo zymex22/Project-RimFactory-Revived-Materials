@@ -56,7 +56,7 @@
 		<xpath>/Defs/TerrainDef[defName = "PavedTile"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>PRF_BasicConcrete</li>
+				<li>PRF_Research_BasicConcrete</li>
 			</researchPrerequisites>
 		</value>
 	</Operation> -->
@@ -74,7 +74,7 @@
 		<xpath>/Defs/TerrainDef[defName = "Concrete"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>PRF_BasicConcrete</li>
+				<li>PRF_Research_BasicConcrete</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

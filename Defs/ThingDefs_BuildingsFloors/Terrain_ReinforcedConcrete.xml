@@ -21,7 +21,7 @@
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <renderPrecedence>243</renderPrecedence>
     <researchPrerequisites>
-      <li>PRF_AdvancedConcrete</li>
+      <li>PRF_Research_AdvancedConcrete</li>
     </researchPrerequisites>
   </TerrainDef>
 

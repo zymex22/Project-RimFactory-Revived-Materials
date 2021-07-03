@@ -21,7 +21,7 @@
     <renderPrecedence>243</renderPrecedence>
     <researchPrerequisites>
       <li>SterileMaterials</li>
-      <li>PRF_AdvancedFlooring</li>
+      <li>PRF_Research_AdvancedFlooring</li>
     </researchPrerequisites>
   </TerrainDef>
 

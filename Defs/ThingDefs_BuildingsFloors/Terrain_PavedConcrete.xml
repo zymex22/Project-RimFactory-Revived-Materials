@@ -26,7 +26,7 @@
     <designationHotKey>Misc8</designationHotKey>
     <renderPrecedence>230</renderPrecedence>
     <researchPrerequisites>
-      <li>PRF_AdvancedConcrete</li>
+      <li>PRF_Research_AdvancedConcrete</li>
     </researchPrerequisites>
   </TerrainDef>
 

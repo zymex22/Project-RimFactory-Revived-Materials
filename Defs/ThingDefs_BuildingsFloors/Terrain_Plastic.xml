@@ -21,8 +21,8 @@
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <renderPrecedence>243</renderPrecedence>
     <researchPrerequisites>
-      <li>PRF_BasicPlastics</li>
-      <li>PRF_AdvancedFlooring</li>
+      <li>PRF_Research_BasicPlastics</li>
+      <li>PRF_Research_AdvancedFlooring</li>
     </researchPrerequisites>
   </TerrainDef>
 
