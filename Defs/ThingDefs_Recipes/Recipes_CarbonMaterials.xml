@@ -316,6 +316,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Research_BasicPlastics</researchPrerequisite>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -352,6 +355,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Research_BasicPlastics</researchPrerequisite>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
 	</RecipeDef>
 
 
