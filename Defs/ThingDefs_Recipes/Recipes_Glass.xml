@@ -146,6 +146,9 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
 		<researchPrerequisite>PRF_Research_ReinforcedGlass</researchPrerequisite>
 	</RecipeDef>
 

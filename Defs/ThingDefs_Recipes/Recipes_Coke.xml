@@ -67,6 +67,10 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Research_CokeProduction</researchPrerequisite>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+			<li>PRF_FueledStoneSmelter</li>
+		</recipeUsers>
 	</RecipeDef>
 
 </Defs>
