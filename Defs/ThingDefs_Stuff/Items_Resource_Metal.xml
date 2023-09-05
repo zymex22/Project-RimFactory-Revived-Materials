@@ -5,7 +5,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PRF_Iron</defName>
     <label>iron</label>
-    <description>A primary metal used for crafting all sorts of items, wedely used among medieval civilizations.\n\nCombining this metal with some chemicals allows the creation of steel, a harder version of it.</description>
+    <description>A primary metal used for crafting all sorts of items, widely used among medieval civilizations.\n\nCombining this metal with some chemicals allows the creation of steel, a harder version of it.</description>
     <graphicData>
       <texPath>Resources/PRF_Iron</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
