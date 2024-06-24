@@ -362,6 +362,10 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Research_BulkConcrete</researchPrerequisite>
+		<recipeUsers>
+			<li>PRF_FueledStoneSmelter</li>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
 	</RecipeDef>
 
 
@@ -493,6 +497,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Research_BulkConcrete</researchPrerequisite>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
 	</RecipeDef>
 
 
