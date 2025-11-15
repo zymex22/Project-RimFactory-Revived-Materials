@@ -340,7 +340,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]/costList</xpath>
+		<xpath>/Defs/ThingDef[@defName='StandingLamp']/costList</xpath>
 		<value>
 			<costList>
 				<PRF_Glass>1</PRF_Glass>
