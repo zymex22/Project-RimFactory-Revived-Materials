@@ -376,6 +376,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Research_AdvPlasticTextiles</researchPrerequisite>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -415,6 +418,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Research_GlitterPlasticTextiles</researchPrerequisite>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
 	</RecipeDef>
 
 
@@ -466,6 +472,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Research_AdvPlasticTextiles</researchPrerequisite>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -513,6 +522,9 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<researchPrerequisite>PRF_Research_AdvPlasticTextiles</researchPrerequisite>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
 	</RecipeDef>
 
 
