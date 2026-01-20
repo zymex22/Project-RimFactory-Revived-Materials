@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-	<!--RimFridge -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Vanilla Furniture Expanded - Power</li>
+			<li>Vanilla Helixien Gas Expanded</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
@@ -52,10 +50,19 @@
 									<compClass>CompPowerTrader</compClass>
 									<basePowerConsumption>300</basePowerConsumption>
 								</li>
-								<li Class="GasNetwork.CompProperties_GasTrader">
+								<!-- Old gas trader from VFE Furniture before it was split off to own mod
+								     Thanks to misos1 for the update!
+								    <li Class="GasNetwork.CompProperties_GasTrader">
 									<compClass>GasNetwork.CompGasTrader</compClass>
 									<gasConsumption>1</gasConsumption>
 									<gasConsumptionWhenUsed>250</gasConsumptionWhenUsed>
+								    </li>
+								    Changed to:
+								-->
+								<li Class="PipeSystem.CompProperties_ResourceTrader">
+									<pipeNet>VHGE_HelixienNet</pipeNet>
+									<consumptionPerTick>15</consumptionPerTick><!-- 9000 l/d -->
+									<idleConsumptionPerTick>0.06</idleConsumptionPerTick><!-- 36 l/d -->
 								</li>
 								<li Class="ProjectRimFactory.Common.CompProperties_CompOutputAdjustable">
 									<SupportDiagonal>true</SupportDiagonal>
@@ -153,10 +160,18 @@
 									<compClass>CompPowerTrader</compClass>
 									<basePowerConsumption>100</basePowerConsumption>
 								</li>
-								<li Class="GasNetwork.CompProperties_GasTrader">
+								<!--  As above, removed when VFE Furniture split off its gas production
+								      The changes in the next comp are still misos1's replacement values!
+								    <li Class="GasNetwork.CompProperties_GasTrader">
 									<compClass>GasNetwork.CompGasTrader</compClass>
 									<gasConsumption>1</gasConsumption>
 									<gasConsumptionWhenUsed>250</gasConsumptionWhenUsed>
+								    </li>
+								-->
+								<li Class="PipeSystem.CompProperties_ResourceTrader">
+									<pipeNet>VHGE_HelixienNet</pipeNet>
+									<consumptionPerTick>5</consumptionPerTick><!-- 3000 l/d -->
+									<idleConsumptionPerTick>0.02</idleConsumptionPerTick><!-- 12 l/d -->
 								</li>
 								<li Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting">
 									<!-- Speed Settings -->
